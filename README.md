@@ -2,8 +2,8 @@
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/apm/v/nsis-plugins.svg?style=flat-square)](https://atom.io/packages/nsis-plugins)
-[![Travis](https://img.shields.io/travis/atom-idleberg/nsis-plugins.svg?style=flat-square)](https://travis-ci.org/atom-idleberg/nsis-plugins)
-[![David](https://img.shields.io/david/dev/atom-idleberg/nsis-plugins.svg?style=flat-square)](https://david-dm.org/atom-idleberg/nsis-plugins#info=devDependencies)
+[![Travis](https://img.shields.io/travis/idleberg/atom-nsis-plugins.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-nsis-plugins)
+[![David](https://img.shields.io/david/dev/idleberg/atom-nsis-plugins.svg?style=flat-square)](https://david-dm.org/idleberg/atom-nsis-plugins#info=devDependencies)
 
 Atom completions for NSIS plug-ins
 
@@ -184,6 +184,8 @@ Atom completions for NSIS plug-ins
 
 ## Installation
 
+Make sure you already got [language-nsis](https://atom.io/packages/language-nsis) installed before proceeding.
+
 ### apm
 
 * Install package `apm install nsis-plugins` (or use the GUI)
@@ -191,7 +193,7 @@ Atom completions for NSIS plug-ins
 ### GitHub
 
 1. Change directory to `~/.atom/packages/`
-2. Clone repository `git clone https://github.com/atom-idleberg/nsis-plugins.git`
+2. Clone repository `git clone https://github.com/idleberg/atom-nsis-plugins.git`
 
 ## License
 
@@ -199,4 +201,4 @@ This work is licensed under the [The MIT License](LICENSE.md).
 
 ## Donate
 
-You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/atom-idleberg/nsis-plugins) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
+You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/atom-nsis-plugins) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
