@@ -1,6 +1,6 @@
 {
   "name": "nsis-plugins",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Atom snippets for NSIS plug-ins",
   "author": {
     "name": "Jan T. Sott",
