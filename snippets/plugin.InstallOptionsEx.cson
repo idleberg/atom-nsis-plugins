@@ -1,0 +1,10 @@
+'.source.nsis':
+  'InstallOptionsEx::initDialog':
+    'prefix': 'InstallOptionsEx::initDialog'
+    'body': 'InstallOptionsEx::initDialog "${1:file}.ini"'
+  'InstallOptionsEx::initDialog /NOUNLOAD':
+    'prefix': 'InstallOptionsEx::initDialog /NOUNLOAD'
+    'body': 'InstallOptionsEx::initDialog /NOUNLOAD "${1:file}.ini"'
+  'InstallOptionsEx::show':
+    'prefix': 'InstallOptionsEx::show'
+    'body': 'InstallOptionsEx::show'

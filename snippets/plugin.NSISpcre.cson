@@ -1,0 +1,37 @@
+'.source.nsis':
+  '${RECaptureMatches}':
+    'prefix': '${RECaptureMatches}'
+    'body': '\${RECaptureMatches} \$${1:result} "${2:pattern}" "${3:subject}" "${4:partial}"'
+  '${RECheckPattern}':
+    'prefix': '${RECheckPattern}'
+    'body': '\${RECheckPattern} \$${1:result} "${2:pattern}"'
+  '${REClearAllOptions}':
+    'prefix': '${REClearAllOptions}'
+    'body': '\${REClearAllOptions}'
+  '${REClearOption}':
+    'prefix': '${REClearOption}'
+    'body': '\${REClearOption} "${1:option}"'
+  '${REFindClose}':
+    'prefix': '${REFindClose}'
+    'body': '\${REFindClose}'
+  '${REFindNext}':
+    'prefix': '${REFindNext}'
+    'body': '\${REFindNext} \$${1:result} "${2:pattern}" "${3:subject}"'
+  '${REFind}':
+    'prefix': '${REFind}'
+    'body': '\${REFind} \$${1:result} "${2:pattern}" "${3:subject}"'
+  '${REGetOption}':
+    'prefix': '${REGetOption}'
+    'body': '\${REGetOption} \$${1:result} "${2:option}"'
+  '${REMatches}':
+    'prefix': '${REMatches}'
+    'body': '\${REMatches} \$${1:result} "${2:pattern}" "${3:subject}" "${4:partial}"'
+  '${REQuoteMeta}':
+    'prefix': '${REQuoteMeta}'
+    'body': '\${REQuoteMeta} \$${1:result} "${2:subject}"'
+  '${REReplace}':
+    'prefix': '${REReplace}'
+    'body': '\${REReplace} \$${1:result} "${2:pattern}" "${3:subject}" "${4:replacement}" ${5:replace_all}'
+  '${RESetOption}':
+    'prefix': '${RESetOption}'
+    'body': '\${RESetOption} "${1:option}"'

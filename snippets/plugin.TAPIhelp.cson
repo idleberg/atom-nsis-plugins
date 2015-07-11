@@ -1,0 +1,7 @@
+'.source.nsis':
+  'TAPIhelp::GetModemID':
+    'prefix': 'TAPIhelp::GetModemID'
+    'body': 'TAPIhelp::GetModemID'
+  'TAPIhelp::GetModemName':
+    'prefix': 'TAPIhelp::GetModemName'
+    'body': 'TAPIhelp::GetModemName'

@@ -1,0 +1,10 @@
+'.source.nsis':
+  'AnimGif::play':
+    'prefix': 'AnimGif::play'
+    'body': 'AnimGif::play ${1:options} "${2:file}.gif"'
+  'AnimGif::play /NOUNLOAD':
+    'prefix': 'AnimGif::play /NOUNLOAD'
+    'body': 'AnimGif::play /NOUNLOAD ${1:options} "${2:file}.gif"'
+  'AnimGif::stop':
+    'prefix': 'AnimGif::stop'
+    'body': 'AnimGif::stop'

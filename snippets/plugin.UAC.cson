@@ -1,0 +1,34 @@
+'.source.nsis':
+  '$(UAC_IsAdmin}':
+    'prefix': '$(UAC_IsAdmin}'
+    'body': '\${UAC_IsAdmin}'
+  '$(UAC_IsInnerInstance}':
+    'prefix': '$(UAC_IsInnerInstance}'
+    'body': '\${UAC_IsInnerInstance}'
+  '!insertmacro UAC_AsUser_Call':
+    'prefix': 'UAC_AsUser_Call'
+    'body': '!insertmacro UAC_AsUser_Call ${1:Function|Label} ${2:NSISAddressName} ${3:UACFlags}'
+  '!insertmacro UAC_AsUser_ExecShell':
+    'prefix': 'UAC_AsUser_ExecShell'
+    'body': '!insertmacro UAC_AsUser_ExecShell ${1:Verb} ${2:ApplicationOrFile} ${3:Parameters} ${4:Working Directory} ${5:SW_*}'
+  '!insertmacro UAC_AsUser_GetGlobal':
+    'prefix': 'UAC_AsUser_GetGlobal'
+    'body': '!insertmacro UAC_AsUser_GetGlobal \$${1:Output} \$${2:Source}'
+  '!insertmacro UAC_AsUser_GetGlobalVar':
+    'prefix': 'UAC_AsUser_GetGlobalVar'
+    'body': '!insertmacro UAC_AsUser_GetGlobalVar \$${1:Output}'
+  '!insertmacro UAC_AsUser_GetSection':
+    'prefix': 'UAC_AsUser_GetSection'
+    'body': '!insertmacro UAC_AsUser_GetSection ${1:Flags|InstTypes|Size|Text} ${2:SectionIndex} \$${3:Output}'
+  '!insertmacro UAC_GetIntegrityLevel':
+    'prefix': 'UAC_GetIntegrityLevel'
+    'body': '!insertmacro UAC_GetIntegrityLevel \$${1:Output}'
+  '!insertmacro UAC_PageElevation_OnGuiInit':
+    'prefix': 'UAC_PageElevation_OnGuiInit'
+    'body': '!insertmacro UAC_PageElevation_OnGuiInit'
+  '!insertmacro UAC_PageElevation_OnInit':
+    'prefix': 'UAC_PageElevation_OnInit'
+    'body': '!insertmacro UAC_PageElevation_OnInit'
+  '!insertmacro UAC_RunElevated':
+    'prefix': 'UAC_RunElevated'
+    'body': '!insertmacro UAC_RunElevated'

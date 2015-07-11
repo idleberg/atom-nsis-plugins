@@ -1,0 +1,52 @@
+'.source.nsis':
+  'NsisIIS::CreateAppPool':
+    'prefix': 'NsisIIS::CreateAppPool'
+    'body': 'NsisIIS::CreateAppPool "${1:app_pool}"'
+  'NsisIIS::CreateVDir':
+    'prefix': 'NsisIIS::CreateVDir'
+    'body': 'NsisIIS::CreateVDir "${1:vdir_name}" "${2:physical_path}"'
+  'NsisIIS::CreateWebSite':
+    'prefix': 'NsisIIS::CreateWebSite'
+    'body': 'NsisIIS::CreateWebSite "${1:name}" "${2:physical_path}" "${3:host}:${4:port}"'
+  'NsisIIS::DeleteAppPool':
+    'prefix': 'NsisIIS::DeleteAppPool'
+    'body': 'NsisIIS::DeleteAppPool "${1:app_pool}"'
+  'NsisIIS::DeleteVDir':
+    'prefix': 'NsisIIS::DeleteVDir'
+    'body': 'NsisIIS::DeleteVDir "${1:vdir_name}"'
+  'NsisIIS::DeleteWebSite':
+    'prefix': 'NsisIIS::DeleteWebSite'
+    'body': 'NsisIIS::DeleteWebSite "${1:index}"'
+  'NsisIIS::GetAppPool':
+    'prefix': 'NsisIIS::GetAppPool'
+    'body': 'NsisIIS::GetAppPool "${1:app_pool}"'
+  'NsisIIS::GetIIsInfo':
+    'prefix': 'NsisIIS::GetIIsInfo'
+    'body': 'NsisIIS::GetIIsInfo'
+  'NsisIIS::GetVDir':
+    'prefix': 'NsisIIS::GetVDir'
+    'body': 'NsisIIS::GetVDir "${1:vdir_name}"'
+  'NsisIIS::GetWebSite':
+    'prefix': 'NsisIIS::GetWebSite'
+    'body': 'NsisIIS::GetWebSite "${1:index}"'
+  'NsisIIS::ListAppPools':
+    'prefix': 'NsisIIS::ListAppPools'
+    'body': 'NsisIIS::ListAppPools'
+  'NsisIIS::ListVDirs':
+    'prefix': 'NsisIIS::ListVDirs'
+    'body': 'NsisIIS::ListVDirs'
+  'NsisIIS::ListWebSites':
+    'prefix': 'NsisIIS::ListWebSites'
+    'body': 'NsisIIS::ListWebSites'
+  'NsisIIS::Pause':
+    'prefix': 'NsisIIS::Pause'
+    'body': 'NsisIIS::Pause'
+  'NsisIIS::Resume':
+    'prefix': 'NsisIIS::Resume'
+    'body': 'NsisIIS::Resume'
+  'NsisIIS::Start':
+    'prefix': 'NsisIIS::Start'
+    'body': 'NsisIIS::Start'
+  'NsisIIS::Stop':
+    'prefix': 'NsisIIS::Stop'
+    'body': 'NsisIIS::Stop'

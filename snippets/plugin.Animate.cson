@@ -1,0 +1,13 @@
+'.source.nsis':
+  'Animate::hwnd':
+    'prefix': 'Animate::hwnd'
+    'body': 'Animate::hwnd'
+  'Animate::show':
+    'prefix': 'Animate::show'
+    'body': 'Animate::show ${1:options} "${2:file}"'
+  'Animate::show /NOUNLOAD':
+    'prefix': 'Animate::show /NOUNLOAD'
+    'body': 'Animate::show /NOUNLOAD ${1:options} "${2:file}"'
+  'Animate::wait':
+    'prefix': 'Animate::wait'
+    'body': 'Animate::wait ${1:options} ${2:time_in_ms}'

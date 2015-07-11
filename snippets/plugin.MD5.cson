@@ -1,0 +1,10 @@
+'.source.nsis':
+  'md5dll::GetMD5File':
+    'prefix': 'md5dll::GetMD5File'
+    'body': 'md5dll::GetMD5File "${1:file}"'
+  'md5dll::GetMD5Random':
+    'prefix': 'md5dll::GetMD5Random'
+    'body': 'md5dll::GetMD5Random'
+  'md5dll::GetMD5String':
+    'prefix': 'md5dll::GetMD5String'
+    'body': 'md5dll::GetMD5String "${1:string}"'

@@ -1,0 +1,7 @@
+'.source.nsis':
+  'HandleFileDragDrop::MakeDropWindow':
+    'prefix': 'HandleFileDragDrop::MakeDropWindow'
+    'body': 'HandleFileDragDrop::MakeDropWindow \$${1:handle} \$${2:result_var}'
+  'HandleFileDragDrop::NOP':
+    'prefix': 'HandleFileDragDrop::NOP'
+    'body': 'HandleFileDragDrop::NOP'

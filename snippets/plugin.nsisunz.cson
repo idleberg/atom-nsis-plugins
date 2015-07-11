@@ -1,0 +1,10 @@
+'.source.nsis':
+  'nsisunz::Unzip':
+    'prefix': 'nsisunz::Unzip'
+    'body': 'nsisunz::Unzip "${1:zip_file}" "${2:target}"'
+  'nsisunz::UnzipToLog':
+    'prefix': 'nsisunz::UnzipToLog'
+    'body': 'nsisunz::UnzipToLog "${1:zip_file}" "${2:target}"'
+  'nsisunz::UnzipToStack':
+    'prefix': 'nsisunz::UnzipToStack'
+    'body': 'nsisunz::UnzipToStack "${1:zip_file}" "${2:target}"'

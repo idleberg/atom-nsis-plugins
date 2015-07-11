@@ -1,0 +1,10 @@
+'.source.nsis':
+  'ExLicensePage::showPage':
+    'prefix': 'ExLicensePage::showPage'
+    'body': 'ExLicensePage::showPage "${1:file}"'
+  'ExLicensePage::showPage rtf':
+    'prefix': 'ExLicensePage::showPage rtf'
+    'body': 'ExLicensePage::showPage "${1:file}.rtf"'
+  'ExLicensePage::showPage txt':
+    'prefix': 'ExLicensePage::showPage txt'
+    'body': 'ExLicensePage::showPage "${1:file}.txt"'

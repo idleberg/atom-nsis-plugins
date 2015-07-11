@@ -1,0 +1,49 @@
+'.source.nsis':
+  'nsisXML::appendChild':
+    'prefix': 'nsisXML::appendChild'
+    'body': 'nsisXML::appendChild'
+  'nsisXML::create':
+    'prefix': 'nsisXML::create'
+    'body': 'nsisXML::create'
+  'nsisXML::createElement':
+    'prefix': 'nsisXML::createElement'
+    'body': 'nsisXML::createElement "${1:tag}"'
+  'nsisXML::createProcessingInstruction':
+    'prefix': 'nsisXML::createProcessingInstruction'
+    'body': 'nsisXML::createProcessingInstruction "${1:target}" "${2:data}"'
+  'nsisXML::getAttribute':
+    'prefix': 'nsisXML::getAttribute'
+    'body': 'nsisXML::getAttribute "${1:attributes}"'
+  'nsisXML::getText':
+    'prefix': 'nsisXML::getText'
+    'body': 'nsisXML::getText'
+  'nsisXML::insertBefore':
+    'prefix': 'nsisXML::insertBefore'
+    'body': 'nsisXML::insertBefore'
+  'nsisXML::load':
+    'prefix': 'nsisXML::load'
+    'body': 'nsisXML::load "${1:file}.xml"'
+  'nsisXML::loadAndValidate':
+    'prefix': 'nsisXML::loadAndValidate'
+    'body': 'nsisXML::loadAndValidate "${1:file}.xml"'
+  'nsisXML::parentNode':
+    'prefix': 'nsisXML::parentNode'
+    'body': 'nsisXML::parentNode'
+  'nsisXML::release':
+    'prefix': 'nsisXML::release'
+    'body': 'nsisXML::release "${1:node_reference}"'
+  'nsisXML::removeChild':
+    'prefix': 'nsisXML::removeChild'
+    'body': 'nsisXML::removeChild'
+  'nsisXML::save':
+    'prefix': 'nsisXML::save'
+    'body': 'nsisXML::save "${1:file}.xml"'
+  'nsisXML::select':
+    'prefix': 'nsisXML::select'
+    'body': 'nsisXML::select "${1:xpath_expression}"'
+  'nsisXML::setAttribute':
+    'prefix': 'nsisXML::setAttribute'
+    'body': 'nsisXML::setAttribute "${1:attributes}" "${2:value}"'
+  'nsisXML::setText':
+    'prefix': 'nsisXML::setText'
+    'body': 'nsisXML::setText "${1:text}"'

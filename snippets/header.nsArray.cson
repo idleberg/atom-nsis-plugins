@@ -1,0 +1,22 @@
+'.source.nsis':
+  '${ForEachInReverse}':
+    'prefix': 'ForEachInReverse'
+    'body': """
+      \${ForEachInReverse} ${1:array} \$${2:key} \$${3:value}
+      	${4:# your code here}
+      \${Next}    """
+  '${ForEachIn}':
+    'prefix': 'ForEachIn'
+    'body': """
+      \${ForEachIn} ${1:array} \$${2:key} \$${3:value}
+      	${4:# your code here}
+      \${Next}    """
+  '${nsArray_CopyKeys}':
+    'prefix': 'nsArray_CopyKeys'
+    'body': '\${nsArray_CopyKeys} ${1:source_array} ${2:destination_array}'
+  '${nsArray_Copy}':
+    'prefix': 'nsArray_Copy'
+    'body': '\${nsArray_Copy} ${1:source_array} ${2:destination_array}'
+  '${nsArray_ToString}':
+    'prefix': 'nsArray_ToString'
+    'body': '\${nsArray_ToString} ${1:array}'

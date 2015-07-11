@@ -1,0 +1,7 @@
+'.source.nsis':
+  'ThreadTimer::Start':
+    'prefix': 'ThreadTimer::Start'
+    'body': 'ThreadTimer::Start /NOUNLOAD ${1:interval} ${2:ticks} \$${3:function}'
+  'ThreadTimer::Stop':
+    'prefix': 'ThreadTimer::Stop'
+    'body': 'ThreadTimer::Stop'

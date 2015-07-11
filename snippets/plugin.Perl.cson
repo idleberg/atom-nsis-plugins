@@ -1,0 +1,4 @@
+'.source.nsis':
+  'nsPerl::exec':
+    'prefix': 'nsPerl::exec'
+    'body': 'nsPerl::exec "${1:perl_code}"'

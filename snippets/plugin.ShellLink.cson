@@ -1,0 +1,52 @@
+'.source.nsis':
+  'ShellLink::GetShortCutArgs':
+    'prefix': 'ShellLink::GetShortCutArgs'
+    'body': 'ShellLink::GetShortCutArgs "${1:shortcut}.lnk"'
+  'ShellLink::GetShortCutDescription':
+    'prefix': 'ShellLink::GetShortCutDescription'
+    'body': 'ShellLink::GetShortCutDescription "${1:shortcut}.lnk"'
+  'ShellLink::GetShortCutHotkey':
+    'prefix': 'ShellLink::GetShortCutHotkey'
+    'body': 'ShellLink::GetShortCutHotkey "${1:shortcut}.lnk"'
+  'ShellLink::GetShortCutIconIndex':
+    'prefix': 'ShellLink::GetShortCutIconIndex'
+    'body': 'ShellLink::GetShortCutIconIndex "${1:shortcut}.lnk"'
+  'ShellLink::GetShortCutIconLocation':
+    'prefix': 'ShellLink::GetShortCutIconLocation'
+    'body': 'ShellLink::GetShortCutIconLocation "${1:shortcut}.lnk"'
+  'ShellLink::GetShortCutShowMode':
+    'prefix': 'ShellLink::GetShortCutShowMode'
+    'body': 'ShellLink::GetShortCutShowMode "${1:shortcut}.lnk"'
+  'ShellLink::GetShortCutTarget':
+    'prefix': 'ShellLink::GetShortCutTarget'
+    'body': 'ShellLink::GetShortCutTarget "${1:shortcut}.lnk"'
+  'ShellLink::GetShortCutWorkingDirectory':
+    'prefix': 'ShellLink::GetShortCutWorkingDirectory'
+    'body': 'ShellLink::GetShortCutWorkingDirectory "${1:shortcut}.lnk"'
+  'ShellLink::SetRunAsAdministrator':
+    'prefix': 'ShellLink::SetRunAsAdministrator'
+    'body': 'ShellLink::SetRunAsAdministrator "${1:shortcut}.lnk"'
+  'ShellLink::SetShortCutArgs':
+    'prefix': 'ShellLink::SetShortCutArgs'
+    'body': 'ShellLink::SetShortCutArgs "${1:shortcut}.lnk" "${2:parameters}"'
+  'ShellLink::SetShortCutDescription':
+    'prefix': 'ShellLink::SetShortCutDescription'
+    'body': 'ShellLink::SetShortCutDescription "${1:shortcut}.lnk" "${2:description}"'
+  'ShellLink::SetShortCutHotkey':
+    'prefix': 'ShellLink::SetShortCutHotkey'
+    'body': 'ShellLink::SetShortCutHotkey "${1:shortcut}.lnk" "${2:keyboard_shortcut}"'
+  'ShellLink::SetShortCutIconIndex':
+    'prefix': 'ShellLink::SetShortCutIconIndex'
+    'body': 'ShellLink::SetShortCutIconIndex "${1:shortcut}.lnk" ${2:icon_index}'
+  'ShellLink::SetShortCutIconLocation':
+    'prefix': 'ShellLink::SetShortCutIconLocation'
+    'body': 'ShellLink::SetShortCutIconLocation "${1:shortcut}.lnk" "${2:icon}.ico"'
+  'ShellLink::SetShortCutShowMode':
+    'prefix': 'ShellLink::SetShortCutShowMode'
+    'body': 'ShellLink::SetShortCutShowMode "${1:shortcut}.lnk" "${2:start_options}"'
+  'ShellLink::SetShortCutTarget':
+    'prefix': 'ShellLink::SetShortCutTarget'
+    'body': 'ShellLink::SetShortCutTarget "${1:shortcut}.lnk" "${2:target_file}"'
+  'ShellLink::SetShortCutWorkingDirectory':
+    'prefix': 'ShellLink::SetShortCutWorkingDirectory'
+    'body': 'ShellLink::SetShortCutWorkingDirectory "${1:shortcut}.lnk" "${2:directory}"'

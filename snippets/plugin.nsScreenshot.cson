@@ -1,0 +1,7 @@
+'.source.nsis':
+  'nsScreenshot::Grab':
+    'prefix': 'nsScreenshot::Grab'
+    'body': 'nsScreenshot::Grab'
+  'nsScreenshot::Grab_FullScreen':
+    'prefix': 'nsScreenshot::Grab_FullScreen'
+    'body': 'nsScreenshot::Grab_FullScreen'

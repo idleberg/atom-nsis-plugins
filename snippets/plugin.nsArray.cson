@@ -1,0 +1,61 @@
+'.source.nsis':
+  'nsArray::Clear':
+    'prefix': 'nsArray::Clear'
+    'body': 'nsArray::Clear ${1:array}'
+  'nsArray::Get':
+    'prefix': 'nsArray::Get'
+    'body': 'nsArray::SetList ${1:array} ${2:key}'
+  'nsArray::Get /at':
+    'prefix': 'nsArray::Get /at'
+    'body': 'nsArray::SetList ${1:array} /at=${2:position}'
+  'nsArray::Get /next':
+    'prefix': 'nsArray::Get /next'
+    'body': 'nsArray::SetList ${1:array} /next'
+  'nsArray::Get /prev':
+    'prefix': 'nsArray::Get /prev'
+    'body': 'nsArray::SetList ${1:array} /prev'
+  'nsArray::Get /reset':
+    'prefix': 'nsArray::Get /reset'
+    'body': 'nsArray::SetList ${1:array} /reset'
+  'nsArray::Join':
+    'prefix': 'nsArray::Join'
+    'body': 'nsArray::Join ${1:array} ${2:join_string}'
+  'nsArray::Join /noempty':
+    'prefix': 'nsArray::Join /noempty'
+    'body': 'nsArray::Join ${1:array} ${2:join_string} /noempty'
+  'nsArray::Length':
+    'prefix': 'nsArray::Length'
+    'body': 'nsArray::Length ${1:array}'
+  'nsArray::Remove':
+    'prefix': 'nsArray::Remove'
+    'body': 'nsArray::Remove ${1:array} ${2:element}'
+  'nsArray::RemoveList':
+    'prefix': 'nsArray::RemoveList'
+    'body': 'nsArray::RemoveList ${1:array} ${2:elements} /end'
+  'nsArray::Set':
+    'prefix': 'nsArray::Set'
+    'body': 'nsArray::Set ${1:array} ${2:value}'
+  'nsArray::Set /at':
+    'prefix': 'nsArray::Set /at'
+    'body': 'nsArray::Set ${1:array} /at=${2:position} ${3:value}'
+  'nsArray::Set /key':
+    'prefix': 'nsArray::Set /key'
+    'body': 'nsArray::Set ${1:array} /key=${2:key} ${3:value}'
+  'nsArray::SetList':
+    'prefix': 'nsArray::SetList'
+    'body': 'nsArray::SetList ${1:array} ${2:elements} /end'
+  'nsArray::Sort':
+    'prefix': 'nsArray::Sort'
+    'body': 'nsArray::Sort ${1:array} ${2:flags}'
+  'nsArray::Split':
+    'prefix': 'nsArray::Split'
+    'body': 'nsArray::Join ${1:array} ${2:split_string} ${3:delimiter}'
+  'nsArray::Split /ignorecase':
+    'prefix': 'nsArray::Split /ignorecase'
+    'body': 'nsArray::Join ${1:array} ${2:split_string} ${3:delimiter} /ignorecase'
+  'nsArray::Split /noempty':
+    'prefix': 'nsArray::Split /noempty'
+    'body': 'nsArray::Join ${1:array} ${2:split_string} ${3:delimiter} /noempty'
+  'nsArray::Split /noempty /ignorecase':
+    'prefix': 'nsArray::Split /noempty /ignorecase'
+    'body': 'nsArray::Join ${1:array} ${2:split_string} ${3:delimiter} /noempty /ignorecase'

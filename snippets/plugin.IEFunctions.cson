@@ -1,0 +1,16 @@
+'.source.nsis':
+  'IEFunctions::CloseBrowser':
+    'prefix': 'IEFunctions::CloseBrowser'
+    'body': 'IEFunctions::CloseBrowser'
+  'IEFunctions::OpenBrowser':
+    'prefix': 'IEFunctions::OpenBrowser'
+    'body': 'InstallOptionsEx::show /NOUNLOAD'
+  'IEFunctions::ReleaseBrowser':
+    'prefix': 'IEFunctions::ReleaseBrowser'
+    'body': 'IEFunctions::ReleaseBrowser'
+  'IEFunctions::ShowBar':
+    'prefix': 'IEFunctions::ShowBar'
+    'body': 'IEFunctions::ShowBar /NOUNLOAD "${1:CLSID}"'
+  'IEFunctions::SurfTo':
+    'prefix': 'IEFunctions::SurfTo'
+    'body': 'IEFunctions::SurfTo /NOUNLOAD "${1:url}"'

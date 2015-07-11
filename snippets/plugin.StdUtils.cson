@@ -1,0 +1,88 @@
+'.source.nsis':
+  '${StdUtils.ExecShellAsUser}':
+    'prefix': '${StdUtils.ExecShellAsUser}'
+    'body': '\${StdUtils.ExecShellAsUser} \$${1:output} "${2:file}" ${3:verb} "${2:args}"'
+  '${StdUtils.ExecShellWaitEx}':
+    'prefix': '${StdUtils.ExecShellWaitEx}'
+    'body': '\${StdUtils.ExecShellWaitEx} \$${1:output1} \$${2:output2} "${3:file}" ${4:verb} "${5:args}"'
+  '${StdUtils.FormatStr2}':
+    'prefix': '${StdUtils.FormatStr2}'
+    'body': '\${StdUtils.FormatStr2} \$${1:output} ${2:format} ${3:value1} ${4:value2}'
+  '${StdUtils.FormatStr3}':
+    'prefix': '${StdUtils.FormatStr3}'
+    'body': '\${StdUtils.FormatStr3} \$${1:output} ${2:format} ${3:value1} ${4:value2} ${5:value3}'
+  '${StdUtils.FormatStr}':
+    'prefix': '${StdUtils.FormatStr}'
+    'body': '\${StdUtils.FormatStr} \$${1:output} ${2:format} ${3:value}'
+  '${StdUtils.GetAllParameter}':
+    'prefix': '${StdUtils.GetAllParameter}'
+    'body': '\${StdUtils.GetAllParameter} \$${1:output} ${2:truncate}'
+  '${StdUtils.GetDays}':
+    'prefix': '${StdUtils.GetDays}'
+    'body': '\${StdUtils.GetDays} \$${1:output}'
+  '${StdUtils.GetHours}':
+    'prefix': '${StdUtils.GetHours}'
+    'body': '\${StdUtils.GetHours} \$${1:output}'
+  '${StdUtils.GetLibVersion}':
+    'prefix': '${StdUtils.GetLibVersion}'
+    'body': '\${StdUtils.GetLibVersion} \$${1:out_ver} \$${2:out_tst}'
+  '${StdUtils.GetMinutes}':
+    'prefix': '${StdUtils.GetMinutes}'
+    'body': '\${StdUtils.GetMinutes} \$${1:output}'
+  '${StdUtils.GetParameter}':
+    'prefix': '${StdUtils.GetParameter}'
+    'body': '\${StdUtils.GetParameter} \$${1:output} ${2:name} ${3:default}'
+  '${StdUtils.GetRealOSVersion}':
+    'prefix': '${StdUtils.GetRealOSVersion}'
+    'body': '\${StdUtils.GetRealOSVersion} \$${1:out_major} \$${2:out_minor}'
+  '${StdUtils.InvokeShellVerb}':
+    'prefix': '${StdUtils.InvokeShellVerb}'
+    'body': '\${StdUtils.InvokeShellVerb} \$${1:output} ${2:path} ${3:file} ${4:verb_id}'
+  '${StdUtils.RandList}':
+    'prefix': '${StdUtils.RandList}'
+    'body': '\${StdUtils.RandList} \$${1:count} ${2:max}'
+  '${StdUtils.RandMax}':
+    'prefix': '${StdUtils.RandMax}'
+    'body': '\${StdUtils.RandMax} \$${1:output} ${2:max}'
+  '${StdUtils.RandMinMax}':
+    'prefix': '${StdUtils.RandMinMax}'
+    'body': '\${StdUtils.RandMinMax} \$${1:output} ${2:min} ${3:max}'
+  '${StdUtils.Rand}':
+    'prefix': '${StdUtils.Rand}'
+    'body': '\${StdUtils.Rand} \$${1:output}'
+  '${StdUtils.RevStr}':
+    'prefix': '${StdUtils.RevStr}'
+    'body': '\${StdUtils.RevStr} \$${1:output}'
+  '${StdUtils.ScanStr2}':
+    'prefix': '${StdUtils.ScanStr2}'
+    'body': '\${StdUtils.ScanStr2} \$${1:output} ${2:format} ${3:input} ${4:default1} ${5:default2}'
+  '${StdUtils.ScanStr3}':
+    'prefix': '${StdUtils.ScanStr3}'
+    'body': '\${StdUtils.ScanStr3} \$${1:output} ${2:format} ${3:input} ${4:default1} ${5:default2} ${6:default3}}'
+  '${StdUtils.ScanStr}':
+    'prefix': '${StdUtils.ScanStr}'
+    'body': '\${StdUtils.ScanStr} \$${1:output} ${2:format} ${3:input} ${4:default}'
+  '${StdUtils.SetVerbose}':
+    'prefix': '${StdUtils.SetVerbose}'
+    'body': '\${StdUtils.SetVerbose} ${1:on|off}'
+  '${StdUtils.SHFileCopy}':
+    'prefix': '${StdUtils.SHFileCopy}'
+    'body': '\${StdUtils.SHFileCopy} \$${1:output} ${2:from} ${3:to} ${4:hwnd}'
+  '${StdUtils.SHFileMove}':
+    'prefix': '${StdUtils.SHFileMove}'
+    'body': '\${StdUtils.SHFileMove} \$${1:output} ${2:from} ${3:to} ${4:hwnd}'
+  '${StdUtils.Time}':
+    'prefix': '${StdUtils.Time}'
+    'body': '\${StdUtils.Time} \$${1:output}'
+  '${StdUtils.TrimStrLeft}':
+    'prefix': '${StdUtils.TrimStrLeft}'
+    'body': '\${StdUtils.TrimStrLeft} \$${1:output}'
+  '${StdUtils.TrimStrRight}':
+    'prefix': '${StdUtils.TrimStrRight}'
+    'body': '\${StdUtils.TrimStrRight} \$${1:output}'
+  '${StdUtils.TrimStr}':
+    'prefix': '${StdUtils.TrimStr}'
+    'body': '\${StdUtils.TrimStr} \$${1:output}'
+  '${StdUtils.WaitForProcEx}':
+    'prefix': '${StdUtils.WaitForProcEx}'
+    'body': '\${StdUtils.WaitForProcEx} \$${1:output} ${2:handle}'

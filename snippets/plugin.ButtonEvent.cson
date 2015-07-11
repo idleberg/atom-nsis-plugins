@@ -1,0 +1,13 @@
+'.source.nsis':
+  'ButtonEvent::AddEventHandler':
+    'prefix': 'ButtonEvent::AddEventHandler'
+    'body': 'ButtonEvent::AddEventHandler ${1:control_id} ${2:function_address}'
+  'ButtonEvent::AddEventHandler /NOTIFY':
+    'prefix': 'ButtonEvent::AddEventHandler /NOTIFY'
+    'body': 'ButtonEvent::AddEventHandler ${1:control_id} /NOTIFY'
+  'ButtonEvent::UnsetEventHandler':
+    'prefix': 'ButtonEvent::UnsetEventHandler'
+    'body': 'ButtonEvent::UnsetEventHandler ${1:control_id}'
+  'ButtonEvent::WhichButtonId':
+    'prefix': 'ButtonEvent::WhichButtonId'
+    'body': 'ButtonEvent::WhichButtonId /NOUNLOAD'

@@ -1,0 +1,10 @@
+'.source.nsis':
+  'WinShell::SetLnkAUMI':
+    'prefix': 'WinShell::SetLnkAUMI'
+    'body': 'WinShell::SetLnkAUMI "${1:shortcut}.lnk" "${2:id}"'
+  'WinShell::UninstAppUserModelId':
+    'prefix': 'WinShell::UninstAppUserModelId'
+    'body': 'WinShell::UninstAppUserModelId "${1:id}"'
+  'WinShell::UninstShortcut':
+    'prefix': 'WinShell::UninstShortcut'
+    'body': 'WinShell::UninstShortcut "${1:shortcut}.lnk"'

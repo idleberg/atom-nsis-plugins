@@ -1,0 +1,25 @@
+'.source.nsis':
+  'nsisMultiMon::CenterInstallerOnMonitor':
+    'prefix': 'nsisMultiMon::CenterInstallerOnMonitor'
+    'body': 'nsisMultiMon::CenterInstallerOnMonitor ${1:id} ${2:work_area}'
+  'nsisMultiMon::GetActiveMonitorCount':
+    'prefix': 'nsisMultiMon::GetActiveMonitorCount'
+    'body': 'nsisMultiMon::GetActiveMonitorCount'
+  'nsisMultiMon::GetAllMonitorCount':
+    'prefix': 'nsisMultiMon::GetAllMonitorCount'
+    'body': 'nsisMultiMon::GetAllMonitorCount'
+  'nsisMultiMon::GetMonitorName':
+    'prefix': 'nsisMultiMon::GetMonitorName'
+    'body': 'nsisMultiMon::GetMonitorName ${1:id}'
+  'nsisMultiMon::GetMonitorRect':
+    'prefix': 'nsisMultiMon::GetMonitorRect'
+    'body': 'nsisMultiMon::GetMonitorRect ${1:id}'
+  'nsisMultiMon::GetVirtualDesktopRect':
+    'prefix': 'nsisMultiMon::GetVirtualDesktopRect'
+    'body': 'nsisMultiMon::GetVirtualDesktopRect'
+  'nsisMultiMon::GetWorkArea':
+    'prefix': 'nsisMultiMon::GetWorkArea'
+    'body': 'nsisMultiMon::GetWorkArea ${1:id}'
+  'nsisMultiMon::IsPointOnMonitor':
+    'prefix': 'nsisMultiMon::IsPointOnMonitor'
+    'body': 'nsisMultiMon::IsPointOnMonitor ${1:id} ${2:x} ${3:y}'

@@ -1,0 +1,7 @@
+'.source.nsis':
+  'ToolTips::Classic':
+    'prefix': 'ToolTips::Classic'
+    'body': 'ToolTips::Classic \$${1:hwnd} "${2:text}"'
+  'ToolTips::Modern':
+    'prefix': 'ToolTips::Modern'
+    'body': 'ToolTips::Modern \$${1:hwnd} ${2:icon} "${3:text}"'

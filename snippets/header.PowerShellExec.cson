@@ -1,0 +1,4 @@
+'.source.nsis':
+  '${PowerShellExec}':
+    'prefix': 'PowerShellExec'
+    'body': '\${PowerShellExec} "${1:command}"'

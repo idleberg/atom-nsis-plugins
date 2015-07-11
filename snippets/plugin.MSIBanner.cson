@@ -1,0 +1,34 @@
+'.source.nsis':
+  'MSIBanner::Destroy /NOUNLOAD':
+    'prefix': 'MSIBanner::Destroy /NOUNLOAD'
+    'body': 'MSIBanner::Destroy'
+  'MSIBanner::Move':
+    'prefix': 'MSIBanner::Move'
+    'body': 'MSIBanner::Move ${1:progress_in_percent} "${2:title}"'
+  'MSIBanner::Move /NOUNLOAD':
+    'prefix': 'MSIBanner::Move /NOUNLOAD'
+    'body': 'MSIBanner::Move /NOUNLOAD ${1:progress_in_percent} "${2:title}"'
+  'MSIBanner::Pos':
+    'prefix': 'MSIBanner::Pos'
+    'body': 'MSIBanner::Pos ${1:progress_in_percent} "${2:title}"'
+  'MSIBanner::Pos /NOUNLOAD':
+    'prefix': 'MSIBanner::Pos /NOUNLOAD'
+    'body': 'MSIBanner::Pos /NOUNLOAD ${1:progress_in_percent} "${2:title}"'
+  'MSIBanner::Reset':
+    'prefix': 'MSIBanner::Reset'
+    'body': 'MSIBanner::Reset "${1:title}"'
+  'MSIBanner::Reset /NOUNLOAD':
+    'prefix': 'MSIBanner::Reset /NOUNLOAD'
+    'body': 'MSIBanner::Reset /NOUNLOAD "${1:title}"'
+  'MSIBanner::Show':
+    'prefix': 'MSIBanner::Show'
+    'body': 'MSIBanner::Show "${1:title}"'
+  'MSIBanner::Show /NOUNLOAD':
+    'prefix': 'MSIBanner::Show /NOUNLOAD'
+    'body': 'MSIBanner::Show /NOUNLOAD "${1:title}"'
+  'MSIBanner::Update':
+    'prefix': 'MSIBanner::Update'
+    'body': 'MSIBanner::Update "${1:title}"'
+  'MSIBanner::Update /NOUNLOAD':
+    'prefix': 'MSIBanner::Update /NOUNLOAD'
+    'body': 'MSIBanner::Update /NOUNLOAD "${1:title}"'

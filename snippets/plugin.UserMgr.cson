@@ -1,0 +1,67 @@
+'.source.nsis':
+  'UserMgr::AddPrivilege':
+    'prefix': 'UserMgr::AddPrivilege'
+    'body': 'UserMgr::AddPrivilege "${1:USERID}" "${2:PRIVILEGE}"'
+  'UserMgr::AddToGroup':
+    'prefix': 'UserMgr::AddToGroup'
+    'body': 'UserMgr::AddToGroup "${1:USERID}" "${2:GROUPID}"'
+  'UserMgr::BuiltAccountEnv':
+    'prefix': 'UserMgr::BuiltAccountEnv'
+    'body': 'UserMgr::BuiltAccountEnv "${1:USERID}" "${2:PASSWORD}"'
+  'UserMgr::ChangeUserPassword':
+    'prefix': 'UserMgr::ChangeUserPassword'
+    'body': 'UserMgr::ChangeUserPassword "${1:USERID}" "${2:OLDPASSWORD}"" "${3:NEWPASSWORD}""'
+  'UserMgr::CreateAccount':
+    'prefix': 'UserMgr::CreateAccount'
+    'body': 'UserMgr::CreateAccount "${1:USERID}" "${2:PASSWORD}" "${3:COMMENT}"'
+  'UserMgr::CreateAccountEx':
+    'prefix': 'UserMgr::CreateAccountEx'
+    'body': 'UserMgr::CreateAccountEx "${1:USERID}" "${2:PASSWORD}" "${3:COMMENT}" "${4:FULLNAME}" "${5:USERCOMMENT}"" "${6:FLAGS}"'
+  'UserMgr::CreateGroup':
+    'prefix': 'UserMgr::CreateGroup'
+    'body': 'UserMgr::CreateGroup "${1:GROUPID}" "${2:COMMENT}"'
+  'UserMgr::DeleteAccount':
+    'prefix': 'UserMgr::DeleteAccount'
+    'body': 'UserMgr::DeleteAccount "${1:USERID}"'
+  'UserMgr::DeleteGroup':
+    'prefix': 'UserMgr::DeleteGroup'
+    'body': 'UserMgr::DeleteGroup "${1:GROUPID}"'
+  'UserMgr::GetCurrentDomain':
+    'prefix': 'UserMgr::GetCurrentDomain'
+    'body': 'UserMgr::GetCurrentDomain'
+  'UserMgr::GetCurrentUserName':
+    'prefix': 'UserMgr::GetCurrentUserName'
+    'body': 'UserMgr::GetCurrentUserName'
+  'UserMgr::GetLocalizedStdAccountName':
+    'prefix': 'UserMgr::GetLocalizedStdAccountName'
+    'body': 'UserMgr::GetLocalizedStdAccountName "${1:STDACCOUNTSID}"'
+  'UserMgr::GetSIDFromUserName':
+    'prefix': 'UserMgr::GetSIDFromUserName'
+    'body': 'UserMgr::GetSIDFromUserName "${1:DOMAIN} "${2:USERID}"'
+  'UserMgr::GetUserInfo':
+    'prefix': 'UserMgr::GetUserInfo'
+    'body': 'UserMgr::GetUserInfo "${1:USERID}" "${2:FIELD}"'
+  'UserMgr::GetUserNameFromSID':
+    'prefix': 'UserMgr::GetUserNameFromSID'
+    'body': 'UserMgr::GetUserNameFromSID "${1:SID}'
+  'UserMgr::HasPrivilege':
+    'prefix': 'UserMgr::HasPrivilege'
+    'body': 'UserMgr::HasPrivilege "${1:USERID}" "${2:PRIVILEGE}"'
+  'UserMgr::IsMemberOfGroup':
+    'prefix': 'UserMgr::IsMemberOfGroup'
+    'body': 'UserMgr::IsMemberOfGroup "${1:USERID}" "${2:GROUPID}"'
+  'UserMgr::RegUnLoadUserHive':
+    'prefix': 'UserMgr::RegUnLoadUserHive'
+    'body': 'UserMgr::RegUnLoadUserHive "${1:USERID}"'
+  'UserMgr::RemoveFromGroup':
+    'prefix': 'UserMgr::RemoveFromGroup'
+    'body': 'UserMgr::RemoveFromGroup "${1:USERID}" "${2:GROUPID}"'
+  'UserMgr::RemovePrivilege':
+    'prefix': 'UserMgr::RemovePrivilege'
+    'body': 'UserMgr::RemovePrivilege "${1:USERID}" "${2:PRIVILEGE}"'
+  'UserMgr::SetRegKeyAccess':
+    'prefix': 'UserMgr::SetRegKeyAccess'
+    'body': 'UserMgr::SetRegKeyAccess "${1:USERID}" "${2:ROOTKEY}" "${3:REGKEY}" "${4:ACCESSMASK}"'
+  'UserMgr::SetUserInfo':
+    'prefix': 'UserMgr::SetUserInfo'
+    'body': 'UserMgr::SetUserInfo "${1:USERID}" "${2:FIELD}" "${3:VALUE}"'

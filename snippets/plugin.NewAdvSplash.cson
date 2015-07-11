@@ -1,0 +1,16 @@
+'.source.nsis':
+  'NewAdvSplash::hwnd':
+    'prefix': 'NewAdvSplash::hwnd'
+    'body': 'NewAdvSplash::hwnd'
+  'NewAdvSplash::play':
+    'prefix': 'NewAdvSplash::play'
+    'body': 'NewAdvSplash::play /NOUNLOAD ${1:options} "${2:file}"'
+  'NewAdvSplash::show':
+    'prefix': 'NewAdvSplash::show'
+    'body': 'NewAdvSplash::show ${1:delay} ${2:fade_in} ${3:fade_out} ${4:0xRRGGBB} ${5:options} "${6:file}"'
+  'NewAdvSplash::show /NOUNLOAD':
+    'prefix': 'NewAdvSplash::show /NOUNLOAD'
+    'body': 'NewAdvSplash::show /NOUNLOAD ${1:delay} ${2:fade_in} ${3:fade_out} ${4:0xRRGGBB} ${5:options} "${6:file}"'
+  'NewAdvSplash::stop':
+    'prefix': 'NewAdvSplash::stop'
+    'body': 'NewAdvSplash::stop ${1:options}'

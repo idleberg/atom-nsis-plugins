@@ -1,0 +1,7 @@
+'.source.nsis':
+  'Linker::link':
+    'prefix': 'Linker::link'
+    'body': 'Linker::link /NOUNLOAD \$${1:hwnd} "${2:url}"'
+  'Linker::lvlink':
+    'prefix': 'Linker::lvlink'
+    'body': 'Linker::lvlink /NOUNLOAD \$${1:hwnd} ${2:item} ${3:sub_item} "${4:url}"'

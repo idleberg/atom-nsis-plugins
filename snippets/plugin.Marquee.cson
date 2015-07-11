@@ -1,0 +1,7 @@
+'.source.nsis':
+  'Marquee::start':
+    'prefix': 'Marquee::start'
+    'body': 'Marquee::start ${1:parameters} "${2:text}"'
+  'Marquee::stop':
+    'prefix': 'Marquee::stop'
+    'body': 'Marquee::stop'

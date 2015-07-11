@@ -1,0 +1,13 @@
+'.source.nsis':
+  'RegBin::append':
+    'prefix': 'RegBin::append'
+    'body': 'RegBin::append /NOUNLOAD "${1:value}"'
+  'RegBin::init':
+    'prefix': 'RegBin::init'
+    'body': 'RegBin::init /NOUNLOAD ${1:root_key} "${2:sub_key}" "${3:key_name}" "${4:value}"'
+  'RegBin::write':
+    'prefix': 'RegBin::write'
+    'body': 'RegBin::write "${1:value}"'
+  'RegBin::writeRegBin':
+    'prefix': 'RegBin::writeRegBin'
+    'body': 'RegBin::writeRegBin ${1:root_key} "${2:sub_key}" "${3:key_name}" "${4:value}"'

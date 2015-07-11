@@ -1,0 +1,19 @@
+'.source.nsis':
+  'MSSQL_OLEDB::SQL_Execute':
+    'prefix': 'MSSQL_OLEDB::SQL_Execute'
+    'body': 'MSSQL_OLEDB::SQL_Execute "${1:query}"'
+  'MSSQL_OLEDB::SQL_ExecuteScript':
+    'prefix': 'MSSQL_OLEDB::SQL_ExecuteScript'
+    'body': 'MSSQL_OLEDB::SQL_ExecuteScript "${1:script}"'
+  'MSSQL_OLEDB::SQL_GetError':
+    'prefix': 'MSSQL_OLEDB::SQL_GetError'
+    'body': 'MSSQL_OLEDB::SQL_GetError'
+  'MSSQL_OLEDB::SQL_GetRow':
+    'prefix': 'MSSQL_OLEDB::SQL_GetRow'
+    'body': 'MSSQL_OLEDB::SQL_GetRow'
+  'MSSQL_OLEDB::SQL_Logon':
+    'prefix': 'MSSQL_OLEDB::SQL_Logon'
+    'body': 'MSSQL_OLEDB::SQL_Logon "${1:server}" "${2:user}" "${3:password}"'
+  'MSSQL_OLEDB::SQL_Logout':
+    'prefix': 'MSSQL_OLEDB::SQL_Logout'
+    'body': 'MSSQL_OLEDB::SQL_Logout'

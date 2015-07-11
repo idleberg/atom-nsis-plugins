@@ -1,0 +1,10 @@
+'.source.nsis':
+  'ExecCmd::exec':
+    'prefix': 'ExecCmd::exec'
+    'body': 'ExecCmd::exec "${1:application_to_run}.exe" "${2:stdin_string}"'
+  'ExecCmd::exec [/options]':
+    'prefix': 'ExecCmd::exec [/options]'
+    'body': 'ExecCmd::exec ${1:options} "${2:application_to_run}.exe" "${3:stdin_string}"'
+  'ExecCmd::wait':
+    'prefix': 'ExecCmd::wait'
+    'body': 'ExecCmd::wait \${1:handle}'

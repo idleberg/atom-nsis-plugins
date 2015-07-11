@@ -1,0 +1,16 @@
+'.source.nsis':
+  'EBanner::play':
+    'prefix': 'EBanner::play'
+    'body': 'EBanner::play /NOUNLOAD "${1:image}"'
+  'EBanner::play /LOOP':
+    'prefix': 'EBanner::play /LOOP'
+    'body': 'EBanner::play /NOUNLOAD  /LOOP "${1:image}"'
+  'EBanner::show':
+    'prefix': 'EBanner::show'
+    'body': 'EBanner::show /NOUNLOAD "${1:image}"'
+  'EBanner::show [/options]':
+    'prefix': 'EBanner::show [/options]'
+    'body': 'EBanner::show /NOUNLOAD ${1:options} "${2:image}"'
+  'EBanner::stop':
+    'prefix': 'EBanner::stop'
+    'body': 'EBanner::stop'

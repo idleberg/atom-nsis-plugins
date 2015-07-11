@@ -1,0 +1,4 @@
+'.source.nsis':
+  '!insertmacro CheckNetFramework':
+    'prefix': 'CheckNetFramework'
+    'body': '!insertmacro CheckNetFramework "${1:version}"'

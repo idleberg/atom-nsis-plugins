@@ -1,0 +1,4 @@
+'.source.nsis':
+  'Pwgen::GeneratePassword':
+    'prefix': 'Pwgen::GeneratePassword'
+    'body': 'Pwgen::GeneratePassword ${1:length}'

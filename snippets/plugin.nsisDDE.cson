@@ -1,0 +1,4 @@
+'.source.nsis':
+  'nsisDDE::Execute':
+    'prefix': 'nsisDDE::Execute'
+    'body': 'nsisDDE::Execute ${1:options} "${2:appname}" "${3:commands}"'

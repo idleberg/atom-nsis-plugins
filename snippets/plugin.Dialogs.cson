@@ -1,0 +1,19 @@
+'.source.nsis':
+  'Dialogs::Author':
+    'prefix': 'Dialogs::Author'
+    'body': 'Dialogs::Author \$${1:return_var}'
+  'Dialogs::Folder':
+    'prefix': 'Dialogs::Folder'
+    'body': 'Dialogs::Folder "${1:caption}" "${2:text}" "${3:directory}" \$${4:return_var}'
+  'Dialogs::InputBox':
+    'prefix': 'Dialogs::InputBox'
+    'body': 'Dialogs::InputBox "${1:caption}" "${2:text}" "${3:OK}" "${4:cancel}" "${5:0|1}" \$${6:return_var}'
+  'Dialogs::InputRegCode':
+    'prefix': 'Dialogs::InputRegCode'
+    'body': 'Dialogs::InputRegCode "${1:caption}" "${2:text}" "${3:Username:}" "${4:Serial:}" "${5:key}" \$${6:return_var}'
+  'Dialogs::Open':
+    'prefix': 'Dialogs::Open'
+    'body': 'Dialogs::Open "${1:All Files|*.*}" "${2:default_mask}" "${3:caption}" "${4:directory}" \$${5:return_var}'
+  'Dialogs::Ver':
+    'prefix': 'Dialogs::Ver'
+    'body': 'Dialogs::Ver \$${1:return_var}'

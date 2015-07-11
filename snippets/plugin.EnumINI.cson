@@ -1,0 +1,13 @@
+'.source.nsis':
+  'EnumINI::KeyExist':
+    'prefix': 'EnumINI::KeyExist'
+    'body': 'EnumINI::KeyExist "${1:file}.ini" "${2:section}" "${2:key}"'
+  'EnumINI::Section':
+    'prefix': 'EnumINI::Section'
+    'body': 'EnumINI::Section "${1:file}.ini" "${2:section}"'
+  'EnumINI::SectionExist':
+    'prefix': 'EnumINI::SectionExist'
+    'body': 'EnumINI::SectionExist "${1:file}.ini" "${2:section}"'
+  'EnumINI::SectionNames':
+    'prefix': 'EnumINI::SectionNames'
+    'body': 'EnumINI::SectionNames "${1:file}.ini"'

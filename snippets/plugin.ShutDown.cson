@@ -1,0 +1,13 @@
+'.source.nsis':
+  'ShutDown::LogOff':
+    'prefix': 'ShutDown::LogOff'
+    'body': 'ShutDown::LogOff'
+  'ShutDown::PowerOff':
+    'prefix': 'ShutDown::PowerOff'
+    'body': 'ShutDown::PowerOff'
+  'ShutDown::Reboot':
+    'prefix': 'ShutDown::Reboot'
+    'body': 'ShutDown::Reboot'
+  'ShutDown::ShutDown':
+    'prefix': 'ShutDown::ShutDown'
+    'body': 'ShutDown::ShutDown'

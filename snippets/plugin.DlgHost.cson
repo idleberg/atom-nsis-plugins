@@ -1,0 +1,10 @@
+'.source.nsis':
+  'DlgHost::Close':
+    'prefix': 'DlgHost::Close'
+    'body': 'DlgHost::Close'
+  'DlgHost::DlgBox':
+    'prefix': 'DlgHost::DlgBox'
+    'body': 'DlgHost::DlgBox "${1:options}"'
+  'DlgHost::SetClient':
+    'prefix': 'DlgHost::SetClient'
+    'body': 'DlgHost::SetClient \$${1:handle}'

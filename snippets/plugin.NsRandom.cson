@@ -1,0 +1,4 @@
+'.source.nsis':
+  'nsRandom::GetRandom':
+    'prefix': 'nsRandom::GetRandom'
+    'body': 'nsRandom::GetRandom'

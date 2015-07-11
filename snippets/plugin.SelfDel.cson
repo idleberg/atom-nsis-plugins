@@ -1,0 +1,25 @@
+'.source.nsis':
+  'Services::GetServiceNameFromDisplayName':
+    'prefix': 'Services::GetServiceNameFromDisplayName'
+    'body': 'Services::GetServiceNameFromDisplayName "${1:display_name}"'
+  'Services::GrantLogonAsAService':
+    'prefix': 'Services::GrantLogonAsAService'
+    'body': 'Services::GrantLogonAsAService "${1:user_name}"'
+  'Services::HasLogonAsAService':
+    'prefix': 'Services::HasLogonAsAService'
+    'body': 'Services::HasLogonAsAService "${1:user_name}"'
+  'Services::IsProcessUserAdministrator':
+    'prefix': 'Services::IsProcessUserAdministrator'
+    'body': 'Services::IsProcessUserAdministrator'
+  'Services::IsServiceInstalled':
+    'prefix': 'Services::IsServiceInstalled'
+    'body': 'Services::IsServiceInstalled "${1:service_name}"'
+  'Services::IsServiceRunning':
+    'prefix': 'Services::IsServiceRunning'
+    'body': 'Services::IsServiceRunning "${1:service_name}"'
+  'Services::RemoveLogonAsAService':
+    'prefix': 'Services::RemoveLogonAsAService'
+    'body': 'Services::RemoveLogonAsAService "${1:user_name}"'
+  'Services::SendServiceCommand':
+    'prefix': 'Services::SendServiceCommand'
+    'body': 'Services::SendServiceCommand "${1:command}" "${2:service_name}"'

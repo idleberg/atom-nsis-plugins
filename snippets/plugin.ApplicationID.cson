@@ -1,0 +1,4 @@
+'.source.nsis':
+  'ApplicationID::Set':
+    'prefix': 'ApplicationID::Set'
+    'body': 'ApplicationID::Set "${1:shortcut}.lnk" "${2:MyAppId}"'

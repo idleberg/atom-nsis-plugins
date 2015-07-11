@@ -1,0 +1,4 @@
+'.source.nsis':
+  '!insertmacro FontName':
+    'prefix': 'FontName'
+    'body': '!insertmacro FontName "${1:file}.ttf"'

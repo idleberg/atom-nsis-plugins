@@ -1,0 +1,4 @@
+'.source.nsis':
+  'w7tbp::Start':
+    'prefix': 'w7tbp::Start'
+    'body': 'w7tbp::Start'

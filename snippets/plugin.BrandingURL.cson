@@ -1,0 +1,7 @@
+'.source.nsis':
+  'BrandingURL::Set':
+    'prefix': 'BrandingURL::Set'
+    'body': 'BrandingURL::Set /NOUNLOAD "${1:red}" "${2:green}" "${3:blue}" "${4:url}"'
+  'BrandingURL::Unload':
+    'prefix': 'BrandingURL::Unload'
+    'body': 'BrandingURL::Unload'

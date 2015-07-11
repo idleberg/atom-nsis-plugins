@@ -1,0 +1,22 @@
+'.source.nsis':
+  'nsFlash::Destroy':
+    'prefix': 'nsFlash::Destroy'
+    'body': 'nsFlash::Destroy'
+  'nsFlash::IsInstalled':
+    'prefix': 'nsFlash::IsInstalled'
+    'body': """
+      nsFlash::IsInstalled
+      Pop ${1:var}
+    """
+  'nsFlash::Load':
+    'prefix': 'nsFlash::Load'
+    'body': 'nsFlash::Load ${1:hwnd} "${2:swf_path}"'
+  'nsFlash::Load /replace':
+    'prefix': 'nsFlash::Load /replace'
+    'body': 'nsFlash::Load /replace ${1:hwnd} "${2:swf_path}"'
+  'nsFlash::Window':
+    'prefix': 'nsFlash::Window'
+    'body': 'nsFlash::Window "${1:swf_path}" "${2:caption}"'
+  'nsFlash::Window /size':
+    'prefix': 'nsFlash::Window /size'
+    'body': 'nsFlash::Window /size ${1:WxH} "${2:swf_path}" "${3:caption}"'

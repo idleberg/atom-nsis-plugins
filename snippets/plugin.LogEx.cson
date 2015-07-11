@@ -1,0 +1,22 @@
+'.source.nsis':
+  'LogEx::AddFile':
+    'prefix': 'LogEx::AddFile'
+    'body': 'LogEx::AddFile "${1:prefix}" "${2:file}.log"'
+  'LogEx::AddFile [/options]':
+    'prefix': 'LogEx::AddFile [/options]'
+    'body': 'LogEx::AddFile ${1:options} "${2:prefix}" "${3:file}.log"'
+  'LogEx::Close':
+    'prefix': 'LogEx::Close'
+    'body': 'LogEx::Close'
+  'LogEx::Init':
+    'prefix': 'LogEx::Init'
+    'body': 'LogEx::Init "${1:file}.txt"'
+  'LogEx::Init bTruncateFile':
+    'prefix': 'LogEx::Init bTruncateFile'
+    'body': 'LogEx::Init true "${2:file}.log"'
+  'LogEx::Write':
+    'prefix': 'LogEx::Write'
+    'body': 'LogEx::Write "${1:log_string}"'
+  'LogEx::Write [/options]':
+    'prefix': 'LogEx::Write [/options]'
+    'body': 'LogEx::Write ${1:options} "${2:log_string}"'

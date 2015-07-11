@@ -1,0 +1,28 @@
+'.source.nsis':
+  'nxs::Destroy':
+    'prefix': 'nxs::Destroy'
+    'body': 'nxs::Destroy'
+  'nxs::getWindow':
+    'prefix': 'nxs::getWindow'
+    'body': 'nxs::getWindow'
+  'nxs::getWindow /NOUNLOAD':
+    'prefix': 'nxs::getWindow /NOUNLOAD'
+    'body': 'nxs::getWindow /NOUNLOAD'
+  'nxs::HasUserAborted':
+    'prefix': 'nxs::HasUserAborted'
+    'body': 'nxs::HasUserAborted'
+  'nxs::HasUserAborted /NOUNLOAD':
+    'prefix': 'nxs::HasUserAborted /NOUNLOAD'
+    'body': 'nxs::HasUserAborted /NOUNLOAD'
+  'nxs::Show':
+    'prefix': 'nxs::Show'
+    'body': 'nxs::Show "${1:caption}" ${1:options}'
+  'nxs::Show /NOUNLOAD':
+    'prefix': 'nxs::Show /NOUNLOAD'
+    'body': 'nxs::Show /NOUNLOAD "${1:caption}" ${2:options}'
+  'nxs::Update':
+    'prefix': 'nxs::Update'
+    'body': 'nxs::Update "${1:caption}" ${2:options}'
+  'nxs::Update /NOUNLOAD':
+    'prefix': 'nxs::Update /NOUNLOAD'
+    'body': 'nxs::Update /NOUNLOAD "${1:caption}" ${2:options}'

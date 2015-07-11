@@ -1,0 +1,4 @@
+'.source.nsis':
+  'KillProcDLL::KillProc':
+    'prefix': 'KillProcDLL::KillProc'
+    'body': 'KillProcDLL::KillProc "${1:file}.exe"'

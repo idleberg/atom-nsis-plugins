@@ -1,0 +1,4 @@
+'.source.nsis':
+  'nsislog::log':
+    'prefix': 'nsislog::log'
+    'body': 'nsislog::log "${1:file}.log" "${2:text}"'

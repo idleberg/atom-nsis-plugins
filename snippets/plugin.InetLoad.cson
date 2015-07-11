@@ -1,0 +1,7 @@
+'.source.nsis':
+  'InetLoad::load':
+    'prefix': 'InetLoad::load'
+    'body': 'InetLoad::load "${1:url}" "${2:target_file}"'
+  'InetLoad::load [/options]':
+    'prefix': 'InetLoad::load [/options]'
+    'body': 'InetLoad::load ${1:options} "${2:url}" "${3:target_file}"'

@@ -1,0 +1,13 @@
+'.source.nsis':
+  'SpiderBanner::Destroy':
+    'prefix': 'SpiderBanner::Destroy'
+    'body': 'SpiderBanner::Destroy'
+  'SpiderBanner::Show':
+    'prefix': 'SpiderBanner::Show'
+    'body': 'SpiderBanner::Show ${1:position} ${2:distance}'
+  'SpiderBanner::Show /MODERN':
+    'prefix': 'SpiderBanner::Show /MODERN'
+    'body': 'SpiderBanner::Show ${1:position} ${2:distance} /MODERN'
+  'SpiderBanner::ShowPBOnly':
+    'prefix': 'SpiderBanner::ShowPBOnly'
+    'body': 'SpiderBanner::ShowPBOnly'

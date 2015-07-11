@@ -1,0 +1,52 @@
+'.source.nsis':
+  'Version::GetWindowsVersion':
+    'prefix': 'Version::GetWindowsVersion'
+    'body': 'Version::GetWindowsVersion'
+  'Version::IsWindows2000':
+    'prefix': 'Version::IsWindows2000'
+    'body': 'Version::IsWindows2000'
+  'Version::IsWindows2003':
+    'prefix': 'Version::IsWindows2003'
+    'body': 'Version::IsWindows2003'
+  'Version::IsWindows7':
+    'prefix': 'Version::IsWindows7'
+    'body': 'Version::IsWindows7'
+  'Version::IsWindows8':
+    'prefix': 'Version::IsWindows8'
+    'body': 'Version::IsWindows8'
+  'Version::IsWindows95':
+    'prefix': 'Version::IsWindows95'
+    'body': 'Version::IsWindows95'
+  'Version::IsWindows98':
+    'prefix': 'Version::IsWindows98'
+    'body': 'Version::IsWindows98'
+  'Version::IsWindowsME':
+    'prefix': 'Version::IsWindowsME'
+    'body': 'Version::IsWindowsME'
+  'Version::IsWindowsNT351':
+    'prefix': 'Version::IsWindowsNT351'
+    'body': 'Version::IsWindowsNT351'
+  'Version::IsWindowsNT40':
+    'prefix': 'Version::IsWindowsNT40'
+    'body': 'Version::IsWindowsNT40'
+  'Version::IsWindowsPlatformNT':
+    'prefix': 'Version::IsWindowsPlatformNT'
+    'body': 'Version::IsWindowsPlatform9x'
+  'Version::IsWindowsServer2008':
+    'prefix': 'Version::IsWindowsServer2008'
+    'body': 'Version::IsWindowsServer2008'
+  'Version::IsWindowsServer2008R2':
+    'prefix': 'Version::IsWindowsServer2008R2'
+    'body': 'Version::IsWindowsServer2008R2'
+  'Version::IsWindowsServer2012':
+    'prefix': 'Version::IsWindowsServer2012'
+    'body': 'Version::IsWindowsServer2012'
+  'Version::IsWindowsVista':
+    'prefix': 'Version::IsWindowsVista'
+    'body': 'Version::IsWindowsVista'
+  'Version::IsWindowsXP':
+    'prefix': 'Version::IsWindowsXP'
+    'body': 'Version::IsWindowsXP'
+  'Version::IsWindowsXPx64':
+    'prefix': 'Version::IsWindowsXPx64'
+    'body': 'Version::IsWindowsXPx64'

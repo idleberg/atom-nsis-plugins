@@ -1,0 +1,52 @@
+'.source.nsis':
+  'nsJSON::Delete':
+    'prefix': 'nsJSON::Delete'
+    'body': 'nsJSON::Delete "${1:NodePath}" /end'
+  'nsJSON::Get':
+    'prefix': 'nsJSON::Get'
+    'body': 'nsJSON::Get "${1:NodePath}" /end'
+  'nsJSON::Get /count':
+    'prefix': 'nsJSON::Get /count'
+    'body': 'nsJSON::Get /count "${1:NodePath}" /end'
+  'nsJSON::Get /exists':
+    'prefix': 'nsJSON::Get /exists'
+    'body': 'nsJSON::Get /exists "${1:NodePath}" /end'
+  'nsJSON::Get /isempty':
+    'prefix': 'nsJSON::Get /isempty'
+    'body': 'nsJSON::Get /isempty "${1:NodePath}" /end'
+  'nsJSON::Get /key':
+    'prefix': 'nsJSON::Get /key'
+    'body': 'nsJSON::Get /key "${1:NodePath}" /end'
+  'nsJSON::Get /noexpand':
+    'prefix': 'nsJSON::Get /noexpand'
+    'body': 'nsJSON::Get /noexpand "${1:NodePath}" /end'
+  'nsJSON::Get /type':
+    'prefix': 'nsJSON::Get /type'
+    'body': 'nsJSON::Get /type "${1:NodePath}" /end'
+  'nsJSON::Serialize':
+    'prefix': 'nsJSON::Serialize'
+    'body': 'nsJSON::Serialize'
+  'nsJSON::Serialize /file':
+    'prefix': 'nsJSON::Serialize /file'
+    'body': 'nsJSON::Serialize /file "${1:file}.json"'
+  'nsJSON::Serialize /file /unicode':
+    'prefix': 'nsJSON::Serialize /file /unicode'
+    'body': 'nsJSON::Serialize /file /unicode "${1:file}.json"'
+  'nsJSON::Serialize /format /file':
+    'prefix': 'nsJSON::Serialize /format /file'
+    'body': 'nsJSON::Serialize /file "${1:file}.json"'
+  'nsJSON::Serialize /format /file /unicode':
+    'prefix': 'nsJSON::Serialize /format /file /unicode'
+    'body': 'nsJSON::Serialize /file /unicode "${1:file}.json"'
+  'nsJSON::Serialize format':
+    'prefix': 'nsJSON::Serialize format'
+    'body': 'nsJSON::Serialize /format'
+  'nsJSON::Set /file':
+    'prefix': 'nsJSON::Set /file'
+    'body': 'nsJSON::Set "${1:NodePath}" /file "${2:file}.json"'
+  'nsJSON::Set /unicode':
+    'prefix': 'nsJSON::Set /unicode'
+    'body': 'nsJSON::Set "${1:NodePath}" /file /unicode "${2:file}.json"'
+  'nsJSON::Set /value':
+    'prefix': 'nsJSON::Set /value'
+    'body': 'nsJSON::Set "${1:NodePath}" /value "${2:value}"'

@@ -1,0 +1,10 @@
+'.source.nsis':
+  'InetBgDL::Get':
+    'prefix': 'InetBgDL::Get'
+    'body': 'InetBgDL::Get "${1:url}" "local_file1" /END'
+  'InetBgDL::Get /RESET':
+    'prefix': 'InetBgDL::Get /RESET'
+    'body': 'InetBgDL::Get /RESET "${1:url}" "local_file1" /END'
+  'InetBgDL::GetStats':
+    'prefix': 'InetBgDL::GetStats'
+    'body': 'InetBgDL::GetStats'

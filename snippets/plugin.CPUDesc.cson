@@ -1,0 +1,4 @@
+'.source.nsis':
+  'CPUDesc::tell':
+    'prefix': 'CPUDesc::tell'
+    'body': 'CPUDesc::tell'

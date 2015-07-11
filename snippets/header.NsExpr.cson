@@ -1,0 +1,7 @@
+'.source.nsis':
+  '${ExprEval}':
+    'prefix': 'ExprEval'
+    'body': '\${ExprEval} ${1:expression}'
+  '${Expr}':
+    'prefix': 'Expr'
+    'body': '\${Expr} ${1:expression}'

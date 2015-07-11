@@ -1,0 +1,10 @@
+'.source.nsis':
+  'nsmci::GetErrorString':
+    'prefix': 'nsmci::GetErrorString'
+    'body': 'nsmci::GetErrorString "${1:error_code}"'
+  'nsmci::GetFirstCDROMDrive':
+    'prefix': 'nsmci::GetFirstCDROMDrive'
+    'body': 'nsmci::GetFirstCDROMDrive'
+  'nsmci::SendString':
+    'prefix': 'nsmci::SendString'
+    'body': 'nsmci::SendString "${1:command}"'

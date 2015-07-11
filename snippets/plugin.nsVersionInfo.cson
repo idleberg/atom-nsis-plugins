@@ -1,0 +1,22 @@
+'.source.nsis':
+  'nsVersionInfo::getFixedFileVersion':
+    'prefix': 'nsVersionInfo::getFixedFileVersion'
+    'body': 'nsVersionInfo::getFixedFileVersion "${1:file}.exe"'
+  'nsVersionInfo::getFixedProductVersion':
+    'prefix': 'nsVersionInfo::getFixedProductVersion'
+    'body': 'nsVersionInfo::getFixedProductVersion "${1:file}.exe"'
+  'nsVersionInfo::getLibVersion':
+    'prefix': 'nsVersionInfo::getLibVersion'
+    'body': 'nsVersionInfo::getLibVersion'
+  'nsVersionInfo::getStringFileInfo':
+    'prefix': 'nsVersionInfo::getStringFileInfo'
+    'body': 'nsVersionInfo::getStringFileInfo "${1:file}.exe" "${2:field}"'
+  'nsVersionInfo::setFixedFileVersion':
+    'prefix': 'nsVersionInfo::setFixedFileVersion'
+    'body': 'nsVersionInfo::setFixedFileVersion "${1:file}.exe" ${2:1} ${3:2} ${4:3} ${5:4}'
+  'nsVersionInfo::setFixedProductVersion':
+    'prefix': 'nsVersionInfo::setFixedProductVersion'
+    'body': 'nsVersionInfo::setFixedProductVersion "${1:file}.exe" ${2:1} ${3:2} ${4:3} ${5:4}'
+  'nsVersionInfo::setStringFileInfo':
+    'prefix': 'nsVersionInfo::setStringFileInfo'
+    'body': 'nsVersionInfo::setStringFileInfo "${1:file}.exe" "${2:field}" "${3:value}"'

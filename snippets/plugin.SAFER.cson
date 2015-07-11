@@ -1,0 +1,7 @@
+'.source.nsis':
+  'SAFER::Exec':
+    'prefix': 'SAFER::Exec'
+    'body': 'SAFER::SupportsSAFER ${1:level} "${2:file).exe"'
+  'SAFER::SupportsSAFER':
+    'prefix': 'SAFER::SupportsSAFER'
+    'body': 'SAFER::SupportsSAFER'

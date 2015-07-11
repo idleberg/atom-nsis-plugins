@@ -1,0 +1,22 @@
+'.source.nsis':
+  'NsODBC::AddDSN':
+    'prefix': 'NsODBC::AddDSN'
+    'body': 'NsODBC::AddDSN "${1:driver}" "${2:parameters}"'
+  'NsODBC::AddSysDSN':
+    'prefix': 'NsODBC::AddSysDSN'
+    'body': 'NsODBC::AddSysDSN "${1:driver}" "${2:parameters}"'
+  'NsODBC::ConfDSN':
+    'prefix': 'NsODBC::ConfDSN'
+    'body': 'NsODBC::ConfDSN "${1:driver}" "${2:parameters}"'
+  'NsODBC::ConfSysDSN':
+    'prefix': 'NsODBC::ConfSysDSN'
+    'body': 'NsODBC::ConfSysDSN "${1:driver}" "${2:parameters}"'
+  'NsODBC::RemoveDefDSN':
+    'prefix': 'NsODBC::RemoveDefDSN'
+    'body': 'NsODBC::RemoveDefDSN "${1:driver}" "${2:parameters}"'
+  'NsODBC::RemoveDSN':
+    'prefix': 'NsODBC::RemoveDSN'
+    'body': 'NsODBC::RemoveDSN "${1:driver}" "${2:parameters}"'
+  'NsODBC::RemoveSysDSN':
+    'prefix': 'NsODBC::RemoveSysDSN'
+    'body': 'NsODBC::RemoveSysDSN "${1:driver}" "${2:parameters}"'

@@ -1,0 +1,25 @@
+'.source.nsis':
+  'Inetc::get':
+    'prefix': 'Inetc::get'
+    'body': 'Inetc::get "${1:url}" "${2:target_file}"'
+  'Inetc::get [/options]':
+    'prefix': 'Inetc::get [/options]'
+    'body': 'Inetc::get ${1:options} "${2:url}" "${3:target_file}"'
+  'Inetc::head':
+    'prefix': 'Inetc::head'
+    'body': 'Inetc::head "${1:url}" "${2:target_file}"'
+  'Inetc::head [/options]':
+    'prefix': 'Inetc::head [/options]'
+    'body': 'Inetc::head ${1:options} "${2:url}" "${3:target_file}"'
+  'Inetc::post':
+    'prefix': 'Inetc::post'
+    'body': 'Inetc::post "${1:text}" "${2:url}" "${3:target_file}"'
+  'Inetc::post [/options]':
+    'prefix': 'Inetc::post [/options]'
+    'body': 'Inetc::post "${1:text}" ${2:options} "${3:url}" "${4:target_file}"'
+  'Inetc::put':
+    'prefix': 'Inetc::put'
+    'body': 'Inetc::put "${1:url}" "${2:target_file}"'
+  'Inetc::put [/options]':
+    'prefix': 'Inetc::put [/options]'
+    'body': 'Inetc::put ${1:options} "${2:url}" "${3:target_file}"'

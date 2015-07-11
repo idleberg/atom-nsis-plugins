@@ -1,0 +1,7 @@
+'.source.nsis':
+  '${IniGetSectionNames}':
+    'prefix': 'IniGetSectionNames'
+    'body': '\${IniGetSectionNames} "${1:file}.ini" ${2:function}'
+  'IniGetSectionNames_StopEnum':
+    'prefix': 'IniGetSectionNames_StopEnum'
+    'body': '\${IniGetSectionNames_StopEnum}'

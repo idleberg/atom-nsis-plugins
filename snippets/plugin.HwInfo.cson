@@ -1,0 +1,16 @@
+'.source.nsis':
+  'HwInfo::GetCpuNameAndSpeed':
+    'prefix': 'HwInfo::GetCpuNameAndSpeed'
+    'body': 'HwInfo::GetCpuNameAndSpeed'
+  'HwInfo::GetCpuSpeed':
+    'prefix': 'HwInfo::GetCpuSpeed'
+    'body': 'HwInfo::GetCpuSpeed'
+  'HwInfo::GetSystemMemory':
+    'prefix': 'HwInfo::GetSystemMemory'
+    'body': 'HwInfo::GetSystemMemory'
+  'HwInfo::GetVideoCardMemory':
+    'prefix': 'HwInfo::GetVideoCardMemory'
+    'body': 'HwInfo::GetVideoCardMemory'
+  'HwInfo::GetVideoCardName':
+    'prefix': 'HwInfo::GetVideoCardName'
+    'body': 'HwInfo::GetVideoCardName'

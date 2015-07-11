@@ -1,0 +1,40 @@
+'.source.nsis':
+  'WmiInspector::AntiVirus':
+    'prefix': 'WmiInspector::AntiVirus'
+    'body': 'WmiInspector::AntiVirus'
+  'WmiInspector::CPU':
+    'prefix': 'WmiInspector::CPU'
+    'body': 'WmiInspector::CPU'
+  'WmiInspector::FireWall':
+    'prefix': 'WmiInspector::FireWall'
+    'body': 'WmiInspector::FireWall'
+  'WmiInspector::FullOS':
+    'prefix': 'WmiInspector::FullOS'
+    'body': 'WmiInspector::FullOS'
+  'WmiInspector::FullSQLVersion':
+    'prefix': 'WmiInspector::FullSQLVersion'
+    'body': 'WmiInspector::FullSQLVersion'
+  'WmiInspector::OS':
+    'prefix': 'WmiInspector::OS'
+    'body': 'WmiInspector::OS'
+  'WmiInspector::OSVersion':
+    'prefix': 'WmiInspector::OSVersion'
+    'body': 'WmiInspector::OSVersion'
+  'WmiInspector::Request':
+    'prefix': 'WmiInspector::Request'
+    'body': 'WmiInspector::Request "${1:DomainNamespot}" "${2:TableName}" "${3:ValueName}"'
+  'WmiInspector::Resolution':
+    'prefix': 'WmiInspector::Resolution'
+    'body': 'WmiInspector::Resolution'
+  'WmiInspector::ShortUserName':
+    'prefix': 'WmiInspector::ShortUserName'
+    'body': 'WmiInspector::ShortUserName'
+  'WmiInspector::SQLVersion':
+    'prefix': 'WmiInspector::SQLVersion'
+    'body': 'WmiInspector::SQLVersion'
+  'WmiInspector::UserName':
+    'prefix': 'WmiInspector::UserName'
+    'body': 'WmiInspector::UserName'
+  'WmiInspector::UserSID':
+    'prefix': 'WmiInspector::UserSID'
+    'body': 'WmiInspector::UserSID "${1:user_name}"'

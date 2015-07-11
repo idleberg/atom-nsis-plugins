@@ -1,0 +1,10 @@
+'.source.nsis':
+  'nsUnzip::Extract':
+    'prefix': 'nsUnzip::Extract'
+    'body': 'nsUnzip::Extract "${1:file}.zip" ${2:files} /END'
+  'nsUnzip::Extract [/options]':
+    'prefix': 'nsUnzip::Extract [/options]'
+    'body': 'nsUnzip::Extract ${1:options} "${2:file}.zip" ${3:files} /END'
+  'nsUnzip::GetPassword':
+    'prefix': 'nsUnzip::GetPassword'
+    'body': 'nsUnzip::GetPassword /NOUNLOAD "${1:title}" "${2:group}" "${3:label}" "${4:ok_button}" "${5:cancel_button}"'

@@ -1,0 +1,85 @@
+'.source.nsis':
+  'SimpleSC::ContinueService':
+    'prefix': 'SimpleSC::ContinueService'
+    'body': 'SimpleSC::ContinueService ${1:name_of_service} ${1:timeout}'
+  'SimpleSC::ExistsService':
+    'prefix': 'SimpleSC::ExistsService'
+    'body': 'SimpleSC::ExistsService ${1:name_of_service}'
+  'SimpleSC::GetErrorMessage':
+    'prefix': 'SimpleSC::GetErrorMessage'
+    'body': 'SimpleSC::GetErrorMessage ${1:error_code}'
+  'SimpleSC::GetServiceBinaryPath':
+    'prefix': 'SimpleSC::GetServiceBinaryPath'
+    'body': 'SimpleSC::GetServiceBinaryPath ${1:name_of_service}'
+  'SimpleSC::GetServiceDescription':
+    'prefix': 'SimpleSC::GetServiceDescription'
+    'body': 'SimpleSC::GetServiceDescription ${1:name_of_service}'
+  'SimpleSC::GetServiceDisplayName':
+    'prefix': 'SimpleSC::GetServiceDisplayName'
+    'body': 'SimpleSC::GetServiceDisplayName ${1:name_of_service}'
+  'SimpleSC::GetServiceFailure':
+    'prefix': 'SimpleSC::GetServiceFailure'
+    'body': 'SimpleSC::GetServiceFailure ${1:name_of_service}'
+  'SimpleSC::GetServiceFailureFlag':
+    'prefix': 'SimpleSC::GetServiceFailureFlag'
+    'body': 'SimpleSC::GetServiceFailureFlag ${1:name_of_service}'
+  'SimpleSC::GetServiceLogon':
+    'prefix': 'SimpleSC::GetServiceLogon'
+    'body': 'SimpleSC::GetServiceLogon ${1:name_of_service}'
+  'SimpleSC::GetServiceName':
+    'prefix': 'SimpleSC::GetServiceName'
+    'body': 'SimpleSC::GetServiceName ${1:display_name}'
+  'SimpleSC::GetServiceStartType':
+    'prefix': 'SimpleSC::GetServiceStartType'
+    'body': 'SimpleSC::GetServiceStartType ${1:name_of_service}'
+  'SimpleSC::GetServiceStatus':
+    'prefix': 'SimpleSC::GetServiceStatus'
+    'body': 'SimpleSC::GetServiceStatus ${1:name_of_service}'
+  'SimpleSC::GrantServiceLogonPrivilege':
+    'prefix': 'SimpleSC::GrantServiceLogonPrivilege'
+    'body': 'SimpleSC::GrantServiceLogonPrivilege ${1:account}'
+  'SimpleSC::InstallService':
+    'prefix': 'SimpleSC::InstallService'
+    'body': 'SimpleSC::InstallService ${1:name_of_service} ${2:display_name} ${3:service_type} ${4:start_type} ${5:binary_path} ${6:dependencies} ${7:account} ${8:password}'
+  'SimpleSC::PauseService':
+    'prefix': 'SimpleSC::PauseService'
+    'body': 'SimpleSC::PauseService ${1:name_of_service} ${1:timeout}'
+  'SimpleSC::RemoveService':
+    'prefix': 'SimpleSC::RemoveService'
+    'body': 'SimpleSC::SimpleSC::RemoveService ${1:name_of_service}'
+  'SimpleSC::RemoveServiceLogonPrivilege':
+    'prefix': 'SimpleSC::RemoveServiceLogonPrivilege'
+    'body': 'SimpleSC::RemoveServiceLogonPrivilege ${1:account}'
+  'SimpleSC::RestartService':
+    'prefix': 'SimpleSC::RestartService'
+    'body': 'SimpleSC::RestartService ${1:name_of_service} ${1:arguments} ${2:timeout}'
+  'SimpleSC::ServiceIsPaused':
+    'prefix': 'SimpleSC::ServiceIsPaused'
+    'body': 'SimpleSC::ServiceIsPaused ${1:name_of_service}'
+  'SimpleSC::ServiceIsRunning':
+    'prefix': 'SimpleSC::ServiceIsRunning'
+    'body': 'SimpleSC::ServiceIsRunning ${1:name_of_service}'
+  'SimpleSC::ServiceIsStopped':
+    'prefix': 'SimpleSC::ServiceIsStopped'
+    'body': 'SimpleSC::ServiceIsStopped ${1:name_of_service}'
+  'SimpleSC::SetServiceBinaryPath':
+    'prefix': 'SimpleSC::SetServiceBinaryPath'
+    'body': 'SimpleSC::SetServiceBinaryPath ${1:name_of_service} ${2:binary_path}'
+  'SimpleSC::SetServiceDelayedAutoStartInfo':
+    'prefix': 'SimpleSC::SetServiceDelayedAutoStartInfo'
+    'body': 'SimpleSC::SetServiceDelayedAutoStartInfo ${1:name_of_service} ${2:delayed_autostart}'
+  'SimpleSC::SetServiceDescription':
+    'prefix': 'SimpleSC::SetServiceDescription'
+    'body': 'SimpleSC::SetServiceDescription ${1:name_of_service} ${2:service_description}'
+  'SimpleSC::SetServiceFailure':
+    'prefix': 'SimpleSC::SetServiceFailure'
+    'body': 'SimpleSC::SetServiceFailure ${1:name_of_service} ${2:reset_period} ${3:reboot_message} ${4:command} ${5:action_type_1} ${6:action_delay_1} ${7:action_type_2} ${8:action_delay_2} ${9:action_type_3} ${10:action_delay_3}'
+  'SimpleSC::SetServiceFailureFlag':
+    'prefix': 'SimpleSC::SetServiceFailureFlag'
+    'body': 'SimpleSC::SetServiceFailureFlag ${1:name_of_service} ${2:failure_actions_on_non_crash_failures}'
+  'SimpleSC::SetServiceStartType':
+    'prefix': 'SimpleSC::SetServiceStartType'
+    'body': 'SimpleSC::SetServiceStartType ${1:name_of_service} ${2:start_type}'
+  'SimpleSC::StopService':
+    'prefix': 'SimpleSC::StopService'
+    'body': 'SimpleSC::StopService ${1:name_of_service} ${1:wait_for_file_release} ${2:timeout}'

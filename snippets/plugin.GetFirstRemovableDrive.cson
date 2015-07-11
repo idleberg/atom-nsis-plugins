@@ -1,0 +1,7 @@
+'.source.nsis':
+  'GetFirstRemovable::GetAll':
+    'prefix': 'GetFirstRemovable::GetAll'
+    'body': 'GetFirstRemovable::GetAll'
+  'GetFirstRemovable::GetFirst':
+    'prefix': 'GetFirstRemovable::GetFirst'
+    'body': 'GetFirstRemovable::GetFirst'

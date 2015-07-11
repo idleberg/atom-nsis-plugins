@@ -1,0 +1,16 @@
+'.source.nsis':
+  'ProxySettings::GetConnectionCount':
+    'prefix': 'ProxySettings::GetConnectionCount'
+    'body': 'ProxySettings::GetConnectionCount \$${1:var}'
+  'ProxySettings::GetConnectionName':
+    'prefix': 'ProxySettings::GetConnectionName'
+    'body': 'ProxySettings::GetConnectionName \$${1:var}'
+  'ProxySettings::GetConnectionProxy':
+    'prefix': 'ProxySettings::GetConnectionProxy'
+    'body': 'ProxySettings::GetConnectionProxy \$${1:var}'
+  'ProxySettings::SetConnectionProxy':
+    'prefix': 'ProxySettings::SetConnectionProxy'
+    'body': 'ProxySettings::SetConnectionProxy \$${1:var}'
+  'ProxySettings::SetConnectionProxyByProtocol':
+    'prefix': 'ProxySettings::SetConnectionProxyByProtocol'
+    'body': 'ProxySettings::SetConnectionProxyByProtocol \$${1:var}'

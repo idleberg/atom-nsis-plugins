@@ -1,0 +1,40 @@
+'.source.nsis':
+  'MoreInfo::GetComments':
+    'prefix': 'MoreInfo::GetComments'
+    'body': 'MoreInfo::GetComments "${1:file}"'
+  'MoreInfo::GetCompanyName':
+    'prefix': 'MoreInfo::GetCompanyName'
+    'body': 'MoreInfo::GetCompanyName "${1:file}"'
+  'MoreInfo::GetFileDescription':
+    'prefix': 'MoreInfo::GetFileDescription'
+    'body': 'MoreInfo::GetFileDescription "${1:file}"'
+  'MoreInfo::GetFileVersion':
+    'prefix': 'MoreInfo::GetFileVersion'
+    'body': 'MoreInfo::GetFileVersion "${1:file}"'
+  'MoreInfo::GetLegalCopyright':
+    'prefix': 'MoreInfo::GetLegalCopyright'
+    'body': 'MoreInfo::GetLegalCopyright "${1:file}"'
+  'MoreInfo::GetLegalTrademarks':
+    'prefix': 'MoreInfo::GetLegalTrademarks'
+    'body': 'MoreInfo::GetLegalTrademarks "${1:file}"'
+  'MoreInfo::GetOriginalFileName':
+    'prefix': 'MoreInfo::GetOriginalFileName'
+    'body': 'MoreInfo::GetOriginalFileName "${1:file}"'
+  'MoreInfo::GetOSUserinterfaceLanguage':
+    'prefix': 'MoreInfo::GetOSUserinterfaceLanguage'
+    'body': 'MoreInfo::GetOSUserinterfaceLanguage'
+  'MoreInfo::GetPrivateBuild':
+    'prefix': 'MoreInfo::GetPrivateBuild'
+    'body': 'MoreInfo::GetPrivateBuild "${1:file}"'
+  'MoreInfo::GetProductName':
+    'prefix': 'MoreInfo::GetProductName'
+    'body': 'MoreInfo::GetProductName "${1:file}"'
+  'MoreInfo::GetProductVersion':
+    'prefix': 'MoreInfo::GetProductVersion'
+    'body': 'MoreInfo::GetProductVersion "${1:file}"'
+  'MoreInfo::GetSpecialBuild':
+    'prefix': 'MoreInfo::GetSpecialBuild'
+    'body': 'MoreInfo::GetSpecialBuild "${1:file}"'
+  'MoreInfo::GetUserDefined':
+    'prefix': 'MoreInfo::GetUserDefined'
+    'body': 'MoreInfo::GetUserDefined "${1:file}" "${2:property}"'

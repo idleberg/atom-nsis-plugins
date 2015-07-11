@@ -1,0 +1,22 @@
+'.source.nsis':
+  'nsXML::endDocument':
+    'prefix': 'nsXML::endDocument'
+    'body': 'nsXML::endDocument'
+  'nsXML::init':
+    'prefix': 'nsXML::init'
+    'body': 'nsXML::init'
+  'nsXML::initCOM':
+    'prefix': 'nsXML::initCOM'
+    'body': 'nsXML::initCOM'
+  'nsXML::insertElemVal':
+    'prefix': 'nsXML::insertElemVal'
+    'body': 'nsXML::insertElemVal "${1:node}" "${2:value}"'
+  'nsXML::startDocument':
+    'prefix': 'nsXML::startDocument'
+    'body': 'nsXML::startDocument'
+  'nsXML::uninitCOM':
+    'prefix': 'nsXML::uninitCOM'
+    'body': 'nsXML::uninitCOM'
+  'nsXML::write':
+    'prefix': 'nsXML::write'
+    'body': 'nsXML::write "${1:file}.xml"'

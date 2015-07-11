@@ -1,0 +1,4 @@
+'.source.nsis':
+  'ExtractDllEx::extract':
+    'prefix': 'ExtractDllEx::extract'
+    'body': 'ExtractDllEx::extract'

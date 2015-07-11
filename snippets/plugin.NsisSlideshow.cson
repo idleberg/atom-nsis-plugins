@@ -1,0 +1,10 @@
+'.source.nsis':
+  'nsisSlideshow::show':
+    'prefix': 'nsisSlideshow::show'
+    'body': 'nsisSlideshow::show /NOUNLOAD "${1:picture}"'
+  'nsisSlideshow::show [/options]':
+    'prefix': 'nsisSlideshow::show [/options]'
+    'body': 'nsisSlideshow::show /NOUNLOAD ${1:options} "${2:picture}"'
+  'nsisSlideshow::stop':
+    'prefix': 'nsisSlideshow::stop'
+    'body': 'nsisSlideshow::stop'

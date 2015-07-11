@@ -1,0 +1,4 @@
+'.source.nsis':
+  'nsisdt::currentdate':
+    'prefix': 'nsisdt::currentdate'
+    'body': 'nsisdt::currentdate'

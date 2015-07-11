@@ -1,0 +1,31 @@
+'.source.nsis':
+  'GetVersion::WindowsName':
+    'prefix': 'GetVersion::WindowsName'
+    'body': 'GetVersion::WindowsName'
+  'GetVersion::WindowsPlatformArchitecture':
+    'prefix': 'GetVersion::WindowsPlatformArchitecture'
+    'body': 'GetVersion::WindowsPlatformArchitecture'
+  'GetVersion::WindowsPlatformId':
+    'prefix': 'GetVersion::WindowsPlatformId'
+    'body': 'GetVersion::WindowsPlatformId'
+  'GetVersion::WindowsServerName':
+    'prefix': 'GetVersion::WindowsServerName'
+    'body': 'GetVersion::WindowsServerName'
+  'GetVersion::WindowsServicePack':
+    'prefix': 'GetVersion::WindowsServicePack'
+    'body': 'GetVersion::WindowsServicePack'
+  'GetVersion::WindowsServicePackBuild':
+    'prefix': 'GetVersion::WindowsServicePackBuild'
+    'body': 'GetVersion::WindowsServicePackBuild'
+  'GetVersion::WindowsServicePackMajor':
+    'prefix': 'GetVersion::WindowsServicePackMajor'
+    'body': 'GetVersion::WindowsServicePackMajor'
+  'GetVersion::WindowsServicePackMinor':
+    'prefix': 'GetVersion::WindowsServicePackMinor'
+    'body': 'GetVersion::WindowsServicePackMinor'
+  'GetVersion::WindowsType':
+    'prefix': 'GetVersion::WindowsType'
+    'body': 'GetVersion::WindowsType'
+  'GetVersion::WindowsVersion':
+    'prefix': 'GetVersion::WindowsVersion'
+    'body': 'GetVersion::WindowsVersion'

@@ -1,0 +1,7 @@
+'.source.nsis':
+  'EnumCDs::next':
+    'prefix': 'EnumCDs::next'
+    'body': 'EnumCDs::next'
+  'EnumCDs::next /NOUNLOAD':
+    'prefix': 'EnumCDs::next /NOUNLOAD'
+    'body': 'EnumCDs::next /NOUNLOAD'

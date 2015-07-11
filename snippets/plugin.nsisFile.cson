@@ -1,0 +1,16 @@
+'.source.nsis':
+  'nsisFile::BinToHex':
+    'prefix': 'nsisFile::BinToHex'
+    'body': 'nsisFile::BinToHex "${1:string}"'
+  'nsisFile::FileFindBytes':
+    'prefix': 'nsisFile::FileFindBytes'
+    'body': 'nsisFile::FileFindBytes "${1:file_handle}" "${2:string}" "${3:length}"'
+  'nsisFile::FileReadBytes':
+    'prefix': 'nsisFile::FileReadBytes'
+    'body': 'nsisFile::FileReadBytes "${1:file_handle}" "${2:string}"'
+  'nsisFile::FileTruncate':
+    'prefix': 'nsisFile::FileTruncate'
+    'body': 'nsisFile::FileTruncate "${1:file_handle}"'
+  'nsisFile::HexToBin':
+    'prefix': 'nsisFile::HexToBin'
+    'body': 'nsisFile::HexToBin "${1:hex_string}"'

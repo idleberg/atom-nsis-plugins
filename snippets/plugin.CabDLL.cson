@@ -1,0 +1,10 @@
+'.source.nsis':
+  'CabDLL::CabExtractAll':
+    'prefix': 'CabDLL::CabExtractAll'
+    'body': 'CabExtractAll::CabView "${1:file}.cab" "${2:target}"'
+  'CabDLL::CabInfo':
+    'prefix': 'CabDLL::CabInfo'
+    'body': 'CabDLL::CabInfo "${1:file}.cab"'
+  'CabDLL::CabView':
+    'prefix': 'CabDLL::CabView'
+    'body': 'CabDLL::CabView "${1:file}.cab"'
