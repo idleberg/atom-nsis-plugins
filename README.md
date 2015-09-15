@@ -1,7 +1,8 @@
 # NSIS plug-ins for Atom
 
-[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/apm/v/nsis-plugins.svg?style=flat-square)](https://atom.io/packages/nsis-plugins)
+[![apm](https://img.shields.io/apm/l/nsis-plugins.svg?style=flat-square)](https://atom.io/package/nsis-plugins)
+[![apm](https://img.shields.io/apm/v/nsis-plugins.svg?style=flat-square)](https://atom.io/packages/nsis-plugins)
+[![apm](https://img.shields.io/apm/dm/nsis-plugins.svg?style=flat-square)](https://atom.io/packages/nsis-plugins)
 [![Travis](https://img.shields.io/travis/idleberg/atom-nsis-plugins.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-nsis-plugins)
 [![David](https://img.shields.io/david/dev/idleberg/atom-nsis-plugins.svg?style=flat-square)](https://david-dm.org/idleberg/atom-nsis-plugins#info=devDependencies)
 
@@ -184,7 +185,7 @@ Atom completions for NSIS plug-ins
 
 ## Installation
 
-Make sure you already got [language-nsis](https://atom.io/packages/language-nsis) installed before proceeding.
+Make sure you already got [language-nsis](https://atom.io/packages/atom-language-nsis) installed before proceeding.
 
 ### apm
 
