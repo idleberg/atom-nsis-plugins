@@ -194,7 +194,7 @@ Make sure you already got [language-nsis](https://atom.io/packages/atom-language
 ### GitHub
 
 1. Change directory to `~/.atom/packages/`
-2. Clone repository `git clone https://github.com/idleberg/atom-nsis-plugins.git`
+2. Clone repository `git clone https://github.com/idleberg/atom-nsis-plugins nsis-plugins`
 
 ## License
 
