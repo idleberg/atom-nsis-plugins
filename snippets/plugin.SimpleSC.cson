@@ -1,7 +1,7 @@
 '.source.nsis':
   'SimpleSC::ContinueService':
     'prefix': 'SimpleSC::ContinueService'
-    'body': 'SimpleSC::ContinueService ${1:name_of_service} ${1:timeout}'
+    'body': 'SimpleSC::ContinueService ${1:name_of_service} ${2:timeout}'
   'SimpleSC::ExistsService':
     'prefix': 'SimpleSC::ExistsService'
     'body': 'SimpleSC::ExistsService ${1:name_of_service}'
@@ -43,7 +43,7 @@
     'body': 'SimpleSC::InstallService ${1:name_of_service} ${2:display_name} ${3:service_type} ${4:start_type} ${5:binary_path} ${6:dependencies} ${7:account} ${8:password}'
   'SimpleSC::PauseService':
     'prefix': 'SimpleSC::PauseService'
-    'body': 'SimpleSC::PauseService ${1:name_of_service} ${1:timeout}'
+    'body': 'SimpleSC::PauseService ${1:name_of_service} ${2:timeout}'
   'SimpleSC::RemoveService':
     'prefix': 'SimpleSC::RemoveService'
     'body': 'SimpleSC::SimpleSC::RemoveService ${1:name_of_service}'
@@ -52,7 +52,7 @@
     'body': 'SimpleSC::RemoveServiceLogonPrivilege ${1:account}'
   'SimpleSC::RestartService':
     'prefix': 'SimpleSC::RestartService'
-    'body': 'SimpleSC::RestartService ${1:name_of_service} ${1:arguments} ${2:timeout}'
+    'body': 'SimpleSC::RestartService ${1:name_of_service} ${2:arguments} ${3:timeout}'
   'SimpleSC::ServiceIsPaused':
     'prefix': 'SimpleSC::ServiceIsPaused'
     'body': 'SimpleSC::ServiceIsPaused ${1:name_of_service}'
@@ -82,4 +82,4 @@
     'body': 'SimpleSC::SetServiceStartType ${1:name_of_service} ${2:start_type}'
   'SimpleSC::StopService':
     'prefix': 'SimpleSC::StopService'
-    'body': 'SimpleSC::StopService ${1:name_of_service} ${1:wait_for_file_release} ${2:timeout}'
+    'body': 'SimpleSC::StopService ${1:name_of_service} ${2:wait_for_file_release} ${3:timeout}'

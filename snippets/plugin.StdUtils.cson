@@ -1,7 +1,7 @@
 '.source.nsis':
   '${StdUtils.ExecShellAsUser}':
     'prefix': '${StdUtils.ExecShellAsUser}'
-    'body': '\${StdUtils.ExecShellAsUser} \$${1:output} "${2:file}" ${3:verb} "${2:args}"'
+    'body': '\${StdUtils.ExecShellAsUser} \$${1:output} "${2:file}" ${3:verb} "${4:args}"'
   '${StdUtils.ExecShellWaitEx}':
     'prefix': '${StdUtils.ExecShellWaitEx}'
     'body': '\${StdUtils.ExecShellWaitEx} \$${1:output1} \$${2:output2} "${3:file}" ${4:verb} "${5:args}"'

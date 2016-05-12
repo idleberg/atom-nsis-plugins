@@ -45,7 +45,7 @@
     'body': '!insertmacro UMUI_PAGE_ABORT'
   '!insertmacro UMUI_PAGE_ADDITIONALTASKS':
     'prefix': 'UMUI_PAGE_ADDITIONALTASKS'
-    'body': '!insertmacro UMUI_PAGE_ADDITIONALTASKS "${1:page_id}" "${1:function}"'
+    'body': '!insertmacro UMUI_PAGE_ADDITIONALTASKS "${1:page_id}" "${2:function}"'
   '!insertmacro UMUI_PAGE_ALTERNATIVESTARTMENU':
     'prefix': 'UMUI_PAGE_ALTERNATIVESTARTMENU'
     'body': '!insertmacro UMUI_PAGE_ALTERNATIVESTARTMENU "${1:page_id}" \$${2:var}'
@@ -102,7 +102,7 @@
     'body': '!insertmacro UMUI_UNPAGE_ABORT'
   '!insertmacro UMUI_UNPAGE_ADDITIONALTASKS':
     'prefix': 'UMUI_UNPAGE_ADDITIONALTASKS'
-    'body': '!insertmacro UMUI_UNPAGE_ADDITIONALTASKS "${1:page_id}" "${1:function}"'
+    'body': '!insertmacro UMUI_UNPAGE_ADDITIONALTASKS "${1:page_id}" "${2:function}"'
   '!insertmacro UMUI_UNPAGE_CONFIRM':
     'prefix': 'UMUI_UNPAGE_CONFIRM'
     'body': '!insertmacro UMUI_UNPAGE_CONFIRM'

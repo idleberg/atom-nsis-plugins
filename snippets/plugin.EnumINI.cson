@@ -1,7 +1,7 @@
 '.source.nsis':
   'EnumINI::KeyExist':
     'prefix': 'EnumINI::KeyExist'
-    'body': 'EnumINI::KeyExist "${1:file}.ini" "${2:section}" "${2:key}"'
+    'body': 'EnumINI::KeyExist "${1:file}.ini" "${2:section}" "${3:key}"'
   'EnumINI::Section':
     'prefix': 'EnumINI::Section'
     'body': 'EnumINI::Section "${1:file}.ini" "${2:section}"'

@@ -7,7 +7,7 @@
     'body': 'NSISDirEx::GetUncompressedSize /NOUNLOAD'
   'NSISDirEx::Init':
     'prefix': 'NSISDirEx::Init'
-    'body': 'NSISDirEx::Init /NOUNLOAD "${1:caption}" "${2:text}" "${3:directory}" "${2:required_space}"'
+    'body': 'NSISDirEx::Init /NOUNLOAD "${1:caption}" "${2:text}" "${3:directory}" "${4:required_space}"'
   'NSISDirEx::Install':
     'prefix': 'NSISDirEx::Install'
     'body': 'NSISDirEx::Install "${1:directory}"'
