@@ -1,7 +1,7 @@
 '.source.nsis':
   'BrandingURL::Set':
     'prefix': 'BrandingURL::Set'
-    'body': 'BrandingURL::Set /NOUNLOAD "${1:red}" "${2:green}" "${3:blue}" "${4:url}"'
+    'body': 'BrandingURL::Set /NOUNLOAD "${1:red}" "${2:green}" "${3:blue}" "${4:url}"$5'
   'BrandingURL::Unload':
     'prefix': 'BrandingURL::Unload'
-    'body': 'BrandingURL::Unload'
+    'body': 'BrandingURL::Unload$1'

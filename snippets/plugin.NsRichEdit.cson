@@ -1,10 +1,10 @@
 '.source.nsis':
   'nsRichEdit::AddPrintButton':
     'prefix': 'nsRichEdit::AddPrintButton'
-    'body': 'nsRichEdit::AddPrintButton "${1:button_text}" "${2:document_name}"'
+    'body': 'nsRichEdit::AddPrintButton "${1:button_text}" "${2:document_name}"$3'
   'nsRichEdit::Load':
     'prefix': 'nsRichEdit::Load'
-    'body': 'nsRichEdit::Load \$${1:hwnd} "${2:file_path}"'
+    'body': 'nsRichEdit::Load \$${1:hwnd} "${2:file_path}"$3'
   'nsRichEdit::Print':
     'prefix': 'nsRichEdit::Print'
-    'body': 'nsRichEdit::Print \$${1:hwnd} "${2:document_name}"'
+    'body': 'nsRichEdit::Print \$${1:hwnd} "${2:document_name}"$3'

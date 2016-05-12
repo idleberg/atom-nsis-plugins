@@ -1,4 +1,4 @@
 '.source.nsis':
   'titprog::Start':
     'prefix': 'titprog::Start'
-    'body': 'titprog::Start'
+    'body': 'titprog::Start$1'

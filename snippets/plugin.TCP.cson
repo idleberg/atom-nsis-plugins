@@ -1,4 +1,4 @@
 '.source.nsis':
   'TCP::CheckPort':
     'prefix': 'TCP::CheckPort'
-    'body': 'TCP::CheckPort ${1:port}'
+    'body': 'TCP::CheckPort ${1:port}$2'

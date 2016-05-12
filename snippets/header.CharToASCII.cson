@@ -1,4 +1,4 @@
 '.source.nsis':
   '${CharToASCII}':
     'prefix': 'CharToASCII'
-    'body': '\${CharToASCII} \$${1:result_var} "${2:character}"'
+    'body': '\${CharToASCII} \$${1:result_var} "${2:character}"$3'

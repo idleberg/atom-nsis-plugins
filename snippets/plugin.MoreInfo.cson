@@ -1,40 +1,40 @@
 '.source.nsis':
   'MoreInfo::GetComments':
     'prefix': 'MoreInfo::GetComments'
-    'body': 'MoreInfo::GetComments "${1:file}"'
+    'body': 'MoreInfo::GetComments "${1:file}"$2'
   'MoreInfo::GetCompanyName':
     'prefix': 'MoreInfo::GetCompanyName'
-    'body': 'MoreInfo::GetCompanyName "${1:file}"'
+    'body': 'MoreInfo::GetCompanyName "${1:file}"$2'
   'MoreInfo::GetFileDescription':
     'prefix': 'MoreInfo::GetFileDescription'
-    'body': 'MoreInfo::GetFileDescription "${1:file}"'
+    'body': 'MoreInfo::GetFileDescription "${1:file}"$2'
   'MoreInfo::GetFileVersion':
     'prefix': 'MoreInfo::GetFileVersion'
-    'body': 'MoreInfo::GetFileVersion "${1:file}"'
+    'body': 'MoreInfo::GetFileVersion "${1:file}"$2'
   'MoreInfo::GetLegalCopyright':
     'prefix': 'MoreInfo::GetLegalCopyright'
-    'body': 'MoreInfo::GetLegalCopyright "${1:file}"'
+    'body': 'MoreInfo::GetLegalCopyright "${1:file}"$2'
   'MoreInfo::GetLegalTrademarks':
     'prefix': 'MoreInfo::GetLegalTrademarks'
-    'body': 'MoreInfo::GetLegalTrademarks "${1:file}"'
+    'body': 'MoreInfo::GetLegalTrademarks "${1:file}"$2'
   'MoreInfo::GetOriginalFileName':
     'prefix': 'MoreInfo::GetOriginalFileName'
-    'body': 'MoreInfo::GetOriginalFileName "${1:file}"'
+    'body': 'MoreInfo::GetOriginalFileName "${1:file}"$2'
   'MoreInfo::GetOSUserinterfaceLanguage':
     'prefix': 'MoreInfo::GetOSUserinterfaceLanguage'
-    'body': 'MoreInfo::GetOSUserinterfaceLanguage'
+    'body': 'MoreInfo::GetOSUserinterfaceLanguage$1'
   'MoreInfo::GetPrivateBuild':
     'prefix': 'MoreInfo::GetPrivateBuild'
-    'body': 'MoreInfo::GetPrivateBuild "${1:file}"'
+    'body': 'MoreInfo::GetPrivateBuild "${1:file}"$2'
   'MoreInfo::GetProductName':
     'prefix': 'MoreInfo::GetProductName'
-    'body': 'MoreInfo::GetProductName "${1:file}"'
+    'body': 'MoreInfo::GetProductName "${1:file}"$2'
   'MoreInfo::GetProductVersion':
     'prefix': 'MoreInfo::GetProductVersion'
-    'body': 'MoreInfo::GetProductVersion "${1:file}"'
+    'body': 'MoreInfo::GetProductVersion "${1:file}"$2'
   'MoreInfo::GetSpecialBuild':
     'prefix': 'MoreInfo::GetSpecialBuild'
-    'body': 'MoreInfo::GetSpecialBuild "${1:file}"'
+    'body': 'MoreInfo::GetSpecialBuild "${1:file}"$2'
   'MoreInfo::GetUserDefined':
     'prefix': 'MoreInfo::GetUserDefined'
-    'body': 'MoreInfo::GetUserDefined "${1:file}" "${2:property}"'
+    'body': 'MoreInfo::GetUserDefined "${1:file}" "${2:property}"$3'

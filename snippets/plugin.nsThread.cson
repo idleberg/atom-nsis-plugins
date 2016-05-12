@@ -1,10 +1,10 @@
 '.source.nsis':
   '${Thread_Create}':
     'prefix': '${Thread_Create}'
-    'body': '\${Thread_Create} "${1:thread_proc}" \$${2:thread_id}'
+    'body': '\${Thread_Create} "${1:thread_proc}" \$${2:thread_id}$3'
   '${Thread_JoinFor}':
     'prefix': '${Thread_JoinFor}'
-    'body': '\${Thread_JoinFor} \$${1:thread_id} ${2:time_in_ms} \$${3:result}'
+    'body': '\${Thread_JoinFor} \$${1:thread_id} ${2:time_in_ms} \$${3:result}$4'
   '${Thread_Join}':
     'prefix': '${Thread_Join}'
-    'body': '\${Thread_Join} \$${1:thread_id}'
+    'body': '\${Thread_Join} \$${1:thread_id}$2'

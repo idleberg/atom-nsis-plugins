@@ -1,7 +1,7 @@
 '.source.nsis':
   'BDEAlias::AddAliasDebug':
     'prefix': 'BDEAlias::AddAliasDebug'
-    'body': 'BDEAlias::AddAliasDebug ${1:arguments}'
+    'body': 'BDEAlias::AddAliasDebug ${1:arguments}$2'
   'BDEAlias::DeleteAlias':
     'prefix': 'BDEAlias::DeleteAlias'
-    'body': 'BDEAlias::DeleteAlias'
+    'body': 'BDEAlias::DeleteAlias$1'

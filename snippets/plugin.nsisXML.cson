@@ -1,49 +1,49 @@
 '.source.nsis':
   'nsisXML::appendChild':
     'prefix': 'nsisXML::appendChild'
-    'body': 'nsisXML::appendChild'
+    'body': 'nsisXML::appendChild$1'
   'nsisXML::create':
     'prefix': 'nsisXML::create'
-    'body': 'nsisXML::create'
+    'body': 'nsisXML::create$1'
   'nsisXML::createElement':
     'prefix': 'nsisXML::createElement'
-    'body': 'nsisXML::createElement "${1:tag}"'
+    'body': 'nsisXML::createElement "${1:tag}"$2'
   'nsisXML::createProcessingInstruction':
     'prefix': 'nsisXML::createProcessingInstruction'
-    'body': 'nsisXML::createProcessingInstruction "${1:target}" "${2:data}"'
+    'body': 'nsisXML::createProcessingInstruction "${1:target}" "${2:data}"$3'
   'nsisXML::getAttribute':
     'prefix': 'nsisXML::getAttribute'
-    'body': 'nsisXML::getAttribute "${1:attributes}"'
+    'body': 'nsisXML::getAttribute "${1:attributes}"$2'
   'nsisXML::getText':
     'prefix': 'nsisXML::getText'
-    'body': 'nsisXML::getText'
+    'body': 'nsisXML::getText$1'
   'nsisXML::insertBefore':
     'prefix': 'nsisXML::insertBefore'
-    'body': 'nsisXML::insertBefore'
+    'body': 'nsisXML::insertBefore$1'
   'nsisXML::load':
     'prefix': 'nsisXML::load'
-    'body': 'nsisXML::load "${1:file}.xml"'
+    'body': 'nsisXML::load "${1:file}.xml"$2'
   'nsisXML::loadAndValidate':
     'prefix': 'nsisXML::loadAndValidate'
-    'body': 'nsisXML::loadAndValidate "${1:file}.xml"'
+    'body': 'nsisXML::loadAndValidate "${1:file}.xml"$2'
   'nsisXML::parentNode':
     'prefix': 'nsisXML::parentNode'
-    'body': 'nsisXML::parentNode'
+    'body': 'nsisXML::parentNode$1'
   'nsisXML::release':
     'prefix': 'nsisXML::release'
-    'body': 'nsisXML::release "${1:node_reference}"'
+    'body': 'nsisXML::release "${1:node_reference}"$2'
   'nsisXML::removeChild':
     'prefix': 'nsisXML::removeChild'
-    'body': 'nsisXML::removeChild'
+    'body': 'nsisXML::removeChild$1'
   'nsisXML::save':
     'prefix': 'nsisXML::save'
-    'body': 'nsisXML::save "${1:file}.xml"'
+    'body': 'nsisXML::save "${1:file}.xml"$2'
   'nsisXML::select':
     'prefix': 'nsisXML::select'
-    'body': 'nsisXML::select "${1:xpath_expression}"'
+    'body': 'nsisXML::select "${1:xpath_expression}"$2'
   'nsisXML::setAttribute':
     'prefix': 'nsisXML::setAttribute'
-    'body': 'nsisXML::setAttribute "${1:attributes}" "${2:value}"'
+    'body': 'nsisXML::setAttribute "${1:attributes}" "${2:value}"$3'
   'nsisXML::setText':
     'prefix': 'nsisXML::setText'
-    'body': 'nsisXML::setText "${1:text}"'
+    'body': 'nsisXML::setText "${1:text}"$2'

@@ -1,4 +1,4 @@
 '.source.nsis':
   'IP::get_ip':
     'prefix': 'IP::get_ip'
-    'body': 'IP::get_ip'
+    'body': 'IP::get_ip$1'

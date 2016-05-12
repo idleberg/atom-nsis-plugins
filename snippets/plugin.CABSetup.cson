@@ -1,7 +1,7 @@
 '.source.nsis':
   'CABSetup::DataSetSize':
     'prefix': 'CABSetup::DataSetSize'
-    'body': 'CABSetup::DataSetSize "/REPORTFILE=${1:file}.rpt" |'
+    'body': 'CABSetup::DataSetSize "/REPORTFILE=${1:file}.rpt" |$2'
   'CABSetup::Extract':
     'prefix': 'CABSetup::Extract'
-    'body': 'CABSetup::Extract "/SOURCE=${1:file}.cab" "/TARGET=${2:target}" ${3:options} |'
+    'body': 'CABSetup::Extract "/SOURCE=${1:file}.cab" "/TARGET=${2:target}" ${3:options} |$4'

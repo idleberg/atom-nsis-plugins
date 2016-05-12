@@ -1,10 +1,10 @@
 '.source.nsis':
   'ExDlg::create_dlg':
     'prefix': 'ExDlg::create_dlg'
-    'body': 'ExDlg::create_dlg "${1:dialog_id}" "${2:file}.res"'
+    'body': 'ExDlg::create_dlg "${1:dialog_id}" "${2:file}.res"$3'
   'ExDlg::dealloc':
     'prefix': 'ExDlg::dealloc'
-    'body': 'ExDlg::dealloc \$${2:handle}'
+    'body': 'ExDlg::dealloc \$${2:handle}$3'
   'ExDlg::push_windowtext':
     'prefix': 'ExDlg::push_windowtext'
-    'body': 'ExDlg::push_windowtext "${1:control_id}" \$"${2:handle}"'
+    'body': 'ExDlg::push_windowtext "${1:control_id}" \$"${2:handle}"$3'

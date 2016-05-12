@@ -1,10 +1,10 @@
 '.source.nsis':
   'EmbeddedLists::Dialog':
     'prefix': 'EmbeddedLists::Dialog'
-    'body': 'EmbeddedLists::Dialog "${1:file}.ini"'
+    'body': 'EmbeddedLists::Dialog "${1:file}.ini"$2'
   'EmbeddedLists::InitDialog':
     'prefix': 'EmbeddedLists::InitDialog'
-    'body': 'EmbeddedLists::InitDialog "${1:file}.ini"'
+    'body': 'EmbeddedLists::InitDialog "${1:file}.ini"$2'
   'EmbeddedLists::Show':
     'prefix': 'EmbeddedLists::Show'
-    'body': 'EmbeddedLists::Show'
+    'body': 'EmbeddedLists::Show$1'

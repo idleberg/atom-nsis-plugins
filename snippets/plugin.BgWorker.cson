@@ -1,4 +1,4 @@
 '.source.nsis':
   'BgWorker::CallAndWait':
-    'prefix': 'BgWorker::CallAndWait'
-    'body': 'BgWorker::CallAndWait'
+    'prefix': 'BgWorker::CallAndWait$1'
+    'body': 'BgWorker::CallAndWait$1'

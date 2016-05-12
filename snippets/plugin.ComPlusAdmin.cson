@@ -1,28 +1,28 @@
 '.source.nsis':
   'ComPlusAdmin::CreateApplication':
     'prefix': 'ComPlusAdmin::CreateApplication'
-    'body': 'ComPlusAdmin::CreateApplication "${1:application_name}" ${2:timeout}'
+    'body': 'ComPlusAdmin::CreateApplication "${1:application_name}" ${2:timeout}$3'
   'ComPlusAdmin::DeleteApplication':
     'prefix': 'ComPlusAdmin::DeleteApplication'
-    'body': 'ComPlusAdmin::DeleteApplication "${1:application_name}"'
+    'body': 'ComPlusAdmin::DeleteApplication "${1:application_name}"$2'
   'ComPlusAdmin::GetApplicationProperty':
     'prefix': 'ComPlusAdmin::GetApplicationProperty'
-    'body': 'ComPlusAdmin::GetApplicationProperty "${1:application_name}" "${2:property}"'
+    'body': 'ComPlusAdmin::GetApplicationProperty "${1:application_name}" "${2:property}"$3'
   'ComPlusAdmin::InstallComponent':
     'prefix': 'ComPlusAdmin::InstallComponent'
-    'body': 'ComPlusAdmin::InstallComponent "${1:application_name}" "${2:application_path}.dll"'
+    'body': 'ComPlusAdmin::InstallComponent "${1:application_name}" "${2:application_path}.dll"$3'
   'ComPlusAdmin::IsApplicationPresent':
     'prefix': 'ComPlusAdmin::IsApplicationPresent'
-    'body': 'ComPlusAdmin::IsApplicationPresent "${1:application_name}"'
+    'body': 'ComPlusAdmin::IsApplicationPresent "${1:application_name}"$2'
   'ComPlusAdmin::IsComponentPresent':
     'prefix': 'ComPlusAdmin::IsComponentPresent'
-    'body': 'ComPlusAdmin::IsComponentPresent "${1:application_name}" "${2:file}.dll"'
+    'body': 'ComPlusAdmin::IsComponentPresent "${1:application_name}" "${2:file}.dll"$3'
   'ComPlusAdmin::RemoveComponent':
     'prefix': 'ComPlusAdmin::RemoveComponent'
-    'body': 'ComPlusAdmin::RemoveComponent "${1:application_name}" "${2:file}.dll"'
+    'body': 'ComPlusAdmin::RemoveComponent "${1:application_name}" "${2:file}.dll"$3'
   'ComPlusAdmin::SetApplicationProperty':
     'prefix': 'ComPlusAdmin::SetApplicationProperty'
-    'body': 'ComPlusAdmin::SetApplicationProperty "${1:application_name}" "${2:property}"'
+    'body': 'ComPlusAdmin::SetApplicationProperty "${1:application_name}" "${2:property}"$3'
   'ComPlusAdmin::SetUserNameAndPassword':
     'prefix': 'ComPlusAdmin::SetUserNameAndPassword'
-    'body': 'ComPlusAdmin::SetUserNameAndPassword "${1:application_name}" "${2:password}" "${3:user_name}"'
+    'body': 'ComPlusAdmin::SetUserNameAndPassword "${1:application_name}" "${2:password}" "${3:user_name}"$4'

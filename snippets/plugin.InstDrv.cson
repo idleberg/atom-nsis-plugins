@@ -1,49 +1,49 @@
 '.source.nsis':
   'InstDrv::CountDevices':
     'prefix': 'InstDrv::CountDevices'
-    'body': 'InstDrv::CountDevices'
+    'body': 'InstDrv::CountDevices$1'
   'InstDrv::CountDevices /NOUNLOAD':
     'prefix': 'InstDrv::CountDevices /NOUNLOAD'
-    'body': 'InstDrv::CountDevices /NOUNLOAD'
+    'body': 'InstDrv::CountDevices /NOUNLOAD$1'
   'InstDrv::CreateDevice':
     'prefix': 'InstDrv::CreateDevice'
-    'body': 'InstDrv::CreateDevice'
+    'body': 'InstDrv::CreateDevice$1'
   'InstDrv::CreateDevice /NOUNLOAD':
     'prefix': 'InstDrv::CreateDevice /NOUNLOAD'
-    'body': 'InstDrv::CreateDevice /NOUNLOAD'
+    'body': 'InstDrv::CreateDevice /NOUNLOAD$1'
   'InstDrv::DeleteOemInfFiles':
     'prefix': 'InstDrv::DeleteOemInfFiles'
-    'body': 'InstDrv::DeleteOemInfFiles'
+    'body': 'InstDrv::DeleteOemInfFiles$1'
   'InstDrv::DeleteOemInfFiles /NOUNLOAD':
     'prefix': 'InstDrv::DeleteOemInfFiles /NOUNLOAD'
-    'body': 'InstDrv::DeleteOemInfFiles /NOUNLOAD'
+    'body': 'InstDrv::DeleteOemInfFiles /NOUNLOAD$1'
   'InstDrv::InitDriverSetup':
     'prefix': 'InstDrv::InitDriverSetup'
-    'body': 'InstDrv::InitDriverSetup "${1:devClass}" "${2:drvHWID}"'
+    'body': 'InstDrv::InitDriverSetup "${1:devClass}" "${2:drvHWID}"$3'
   'InstDrv::InitDriverSetup /NOUNLOAD':
     'prefix': 'InstDrv::InitDriverSetup /NOUNLOAD'
-    'body': 'InstDrv::InitDriverSetup /NOUNLOAD "${1:devClass}" "${2:drvHWID}"'
+    'body': 'InstDrv::InitDriverSetup /NOUNLOAD "${1:devClass}" "${2:drvHWID}"$3'
   'InstDrv::InstallDriver':
     'prefix': 'InstDrv::InstallDriver'
-    'body': 'InstDrv::InstallDriver "${1:infPath}"'
+    'body': 'InstDrv::InstallDriver "${1:infPath}"$2'
   'InstDrv::InstallDriver /NOUNLOAD':
     'prefix': 'InstDrv::InstallDriver /NOUNLOAD'
-    'body': 'InstDrv::InstallDriver /NOUNLOAD "${1:infPath}"'
+    'body': 'InstDrv::InstallDriver /NOUNLOAD "${1:infPath}"$2'
   'InstDrv::RemoveAllDevices':
     'prefix': 'InstDrv::RemoveAllDevices'
-    'body': 'InstDrv::RemoveAllDevices'
+    'body': 'InstDrv::RemoveAllDevices$1'
   'InstDrv::RemoveAllDevices /NOUNLOAD':
     'prefix': 'InstDrv::RemoveAllDevices /NOUNLOAD'
-    'body': 'InstDrv::RemoveAllDevices /NOUNLOAD'
+    'body': 'InstDrv::RemoveAllDevices /NOUNLOAD$1'
   'InstDrv::StartSystemService':
     'prefix': 'InstDrv::StartSystemService'
-    'body': 'InstDrv::StartSystemService "${1:serviceName}"'
+    'body': 'InstDrv::StartSystemService "${1:serviceName}"$2'
   'InstDrv::StartSystemService /NOUNLOAD':
     'prefix': 'InstDrv::StartSystemService /NOUNLOAD'
-    'body': 'InstDrv::StartSystemService /NOUNLOAD "${1:serviceName}"'
+    'body': 'InstDrv::StartSystemService /NOUNLOAD "${1:serviceName}"$2'
   'InstDrv::StopSystemService':
     'prefix': 'InstDrv::StopSystemService'
-    'body': 'InstDrv::StopSystemService "${1:serviceName}"'
+    'body': 'InstDrv::StopSystemService "${1:serviceName}"$2'
   'InstDrv::StopSystemService /NOUNLOAD':
     'prefix': 'InstDrv::StopSystemService /NOUNLOAD'
-    'body': 'InstDrv::StopSystemService /NOUNLOAD "${1:serviceName}"'
+    'body': 'InstDrv::StopSystemService /NOUNLOAD "${1:serviceName}"$2'

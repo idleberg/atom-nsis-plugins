@@ -1,64 +1,64 @@
 '.source.nsis':
   '${Registry::Close}':
     'prefix': '${Registry::Close}'
-    'body': '\${Registry::Close} "${1:handle}"'
+    'body': '\${Registry::Close} "${1:handle}"$2'
   '${Registry::CopyKey}':
     'prefix': '${Registry::CopyKey}'
-    'body': '\${Registry::CopyKey} "${1:full_path_source}" "${2:full_path_target\new_key_name}" \$${3:var}'
+    'body': '\${Registry::CopyKey} "${1:full_path_source}" "${2:full_path_target\new_key_name}" \$${3:var}$4'
   '${Registry::CopyValue}':
     'prefix': '${Registry::CopyValue}'
-    'body': '\${Registry::CopyValue} "${1:full_path_source}" "${2:value_source}" "${3:full_path_target}" "${4:value_source}" \$${5:var}'
+    'body': '\${Registry::CopyValue} "${1:full_path_source}" "${2:value_source}" "${3:full_path_target}" "${4:value_source}" \$${5:var}$6'
   '${Registry::CreateKey}':
     'prefix': '${Registry::CreateKey}'
-    'body': '\${Registry::CreateKey} "${1:full_path}" \$${2:var}'
+    'body': '\${Registry::CreateKey} "${1:full_path}" \$${2:var}$3'
   '${Registry::DeleteKeyEmpty}':
     'prefix': '${Registry::DeleteKeyEmpty}'
-    'body': '\${Registry::DeleteKeyEmpty} "${1:full_path}" \$${2:var}'
+    'body': '\${Registry::DeleteKeyEmpty} "${1:full_path}" \$${2:var}$3'
   '${Registry::DeleteKey}':
     'prefix': '${Registry::DeleteKey}'
-    'body': '\${Registry::DeleteKey} "${1:full_path}" \$${2:var}'
+    'body': '\${Registry::DeleteKey} "${1:full_path}" \$${2:var}$3'
   '${Registry::DeleteValue}':
     'prefix': '${Registry::DeleteValue}'
-    'body': '\${Registry::DeleteValue} "${1:full_path}" "${2:value}" \$${3:var}'
+    'body': '\${Registry::DeleteValue} "${1:full_path}" "${2:value}" \$${3:var}$4'
   '${Registry::Find}':
     'prefix': '${Registry::Find}'
-    'body': '\${Registry::Find} "${1:handle}" "${2:options}" \$${3:path} \$${4:value_or_key} \$${5:string} \$${6:type}'
+    'body': '\${Registry::Find} "${1:handle}" "${2:options}" \$${3:path} \$${4:value_or_key} \$${5:string} \$${6:type}$7'
   '${Registry::HexToStr}':
     'prefix': '${Registry::HexToStr}'
-    'body': '\${Registry::HexToStr} "${1:string}" \$${2:var}'
+    'body': '\${Registry::HexToStr} "${1:string}" \$${2:var}$4'
   '${Registry::KeyExists}':
     'prefix': '${Registry::KeyExists}'
-    'body': '\${Registry::KeyExists} "${1:full_path}" \$${2:var}'
+    'body': '\${Registry::KeyExists} "${1:full_path}" \$${2:var}$3'
   '${Registry::MoveKey}':
     'prefix': '${Registry::MoveKey}'
-    'body': '\${Registry::MoveKey} "${1:full_path_source}" "${2:full_path_target\new_key_name}" \$${3:var}'
+    'body': '\${Registry::MoveKey} "${1:full_path_source}" "${2:full_path_target\new_key_name}" \$${3:var}$4'
   '${Registry::MoveValue}':
     'prefix': '${Registry::MoveValue}'
-    'body': '\${Registry::MoveValue} "${1:full_path_source}" "${2:value_source}" "${3:full_path_target}" "${4:value_source}" \$${5:var}'
+    'body': '\${Registry::MoveValue} "${1:full_path_source}" "${2:value_source}" "${3:full_path_target}" "${4:value_source}" \$${5:var}$6'
   '${Registry::Open}':
     'prefix': '${Registry::Open}'
-    'body': '\${Registry::Open} "${1:full_path}" "${2:options}" \$${3:var}'
+    'body': '\${Registry::Open} "${1:full_path}" "${2:options}" \$${3:var}$4'
   '${Registry::ReadExtra}':
     'prefix': '${Registry::ReadExtra}'
-    'body': '\${Registry::ReadExtra} "${1:full_path}" "${2:value}" "${3:number}" \$${4:value_read} \$${5:type_read}'
+    'body': '\${Registry::ReadExtra} "${1:full_path}" "${2:value}" "${3:number}" \$${4:value_read} \$${5:type_read}$6'
   '${Registry::Read}':
     'prefix': '${Registry::Read}'
-    'body': '\${Registry::Read} "${1:full_path}" "${2:value}" \$${3:value_read} \$${4:type_read}'
+    'body': '\${Registry::Read} "${1:full_path}" "${2:value}" \$${3:value_read} \$${4:type_read}$5'
   '${Registry::RestoreKey}':
     'prefix': '${Registry::RestoreKey}'
-    'body': '\${Registry::RestoreKey} "${1:file}" \$${2:var}'
+    'body': '\${Registry::RestoreKey} "${1:file}" \$${2:var}$3'
   '${Registry::SaveKey}':
     'prefix': '${Registry::SaveKey}'
-    'body': '\${Registry::SaveKey} "${1:full_path}" "${2:file}" "${3:options}" \$${4:var}'
+    'body': '\${Registry::SaveKey} "${1:full_path}" "${2:file}" "${3:options}" \$${4:var}$5'
   '${Registry::StrToHex}':
     'prefix': '${Registry::StrToHex}'
-    'body': '\${Registry::StrToHex} "${1:string}" \$${2:var}'
+    'body': '\${Registry::StrToHex} "${1:string}" \$${2:var}$3'
   '${Registry::Unload}':
     'prefix': '${Registry::Unload}'
-    'body': '\${Registry::Unload}'
+    'body': '\${Registry::Unload}$1'
   '${Registry::WriteExtra}':
     'prefix': '${Registry::WriteExtra}'
-    'body': '\${Registry::WriteExtra} "${1:full_path}" "${2:value}" "${3:string}" \$${4:var}'
+    'body': '\${Registry::WriteExtra} "${1:full_path}" "${2:value}" "${3:string}" \$${4:var}$5'
   '${Registry::Write}':
     'prefix': '${Registry::Write}'
-    'body': '\${Registry::Write} "${1:full_path}" "${2:value}" "${3:string}" "${4:type}" \$${5:var}'
+    'body': '\${Registry::Write} "${1:full_path}" "${2:value}" "${3:string}" "${4:type}" \$${5:var}$6'

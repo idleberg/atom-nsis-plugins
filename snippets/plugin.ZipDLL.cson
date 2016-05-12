@@ -1,7 +1,7 @@
 '.source.nsis':
   'ZipDLL::extractall':
     'prefix': 'ZipDLL::extractall'
-    'body': 'ZipDLL::extractall "${1:SOURCE}" "${2:DESTINATION}"'
+    'body': 'ZipDLL::extractall "${1:SOURCE}" "${2:DESTINATION}"$3'
   'ZipDLL::extractfile':
     'prefix': 'ZipDLL::extractfile'
-    'body': 'ZipDLL::extractfile "${1:SOURCE}" "${2:DESTINATION}" "${3:FILE}"'
+    'body': 'ZipDLL::extractfile "${1:SOURCE}" "${2:DESTINATION}" "${3:FILE}"$4'

@@ -1,4 +1,4 @@
 '.source.nsis':
   'PixelShader::GetPixelShaderVersion':
     'prefix': 'PixelShader::GetPixelShaderVersion'
-    'body': 'PixelShader::GetPixelShaderVersion'
+    'body': 'PixelShader::GetPixelShaderVersion$1'

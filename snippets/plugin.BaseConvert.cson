@@ -1,4 +1,4 @@
 '.source.nsis':
   'BaseConvert::Convert':
     'prefix': 'BaseConvert::Convert'
-    'body': 'BaseConvert::Convert ${1:base_in} ${2:base_out} "${3:string}"'
+    'body': 'BaseConvert::Convert ${1:base_in} ${2:base_out} "${3:string}"$4'

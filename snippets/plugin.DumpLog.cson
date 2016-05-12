@@ -1,4 +1,4 @@
 '.source.nsis':
   'DumpLog::DumpLog':
     'prefix': 'DumpLog::DumpLog'
-    'body': 'DumpLog::DumpLog "${1:log_file}.txt" .${2:r0}'
+    'body': 'DumpLog::DumpLog "${1:log_file}.txt" .${2:r0}$3'

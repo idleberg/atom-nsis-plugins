@@ -1,52 +1,52 @@
 '.source.nsis':
   'ShellLink::GetShortCutArgs':
     'prefix': 'ShellLink::GetShortCutArgs'
-    'body': 'ShellLink::GetShortCutArgs "${1:shortcut}.lnk"'
+    'body': 'ShellLink::GetShortCutArgs "${1:shortcut}.lnk"$2'
   'ShellLink::GetShortCutDescription':
     'prefix': 'ShellLink::GetShortCutDescription'
-    'body': 'ShellLink::GetShortCutDescription "${1:shortcut}.lnk"'
+    'body': 'ShellLink::GetShortCutDescription "${1:shortcut}.lnk"$2'
   'ShellLink::GetShortCutHotkey':
     'prefix': 'ShellLink::GetShortCutHotkey'
-    'body': 'ShellLink::GetShortCutHotkey "${1:shortcut}.lnk"'
+    'body': 'ShellLink::GetShortCutHotkey "${1:shortcut}.lnk"$2'
   'ShellLink::GetShortCutIconIndex':
     'prefix': 'ShellLink::GetShortCutIconIndex'
-    'body': 'ShellLink::GetShortCutIconIndex "${1:shortcut}.lnk"'
+    'body': 'ShellLink::GetShortCutIconIndex "${1:shortcut}.lnk"$2'
   'ShellLink::GetShortCutIconLocation':
     'prefix': 'ShellLink::GetShortCutIconLocation'
-    'body': 'ShellLink::GetShortCutIconLocation "${1:shortcut}.lnk"'
+    'body': 'ShellLink::GetShortCutIconLocation "${1:shortcut}.lnk"$2'
   'ShellLink::GetShortCutShowMode':
     'prefix': 'ShellLink::GetShortCutShowMode'
-    'body': 'ShellLink::GetShortCutShowMode "${1:shortcut}.lnk"'
+    'body': 'ShellLink::GetShortCutShowMode "${1:shortcut}.lnk"$2'
   'ShellLink::GetShortCutTarget':
     'prefix': 'ShellLink::GetShortCutTarget'
-    'body': 'ShellLink::GetShortCutTarget "${1:shortcut}.lnk"'
+    'body': 'ShellLink::GetShortCutTarget "${1:shortcut}.lnk"$2'
   'ShellLink::GetShortCutWorkingDirectory':
     'prefix': 'ShellLink::GetShortCutWorkingDirectory'
-    'body': 'ShellLink::GetShortCutWorkingDirectory "${1:shortcut}.lnk"'
+    'body': 'ShellLink::GetShortCutWorkingDirectory "${1:shortcut}.lnk"$2'
   'ShellLink::SetRunAsAdministrator':
     'prefix': 'ShellLink::SetRunAsAdministrator'
-    'body': 'ShellLink::SetRunAsAdministrator "${1:shortcut}.lnk"'
+    'body': 'ShellLink::SetRunAsAdministrator "${1:shortcut}.lnk"$2'
   'ShellLink::SetShortCutArgs':
     'prefix': 'ShellLink::SetShortCutArgs'
-    'body': 'ShellLink::SetShortCutArgs "${1:shortcut}.lnk" "${2:parameters}"'
+    'body': 'ShellLink::SetShortCutArgs "${1:shortcut}.lnk" "${2:parameters}"$3'
   'ShellLink::SetShortCutDescription':
     'prefix': 'ShellLink::SetShortCutDescription'
-    'body': 'ShellLink::SetShortCutDescription "${1:shortcut}.lnk" "${2:description}"'
+    'body': 'ShellLink::SetShortCutDescription "${1:shortcut}.lnk" "${2:description}"$3'
   'ShellLink::SetShortCutHotkey':
     'prefix': 'ShellLink::SetShortCutHotkey'
-    'body': 'ShellLink::SetShortCutHotkey "${1:shortcut}.lnk" "${2:keyboard_shortcut}"'
+    'body': 'ShellLink::SetShortCutHotkey "${1:shortcut}.lnk" "${2:keyboard_shortcut}"$3'
   'ShellLink::SetShortCutIconIndex':
     'prefix': 'ShellLink::SetShortCutIconIndex'
-    'body': 'ShellLink::SetShortCutIconIndex "${1:shortcut}.lnk" ${2:icon_index}'
+    'body': 'ShellLink::SetShortCutIconIndex "${1:shortcut}.lnk" ${2:icon_index}$3'
   'ShellLink::SetShortCutIconLocation':
     'prefix': 'ShellLink::SetShortCutIconLocation'
-    'body': 'ShellLink::SetShortCutIconLocation "${1:shortcut}.lnk" "${2:icon}.ico"'
+    'body': 'ShellLink::SetShortCutIconLocation "${1:shortcut}.lnk" "${2:icon}.ico"$3'
   'ShellLink::SetShortCutShowMode':
     'prefix': 'ShellLink::SetShortCutShowMode'
-    'body': 'ShellLink::SetShortCutShowMode "${1:shortcut}.lnk" "${2:start_options}"'
+    'body': 'ShellLink::SetShortCutShowMode "${1:shortcut}.lnk" "${2:start_options}"$3'
   'ShellLink::SetShortCutTarget':
     'prefix': 'ShellLink::SetShortCutTarget'
-    'body': 'ShellLink::SetShortCutTarget "${1:shortcut}.lnk" "${2:target_file}"'
+    'body': 'ShellLink::SetShortCutTarget "${1:shortcut}.lnk" "${2:target_file}"$3'
   'ShellLink::SetShortCutWorkingDirectory':
     'prefix': 'ShellLink::SetShortCutWorkingDirectory'
-    'body': 'ShellLink::SetShortCutWorkingDirectory "${1:shortcut}.lnk" "${2:directory}"'
+    'body': 'ShellLink::SetShortCutWorkingDirectory "${1:shortcut}.lnk" "${2:directory}"$3'

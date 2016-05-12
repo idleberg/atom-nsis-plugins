@@ -1,13 +1,13 @@
 '.source.nsis':
   'SysRestore::FinishRestorePoint':
     'prefix': 'SysRestore::FinishRestorePoint'
-    'body': 'SysRestore::FinishRestorePoint'
+    'body': 'SysRestore::FinishRestorePoint$1'
   'SysRestore::RemoveRestorePoint':
     'prefix': 'SysRestore::RemoveRestorePoint'
-    'body': 'SysRestore::RemoveRestorePoint'
+    'body': 'SysRestore::RemoveRestorePoint$1'
   'SysRestore::StartInstallPoint':
     'prefix': 'SysRestore::StartInstallPoint'
-    'body': 'SysRestore::StartInstallPoint "${1:text}"'
+    'body': 'SysRestore::StartInstallPoint "${1:text}"$2'
   'SysRestore::StartUninstallPoint':
     'prefix': 'SysRestore::StartUninstallPoint'
-    'body': 'SysRestore::StartUninstallPoint "${1:text}"'
+    'body': 'SysRestore::StartUninstallPoint "${1:text}"$2'

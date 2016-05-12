@@ -1,28 +1,28 @@
 '.source.nsis':
   '${CPUFeatures.CheckFeature}':
     'prefix': '${CPUFeatures.CheckFeature}'
-    'body': '\${CPUFeatures.CheckFeature} "${1:feature(s)}" \$${2:out_var}'
+    'body': '\${CPUFeatures.CheckFeature} "${1:feature(s)}" \$${2:out_var}$3'
   '${CPUFeatures.CPUIsAMD}':
     'prefix': '${CPUFeatures.CPUIsAMD}'
-    'body': '\${CPUFeatures.CPUIsAMD}'
+    'body': '\${CPUFeatures.CPUIsAMD}$1'
   '${CPUFeatures.CPUIsIntel}':
     'prefix': '${CPUFeatures.CPUIsIntel}'
-    'body': '\${CPUFeatures.CPUIsIntel}'
+    'body': '\${CPUFeatures.CPUIsIntel}$1'
   '${CPUFeatures.CPUSupportsAll}':
     'prefix': '${CPUFeatures.CPUSupportsAll}'
-    'body': '\${CPUFeatures.CPUSupportsAll}'
+    'body': '\${CPUFeatures.CPUSupportsAll}$1'
   '${CPUFeatures.CPUSupports}':
     'prefix': '${CPUFeatures.CPUSupports}'
-    'body': '\${CPUFeatures.CPUSupports}'
+    'body': '\${CPUFeatures.CPUSupports}$1'
   '${CPUFeatures.GetCount}':
     'prefix': '${CPUFeatures.GetCount}'
-    'body': '\${CPUFeatures.GetCount} \$${1:out_var}'
+    'body': '\${CPUFeatures.GetCount} \$${1:out_var}$2'
   '${CPUFeatures.GetFeatures}':
     'prefix': '${CPUFeatures.GetFeatures}'
-    'body': '\${CPUFeatures.GetFeatures} \$${1:out_var}'
+    'body': '\${CPUFeatures.GetFeatures} \$${1:out_var}$2'
   '${CPUFeatures.GetFlags}':
     'prefix': '${CPUFeatures.GetFlags}'
-    'body': '\${CPUFeatures.GetFlags} \$${1:out_var}'
+    'body': '\${CPUFeatures.GetFlags} \$${1:out_var}$2'
   '${CPUFeatures.GetVendor}':
     'prefix': '${CPUFeatures.GetVendor}'
-    'body': '\${CPUFeatures.GetVendor} \$${1:out_var}'
+    'body': '\${CPUFeatures.GetVendor} \$${1:out_var}$2'

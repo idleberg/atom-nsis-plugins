@@ -1,4 +1,4 @@
 '.source.nsis':
   'Dumpstate::debug':
     'prefix': 'Dumpstate::debug'
-    'body': 'Dumpstate::debug'
+    'body': 'Dumpstate::debug$1'

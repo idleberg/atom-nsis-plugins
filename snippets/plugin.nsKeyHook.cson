@@ -1,52 +1,52 @@
 '.source.nsis':
   '${ANY_ALT}':
     'prefix': '${ANY_ALT}'
-    'body': '\${ANY_ALT}'
+    'body': '\${ANY_ALT}$1'
   '${ANY_CTRL}':
     'prefix': '${ANY_CTRL}'
-    'body': '\${ANY_CTRL}'
+    'body': '\${ANY_CTRL}$1'
   '${ANY_SHIFT}':
     'prefix': '${ANY_SHIFT}'
-    'body': '\${ANY_SHIFT}'
+    'body': '\${ANY_SHIFT}$1'
   '${LEFT_ALT}':
     'prefix': '${LEFT_ALT}'
-    'body': '\${LEFT_ALT}'
+    'body': '\${LEFT_ALT}$1'
   '${LEFT_CTRL}':
     'prefix': '${LEFT_CTRL}'
-    'body': '\${LEFT_CTRL}'
+    'body': '\${LEFT_CTRL}$1'
   '${LEFT_SHIFT}':
     'prefix': '${LEFT_SHIFT}'
-    'body': '\${LEFT_SHIFT}'
+    'body': '\${LEFT_SHIFT}$1'
   '${NSKH_OnChar}':
     'prefix': '${NSKH_OnChar}'
-    'body': '\${NSKH_OnChar} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"'
+    'body': '\${NSKH_OnChar} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"$5'
   '${NSKH_OnKeyDown}':
     'prefix': '${NSKH_OnKeyDown}'
-    'body': '\${NSKH_OnKeyDown} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"'
+    'body': '\${NSKH_OnKeyDown} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"$5'
   '${NSKH_OnKeyUp}':
     'prefix': '${NSKH_OnKeyUp}'
-    'body': '\${NSKH_OnKeyUp} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"'
+    'body': '\${NSKH_OnKeyUp} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"$5'
   '${NSKH_OnPaste}':
     'prefix': '${NSKH_OnPaste}'
-    'body': '\${NSKH_OnPaste} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"'
+    'body': '\${NSKH_OnPaste} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"$5'
   '${NSKH_OnPostChar}':
     'prefix': '${NSKH_OnPostChar}'
-    'body': '\${NSKH_OnPostChar} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"'
+    'body': '\${NSKH_OnPostChar} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"$5'
   '${NSKH_OnPostKeyDown}':
     'prefix': '${NSKH_OnPostKeyDown}'
-    'body': '\${NSKH_OnPostKeyDown} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"'
+    'body': '\${NSKH_OnPostKeyDown} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"$5'
   '${NSKH_OnPostKeyUp}':
     'prefix': '${NSKH_OnPostKeyUp}'
-    'body': '\${NSKH_OnPostKeyUp} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"'
+    'body': '\${NSKH_OnPostKeyUp} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"$5'
   '${NSKH_OnPostPaste}':
     'prefix': '${NSKH_OnPostPaste}'
-    'body': '\${NSKH_OnPostPaste} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"'
+    'body': '\${NSKH_OnPostPaste} \$${1:control_handle} "${2:key}" "${3:modifiers}" "${4:function}"$5'
   '${RIGHT_ALT}':
     'prefix': '${RIGHT_ALT}'
-    'body': '\${RIGHT_ALT}'
+    'body': '\${RIGHT_ALT}$1'
   '${RIGHT_CTRL}':
     'prefix': '${RIGHT_CTRL}'
-    'body': '\${RIGHT_CTRL}'
+    'body': '\${RIGHT_CTRL}$1'
   '${RIGHT_SHIFT}':
     'prefix': '${RIGHT_SHIFT}'
-    'body': '\${RIGHT_SHIFT}'
+    'body': '\${RIGHT_SHIFT}$1'

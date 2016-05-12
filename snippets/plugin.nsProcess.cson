@@ -1,10 +1,10 @@
 '.source.nsis':
   '${nsProcess::FindProcess}':
     'prefix': '${nsProcess::FindProcess}'
-    'body': '\${nsProcess::FindProcess} "${1:file}.exe" \$${2:var}'
+    'body': '\${nsProcess::FindProcess} "${1:file}.exe" \$${2:var}$3'
   '${nsProcess::KillProcess}':
     'prefix': '${nsProcess::KillProcess}'
-    'body': '\${nsProcess::KillProcess} "${1:file}.exe" \$${2:var}'
+    'body': '\${nsProcess::KillProcess} "${1:file}.exe" \$${2:var}$3'
   '${nsProcess::Unload}':
     'prefix': '${nsProcess::Unload}'
-    'body': '\${nsProcess::Unload}'
+    'body': '\${nsProcess::Unload}$1'

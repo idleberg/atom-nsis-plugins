@@ -1,7 +1,7 @@
 '.source.nsis':
   'SkinnedButton::skinit':
     'prefix': 'SkinnedButton::skinit'
-    'body': 'SkinnedButton::skinit "{1:BitmapImage}"'
+    'body': 'SkinnedButton::skinit "{1:BitmapImage}"$2'
   'SkinnedButton::skinit 0xRRGGBB':
     'prefix': 'SkinnedButton::skinit 0xRRGGBB'
-    'body': 'SkinnedButton::skinit "{1:BitmapImage}" 0x"${2:RRGGBB}"'
+    'body': 'SkinnedButton::skinit "{1:BitmapImage}" 0x"${2:RRGGBB}"$3'

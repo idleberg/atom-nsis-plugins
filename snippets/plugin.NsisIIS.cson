@@ -1,52 +1,52 @@
 '.source.nsis':
   'NsisIIS::CreateAppPool':
     'prefix': 'NsisIIS::CreateAppPool'
-    'body': 'NsisIIS::CreateAppPool "${1:app_pool}"'
+    'body': 'NsisIIS::CreateAppPool "${1:app_pool}"$2'
   'NsisIIS::CreateVDir':
     'prefix': 'NsisIIS::CreateVDir'
-    'body': 'NsisIIS::CreateVDir "${1:vdir_name}" "${2:physical_path}"'
+    'body': 'NsisIIS::CreateVDir "${1:vdir_name}" "${2:physical_path}"$3'
   'NsisIIS::CreateWebSite':
     'prefix': 'NsisIIS::CreateWebSite'
-    'body': 'NsisIIS::CreateWebSite "${1:name}" "${2:physical_path}" "${3:host}:${4:port}"'
+    'body': 'NsisIIS::CreateWebSite "${1:name}" "${2:physical_path}" "${3:host}:${4:port}"$5'
   'NsisIIS::DeleteAppPool':
     'prefix': 'NsisIIS::DeleteAppPool'
-    'body': 'NsisIIS::DeleteAppPool "${1:app_pool}"'
+    'body': 'NsisIIS::DeleteAppPool "${1:app_pool}"$2'
   'NsisIIS::DeleteVDir':
     'prefix': 'NsisIIS::DeleteVDir'
-    'body': 'NsisIIS::DeleteVDir "${1:vdir_name}"'
+    'body': 'NsisIIS::DeleteVDir "${1:vdir_name}"$2'
   'NsisIIS::DeleteWebSite':
     'prefix': 'NsisIIS::DeleteWebSite'
-    'body': 'NsisIIS::DeleteWebSite "${1:index}"'
+    'body': 'NsisIIS::DeleteWebSite "${1:index}"$2'
   'NsisIIS::GetAppPool':
     'prefix': 'NsisIIS::GetAppPool'
-    'body': 'NsisIIS::GetAppPool "${1:app_pool}"'
+    'body': 'NsisIIS::GetAppPool "${1:app_pool}"$2'
   'NsisIIS::GetIIsInfo':
     'prefix': 'NsisIIS::GetIIsInfo'
-    'body': 'NsisIIS::GetIIsInfo'
+    'body': 'NsisIIS::GetIIsInfo$1'
   'NsisIIS::GetVDir':
     'prefix': 'NsisIIS::GetVDir'
-    'body': 'NsisIIS::GetVDir "${1:vdir_name}"'
+    'body': 'NsisIIS::GetVDir "${1:vdir_name}"$2'
   'NsisIIS::GetWebSite':
     'prefix': 'NsisIIS::GetWebSite'
-    'body': 'NsisIIS::GetWebSite "${1:index}"'
+    'body': 'NsisIIS::GetWebSite "${1:index}"$2'
   'NsisIIS::ListAppPools':
     'prefix': 'NsisIIS::ListAppPools'
-    'body': 'NsisIIS::ListAppPools'
+    'body': 'NsisIIS::ListAppPools$1'
   'NsisIIS::ListVDirs':
     'prefix': 'NsisIIS::ListVDirs'
-    'body': 'NsisIIS::ListVDirs'
+    'body': 'NsisIIS::ListVDirs$1'
   'NsisIIS::ListWebSites':
     'prefix': 'NsisIIS::ListWebSites'
-    'body': 'NsisIIS::ListWebSites'
+    'body': 'NsisIIS::ListWebSites$1'
   'NsisIIS::Pause':
     'prefix': 'NsisIIS::Pause'
-    'body': 'NsisIIS::Pause'
+    'body': 'NsisIIS::Pause$1'
   'NsisIIS::Resume':
     'prefix': 'NsisIIS::Resume'
-    'body': 'NsisIIS::Resume'
+    'body': 'NsisIIS::Resume$1'
   'NsisIIS::Start':
     'prefix': 'NsisIIS::Start'
-    'body': 'NsisIIS::Start'
+    'body': 'NsisIIS::Start$1'
   'NsisIIS::Stop':
     'prefix': 'NsisIIS::Stop'
-    'body': 'NsisIIS::Stop'
+    'body': 'NsisIIS::Stop$1'

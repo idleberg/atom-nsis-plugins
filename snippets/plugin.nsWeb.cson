@@ -1,13 +1,13 @@
 '.source.nsis':
   'nsWeb::IsInet':
     'prefix': 'nsWeb::IsInet'
-    'body': 'nsWeb::IsInet ${1:var}'
+    'body': 'nsWeb::IsInet ${1:var}$2'
   'nsWeb::ShowHTMLInPage':
     'prefix': 'nsWeb::ShowHTMLInPage'
-    'body': 'nsWeb::ShowHTMLInPage "${1:html_string}"'
+    'body': 'nsWeb::ShowHTMLInPage "${1:html_string}"$2'
   'nsWeb::ShowWebInPage':
     'prefix': 'nsWeb::ShowWebInPage'
-    'body': 'nsWeb::ShowWebInPage "${1:url_or_html}"'
+    'body': 'nsWeb::ShowWebInPage "${1:url_or_html}"$2'
   'nsWeb::ShowWebInPopUp':
     'prefix': 'nsWeb::ShowWebInPopUp'
-    'body': 'nsWeb::ShowWebInPopUp "${1:url_or_html}"'
+    'body': 'nsWeb::ShowWebInPopUp "${1:url_or_html}"$2'

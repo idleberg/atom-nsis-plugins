@@ -1,79 +1,79 @@
 '.source.nsis':
   'xtInfoPlugin::CompareVersion':
     'prefix': 'xtInfoPlugin::CompareVersion'
-    'body': 'xtInfoPlugin::CompareVersion'
+    'body': 'xtInfoPlugin::CompareVersion$1'
   'xtInfoPlugin::GetDotNetFrameworkId':
     'prefix': 'xtInfoPlugin::GetDotNetFrameworkId'
-    'body': 'xtInfoPlugin::GetDotNetFrameworkId'
+    'body': 'xtInfoPlugin::GetDotNetFrameworkId$1'
   'xtInfoPlugin::GetDotNetFrameworkVersion':
     'prefix': 'xtInfoPlugin::GetDotNetFrameworkVersion'
-    'body': 'xtInfoPlugin::GetDotNetFrameworkVersion'
+    'body': 'xtInfoPlugin::GetDotNetFrameworkVersion$1'
   'xtInfoPlugin::GetInstaller':
     'prefix': 'xtInfoPlugin::GetInstaller'
-    'body': 'xtInfoPlugin::GetInstaller'
+    'body': 'xtInfoPlugin::GetInstaller$1'
   'xtInfoPlugin::GetInstallerFileName':
     'prefix': 'xtInfoPlugin::GetInstallerFileName'
-    'body': 'xtInfoPlugin::GetInstallerFileName'
+    'body': 'xtInfoPlugin::GetInstallerFileName$1'
   'xtInfoPlugin::GetInstallerFullPath':
     'prefix': 'xtInfoPlugin::GetInstallerFullPath'
-    'body': 'xtInfoPlugin::GetInstallerFullPath'
+    'body': 'xtInfoPlugin::GetInstallerFullPath$1'
   'xtInfoPlugin::GetInternetExplorerId':
     'prefix': 'xtInfoPlugin::GetInternetExplorerId'
-    'body': 'xtInfoPlugin::GetInternetExplorerId'
+    'body': 'xtInfoPlugin::GetInternetExplorerId$1'
   'xtInfoPlugin::GetInternetExplorerVersion':
     'prefix': 'xtInfoPlugin::GetInternetExplorerVersion'
-    'body': 'xtInfoPlugin::GetInternetExplorerVersion'
+    'body': 'xtInfoPlugin::GetInternetExplorerVersion$1'
   'xtInfoPlugin::GetLanguage':
     'prefix': 'xtInfoPlugin::GetLanguage'
-    'body': 'xtInfoPlugin::GetLanguage'
+    'body': 'xtInfoPlugin::GetLanguage$1'
   'xtInfoPlugin::GetMDACId':
     'prefix': 'xtInfoPlugin::GetMDACId'
-    'body': 'xtInfoPlugin::GetMDACId'
+    'body': 'xtInfoPlugin::GetMDACId$1'
   'xtInfoPlugin::GetMDACVersion':
     'prefix': 'xtInfoPlugin::GetMDACVersion'
-    'body': 'xtInfoPlugin::GetMDACVersion'
+    'body': 'xtInfoPlugin::GetMDACVersion$1'
   'xtInfoPlugin::GetOLEDBId':
     'prefix': 'xtInfoPlugin::GetOLEDBId'
-    'body': 'xtInfoPlugin::GetOLEDBId'
+    'body': 'xtInfoPlugin::GetOLEDBId$1'
   'xtInfoPlugin::GetOLEDBVersion':
     'prefix': 'xtInfoPlugin::GetOLEDBVersion'
-    'body': 'xtInfoPlugin::GetOLEDBVersion'
+    'body': 'xtInfoPlugin::GetOLEDBVersion$1'
   'xtInfoPlugin::GetWindowsId':
     'prefix': 'xtInfoPlugin::GetWindowsId'
-    'body': 'xtInfoPlugin::GetWindowsId'
+    'body': 'xtInfoPlugin::GetWindowsId$1'
   'xtInfoPlugin::GetWindowsServicePackId':
     'prefix': 'xtInfoPlugin::GetWindowsServicePackId'
-    'body': 'xtInfoPlugin::GetWindowsServicePackId'
+    'body': 'xtInfoPlugin::GetWindowsServicePackId$1'
   'xtInfoPlugin::GetWindowsVersion':
     'prefix': 'xtInfoPlugin::GetWindowsVersion'
-    'body': 'xtInfoPlugin::GetWindowsVersion'
+    'body': 'xtInfoPlugin::GetWindowsVersion$1'
   'xtInfoPlugin::IsAdministrator':
     'prefix': 'xtInfoPlugin::IsAdministrator'
-    'body': 'xtInfoPlugin::IsAdministrator'
+    'body': 'xtInfoPlugin::IsAdministrator$1'
   'xtInfoPlugin::IsDotNetFrameworkInstalled':
     'prefix': 'xtInfoPlugin::IsDotNetFrameworkInstalled'
-    'body': 'xtInfoPlugin::IsDotNetFrameworkInstalled'
+    'body': 'xtInfoPlugin::IsDotNetFrameworkInstalled$1'
   'xtInfoPlugin::IsWindows2000':
     'prefix': 'xtInfoPlugin::IsWindows2000'
-    'body': 'xtInfoPlugin::IsWindows2000'
+    'body': 'xtInfoPlugin::IsWindows2000$1'
   'xtInfoPlugin::IsWindows2003':
     'prefix': 'xtInfoPlugin::IsWindows2003'
-    'body': 'xtInfoPlugin::IsWindows2003'
+    'body': 'xtInfoPlugin::IsWindows2003$1'
   'xtInfoPlugin::IsWindows95':
     'prefix': 'xtInfoPlugin::IsWindows95'
-    'body': 'xtInfoPlugin::IsWindows95'
+    'body': 'xtInfoPlugin::IsWindows95$1'
   'xtInfoPlugin::IsWindows98':
     'prefix': 'xtInfoPlugin::IsWindows98'
-    'body': 'xtInfoPlugin::IsWindows98'
+    'body': 'xtInfoPlugin::IsWindows98$1'
   'xtInfoPlugin::IsWindowsME':
     'prefix': 'xtInfoPlugin::IsWindowsME'
-    'body': 'xtInfoPlugin::IsWindowsME'
+    'body': 'xtInfoPlugin::IsWindowsME$1'
   'xtInfoPlugin::IsWindowsNT3':
     'prefix': 'xtInfoPlugin::IsWindowsNT3'
-    'body': 'xtInfoPlugin::IsWindowsNT3'
+    'body': 'xtInfoPlugin::IsWindowsNT3$1'
   'xtInfoPlugin::IsWindowsNT4':
     'prefix': 'xtInfoPlugin::IsWindowsNT4'
-    'body': 'xtInfoPlugin::IsWindowsNT4'
+    'body': 'xtInfoPlugin::IsWindowsNT4$1'
   'xtInfoPlugin::IsWindowsXP':
     'prefix': 'xtInfoPlugin::IsWindowsXP'
-    'body': 'xtInfoPlugin::IsWindowsXP'
+    'body': 'xtInfoPlugin::IsWindowsXP$1'

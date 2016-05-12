@@ -1,13 +1,13 @@
 '.source.nsis':
   'nsRestartExplorer::nsRestartExplorer':
     'prefix': 'nsRestartExplorer::nsRestartExplorer'
-    'body': 'nsRestartExplorer::nsRestartExplorer ${1:command} ${2:timeout}'
+    'body': 'nsRestartExplorer::nsRestartExplorer ${1:command} ${2:timeout}$3'
   'nsRestartExplorer::nsRestartExplorer quit':
     'prefix': 'nsRestartExplorer::nsRestartExplorer quit'
-    'body': 'nsRestartExplorer::nsRestartExplorer quit ${1:timeout}'
+    'body': 'nsRestartExplorer::nsRestartExplorer quit ${1:timeout}$2'
   'nsRestartExplorer::nsRestartExplorer restart':
     'prefix': 'nsRestartExplorer::nsRestartExplorer restart'
-    'body': 'nsRestartExplorer::nsRestartExplorer restart ${1:timeout}'
+    'body': 'nsRestartExplorer::nsRestartExplorer restart ${1:timeout}$2'
   'nsRestartExplorer::nsRestartExplorer start':
     'prefix': 'nsRestartExplorer::nsRestartExplorer start'
-    'body': 'nsRestartExplorer::nsRestartExplorer start ${1:timeout}'
+    'body': 'nsRestartExplorer::nsRestartExplorer start ${1:timeout}$2'

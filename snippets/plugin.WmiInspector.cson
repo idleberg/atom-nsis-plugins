@@ -1,40 +1,40 @@
 '.source.nsis':
   'WmiInspector::AntiVirus':
     'prefix': 'WmiInspector::AntiVirus'
-    'body': 'WmiInspector::AntiVirus'
+    'body': 'WmiInspector::AntiVirus$1'
   'WmiInspector::CPU':
     'prefix': 'WmiInspector::CPU'
-    'body': 'WmiInspector::CPU'
+    'body': 'WmiInspector::CPU$1'
   'WmiInspector::FireWall':
     'prefix': 'WmiInspector::FireWall'
-    'body': 'WmiInspector::FireWall'
+    'body': 'WmiInspector::FireWall$1'
   'WmiInspector::FullOS':
     'prefix': 'WmiInspector::FullOS'
-    'body': 'WmiInspector::FullOS'
+    'body': 'WmiInspector::FullOS$1'
   'WmiInspector::FullSQLVersion':
     'prefix': 'WmiInspector::FullSQLVersion'
-    'body': 'WmiInspector::FullSQLVersion'
+    'body': 'WmiInspector::FullSQLVersion$1'
   'WmiInspector::OS':
     'prefix': 'WmiInspector::OS'
-    'body': 'WmiInspector::OS'
+    'body': 'WmiInspector::OS$1'
   'WmiInspector::OSVersion':
     'prefix': 'WmiInspector::OSVersion'
-    'body': 'WmiInspector::OSVersion'
+    'body': 'WmiInspector::OSVersion$1'
   'WmiInspector::Request':
     'prefix': 'WmiInspector::Request'
-    'body': 'WmiInspector::Request "${1:DomainNamespot}" "${2:TableName}" "${3:ValueName}"'
+    'body': 'WmiInspector::Request "${1:DomainNamespot}" "${2:TableName}" "${3:ValueName}"$4'
   'WmiInspector::Resolution':
     'prefix': 'WmiInspector::Resolution'
-    'body': 'WmiInspector::Resolution'
+    'body': 'WmiInspector::Resolution$1'
   'WmiInspector::ShortUserName':
     'prefix': 'WmiInspector::ShortUserName'
-    'body': 'WmiInspector::ShortUserName'
+    'body': 'WmiInspector::ShortUserName$1'
   'WmiInspector::SQLVersion':
     'prefix': 'WmiInspector::SQLVersion'
-    'body': 'WmiInspector::SQLVersion'
+    'body': 'WmiInspector::SQLVersion$1'
   'WmiInspector::UserName':
     'prefix': 'WmiInspector::UserName'
-    'body': 'WmiInspector::UserName'
+    'body': 'WmiInspector::UserName$1'
   'WmiInspector::UserSID':
     'prefix': 'WmiInspector::UserSID'
-    'body': 'WmiInspector::UserSID "${1:user_name}"'
+    'body': 'WmiInspector::UserSID "${1:user_name}"$2'

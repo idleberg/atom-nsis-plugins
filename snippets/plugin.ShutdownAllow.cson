@@ -1,7 +1,7 @@
 '.source.nsis':
   'ShutdownAllow::Allow':
     'prefix': 'ShutdownAllow::Allow'
-    'body': 'ShutdownAllow::Allow /NOUNLOAD'
+    'body': 'ShutdownAllow::Allow /NOUNLOAD$1'
   'ShutdownAllow::Unload':
     'prefix': 'ShutdownAllow::Unload'
-    'body': 'ShutdownAllow::Unload'
+    'body': 'ShutdownAllow::Unload$1'

@@ -1,19 +1,19 @@
 '.source.nsis':
   '${Locate::Close}':
     'prefix': '${Locate::Close}'
-    'body': '\${Locate::Close} "${1:handle}"'
+    'body': '\${Locate::Close} "${1:handle}"$2'
   '${Locate::Find}':
     'prefix': '${Locate::Find}'
-    'body': '\${Locate::Find} "${1:handle}" \$${2:path\name} \$${3:path} \$${4:name} \$${5:size} \$${6:time} \$${7:attributes}'
+    'body': '\${Locate::Find} "${1:handle}" \$${2:path\name} \$${3:path} \$${4:name} \$${5:size} \$${6:time} \$${7:attributes}$8'
   '${Locate::GetSize}':
     'prefix': '${Locate::GetSize}'
-    'body': '\${Locate::Find} "${1:path}" "${2:options}" \$${3:size} \$${4:sum_files} \$${5:sum_directories}'
+    'body': '\${Locate::Find} "${1:path}" "${2:options}" \$${3:size} \$${4:sum_files} \$${5:sum_directories}$6'
   '${Locate::Open}':
     'prefix': '${Locate::Open}'
-    'body': '\${Locate::Open} "${1:paths}" "${2:options}"'
+    'body': '\${Locate::Open} "${1:paths}" "${2:options}"$3'
   '${Locate::RMDirEmpty}':
     'prefix': '${Locate::RMDirEmpty}'
-    'body': '\${Locate::Find} "${1:path}" "${2:options}" \$${3:sum_directories}'
+    'body': '\${Locate::Find} "${1:path}" "${2:options}" \$${3:sum_directories}$4'
   '${Locate::Unload}':
     'prefix': '${Locate::Unload}'
-    'body': '\${Locate::Unload}'
+    'body': '\${Locate::Unload}$1'

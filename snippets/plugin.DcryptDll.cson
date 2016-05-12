@@ -1,16 +1,16 @@
 '.source.nsis':
   'DcryptDll::Decrypt':
     'prefix': 'DcryptDll::Decrypt'
-    'body': 'DcryptDll::Decrypt "${1:function}" "${2:HexKeyFileName}" "${3:InputFileName}" "${4:OutputFileName}"'
+    'body': 'DcryptDll::Decrypt "${1:function}" "${2:HexKeyFileName}" "${3:InputFileName}" "${4:OutputFileName}"$5'
   'DcryptDll::HexDecoder':
     'prefix': 'DcryptDll::HexDecoder'
-    'body': 'DcryptDll::HexDecoder "${1:function}" "${2:InputFileName}" "${3:OutputFileName}"'
+    'body': 'DcryptDll::HexDecoder "${1:function}" "${2:InputFileName}" "${3:OutputFileName}"$4'
   'DcryptDll::HexEncoder':
     'prefix': 'DcryptDll::HexEncoder'
-    'body': 'DcryptDll::HexEncoder "${1:function}" "${2:InputFileName}" "${3:OutputFileName}"'
+    'body': 'DcryptDll::HexEncoder "${1:function}" "${2:InputFileName}" "${3:OutputFileName}"$4'
   'DcryptDll::LoadStr':
     'prefix': 'DcryptDll::LoadStr'
     'body': 'DcryptDll::LoadStr "${1:InputFileName}"'
   'DcryptDll::MD5Hash':
     'prefix': 'DcryptDll::MD5Hash'
-    'body': 'DcryptDll::MD5Hash "${1:function}" "${2:InputFileName}" "${3:OutputFileName}"'
+    'body': 'DcryptDll::MD5Hash "${1:function}" "${2:InputFileName}" "${3:OutputFileName}"$4'

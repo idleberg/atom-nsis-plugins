@@ -1,7 +1,7 @@
 '.source.nsis':
   '${ExecTimeout}':
     'prefix': '${ExecTimeout}'
-    'body': '\${ExecTimeout} "${1:application_to_run}.exe" ${2:timeout} ${3:terminate} \${4:exit_code}'
+    'body': '\${ExecTimeout} "${1:application_to_run}.exe" ${2:timeout} ${3:terminate} \${4:exit_code}$5'
   'Timeout::ExecTimeout':
     'prefix': 'Timeout::ExecTimeout'
-    'body': 'Timeout::ExecTimeout "${1:application_to_run}.exe" ${2:timeout} ${3:terminate} \${4:exit_code}'
+    'body': 'Timeout::ExecTimeout "${1:application_to_run}.exe" ${2:timeout} ${3:terminate} \${4:exit_code}$5'

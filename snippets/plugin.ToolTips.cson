@@ -1,7 +1,7 @@
 '.source.nsis':
   'ToolTips::Classic':
     'prefix': 'ToolTips::Classic'
-    'body': 'ToolTips::Classic \$${1:hwnd} "${2:text}"'
+    'body': 'ToolTips::Classic \$${1:hwnd} "${2:text}"$3'
   'ToolTips::Modern':
     'prefix': 'ToolTips::Modern'
-    'body': 'ToolTips::Modern \$${1:hwnd} ${2:icon} "${3:text}"'
+    'body': 'ToolTips::Modern \$${1:hwnd} ${2:icon} "${3:text}"$4'

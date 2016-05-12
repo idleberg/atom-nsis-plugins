@@ -1,7 +1,7 @@
 '.source.nsis':
   'Aero::Apply':
     'prefix': 'Aero::Apply'
-    'body': 'Aero::Apply "${1:options}"'
+    'body': 'Aero::Apply "${1:options}"$2'
   'Aero::Apply /NOBRANDING':
     'prefix': 'Aero::Apply /NOBRANDING'
-    'body': 'Aero::Apply /NOBRANDING "${1:options}"'
+    'body': 'Aero::Apply /NOBRANDING "${1:options}"$2'

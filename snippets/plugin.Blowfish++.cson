@@ -1,7 +1,7 @@
 '.source.nsis':
   'Blowfish::decrypt':
     'prefix': 'Blowfish::decrypt'
-    'body': 'Blowfish::decrypt "${1:text_to_decrypt}" "${2:password_key}"'
+    'body': 'Blowfish::decrypt "${1:text_to_decrypt}" "${2:password_key}"$3'
   'Blowfish::encrypt':
     'prefix': 'Blowfish::encrypt'
-    'body': 'Blowfish::encrypt "${1:text_to_encrypt}" "${2:password_key}"'
+    'body': 'Blowfish::encrypt "${1:text_to_encrypt}" "${2:password_key}"$3'

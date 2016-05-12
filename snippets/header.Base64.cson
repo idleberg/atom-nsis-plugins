@@ -1,7 +1,7 @@
 '.source.nsis':
   '${Base64_Decode}':
     'prefix': 'Base64_Decode'
-    'body': '\${Base64_Decode} "${1:text}"'
+    'body': '\${Base64_Decode} "${1:text}"$2'
   '${Base64_Encode}':
     'prefix': 'Base64_Encode'
-    'body': '\${Base64_Encode} "${1:text}"'
+    'body': '\${Base64_Encode} "${1:text}"$2'

@@ -1,19 +1,19 @@
 '.source.nsis':
   'AppAssocReg::ClearUserAssociations':
     'prefix': 'AppAssocReg::ClearUserAssociations'
-    'body': 'AppAssocReg::ClearUserAssociations'
+    'body': 'AppAssocReg::ClearUserAssociations$1'
   'AppAssocReg::QueryAppIsDefault':
     'prefix': 'AppAssocReg::QueryAppIsDefault'
-    'body': 'AppAssocReg::QueryAppIsDefault "${1:app_name}" "${2:assoc_name}" "${3:type}" "${4:level}"'
+    'body': 'AppAssocReg::QueryAppIsDefault "${1:app_name}" "${2:assoc_name}" "${3:type}" "${4:level}"$5'
   'AppAssocReg::QueryAppIsDefaultAll':
     'prefix': 'AppAssocReg::QueryAppIsDefaultAll'
-    'body': 'AppAssocReg::QueryAppIsDefaultAll "${1:app_name}" "${2:level}"'
+    'body': 'AppAssocReg::QueryAppIsDefaultAll "${1:app_name}" "${2:level}"$3'
   'AppAssocReg::QueryCurrentDefault':
     'prefix': 'AppAssocReg::QueryCurrentDefault'
-    'body': 'AppAssocReg::QueryCurrentDefault "${1:assoc_name}" "${2:type}" "${3:level}"'
+    'body': 'AppAssocReg::QueryCurrentDefault "${1:assoc_name}" "${2:type}" "${3:level}"$4'
   'AppAssocReg::SetAppAsDefault':
     'prefix': 'AppAssocReg::SetAppAsDefault'
-    'body': 'AppAssocReg::SetAppAsDefault "${1:app_name}" "${2:assoc_name}" "${3:type}"'
+    'body': 'AppAssocReg::SetAppAsDefault "${1:app_name}" "${2:assoc_name}" "${3:type}"$4'
   'AppAssocReg::SetAppAsDefaultAll':
     'prefix': 'AppAssocReg::SetAppAsDefaultAll'
-    'body': 'AppAssocReg::SetAppAsDefaultAll "${1:app_name}"'
+    'body': 'AppAssocReg::SetAppAsDefaultAll "${1:app_name}"$2'

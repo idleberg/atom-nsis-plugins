@@ -1,13 +1,13 @@
 '.source.nsis':
   'NsisCrypt::Base64Decode':
     'prefix': 'NsisCrypt::Base64Decode'
-    'body': 'NsisCrypt::Base64Decode "${1:string}"'
+    'body': 'NsisCrypt::Base64Decode "${1:string}"$2'
   'NsisCrypt::DecryptSymmetric':
     'prefix': 'NsisCrypt::DecryptSymmetric'
-    'body': 'NsisCrypt::DecryptSymmetric "${1:encoded_cipher}" "${2:algorithm}" "${3:encoded_key}" "${4:encoded_iv}"'
+    'body': 'NsisCrypt::DecryptSymmetric "${1:encoded_cipher}" "${2:algorithm}" "${3:encoded_key}" "${4:encoded_iv}"$5'
   'NsisCrypt::EncryptSymmetric':
     'prefix': 'NsisCrypt::EncryptSymmetric'
-    'body': 'NsisCrypt::EncryptSymmetric "${1:string}" "${2:algorithm}" "${3:encoded_key}" "${4:encoded_iv}"'
+    'body': 'NsisCrypt::EncryptSymmetric "${1:string}" "${2:algorithm}" "${3:encoded_key}" "${4:encoded_iv}"$5'
   'NsisCrypt::Hash':
     'prefix': 'NsisCrypt::Hash'
-    'body': 'NsisCrypt::Hash "${1:string}" "${2:algorithm}"'
+    'body': 'NsisCrypt::Hash "${1:string}" "${2:algorithm}"$3'

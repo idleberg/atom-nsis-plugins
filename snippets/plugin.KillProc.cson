@@ -1,7 +1,7 @@
 '.source.nsis':
   'KillProc::FindProcesses':
     'prefix': 'KillProc::FindProcesses'
-    'body': 'KillProc::FindProcesses'
+    'body': 'KillProc::FindProcesses$1'
   'KillProc::KillProcesses':
     'prefix': 'KillProc::KillProcesses'
-    'body': 'KillProc::KillProcesses'
+    'body': 'KillProc::KillProcesses$1'

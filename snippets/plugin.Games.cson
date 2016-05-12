@@ -1,7 +1,7 @@
 '.source.nsis':
   'Games::registerGame':
     'prefix': 'Games::registerGame'
-    'body': 'Games::registerGame "/mcicon:${1:file}.png" "/mcrun:${2:shortcut}.lnk" "${3:file}.exe"'
+    'body': 'Games::registerGame "/mcicon:${1:file}.png" "/mcrun:${2:shortcut}.lnk" "${3:file}.exe"$4'
   'Games::unregisterGame':
     'prefix': 'Games::unregisterGame'
-    'body': 'Games::unregisterGame "${1:file}.exe"'
+    'body': 'Games::unregisterGame "${1:file}.exe"$2'

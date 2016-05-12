@@ -1,10 +1,10 @@
 '.source.nsis':
   'UnTGZ::extract':
     'prefix': 'UnTGZ::extract'
-    'body': 'UnTGZ::extract ${1:options} "${2:archive}.tgz"'
+    'body': 'UnTGZ::extract ${1:options} "${2:archive}.tgz"$3'
   'UnTGZ::extractFile':
     'prefix': 'UnTGZ::extractFile'
-    'body': 'UnTGZ::extractFile ${1:options} "${2:archive}.tgz" "${3:file}"'
+    'body': 'UnTGZ::extractFile ${1:options} "${2:archive}.tgz" "${3:file}"$4'
   'UnTGZ::extractV':
     'prefix': 'UnTGZ::extractV'
-    'body': 'UnTGZ::extractV ${1:options} "${2:archive}.tgz"'
+    'body': 'UnTGZ::extractV ${1:options} "${2:archive}.tgz"$3'

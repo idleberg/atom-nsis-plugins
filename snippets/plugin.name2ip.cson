@@ -1,10 +1,10 @@
 '.source.nsis':
   '${name2ip::FindCloseIP}':
     'prefix': '${name2ip::FindCloseIP}'
-    'body': '\${name2ip::FindCloseIP}'
+    'body': '\${name2ip::FindCloseIP}$1'
   '${name2ip::FindFirstIP}':
     'prefix': '${name2ip::FindFirstIP}'
-    'body': '\${name2ip::FindFirstIP} "${1:host_name}" \$${2:result}'
+    'body': '\${name2ip::FindFirstIP} "${1:host_name}" \$${2:result}$3'
   '${name2ip::FindNextIP}':
     'prefix': '${name2ip::FindNextIP}'
-    'body': '\${name2ip::FindNextIP} \$${1:result}'
+    'body': '\${name2ip::FindNextIP} \$${1:result}$2'

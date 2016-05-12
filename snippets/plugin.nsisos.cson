@@ -1,4 +1,4 @@
 '.source.nsis':
   'nsisos::osversion':
     'prefix': 'nsisos::osversion'
-    'body': 'nsisos::osversion'
+    'body': 'nsisos::osversion$1'

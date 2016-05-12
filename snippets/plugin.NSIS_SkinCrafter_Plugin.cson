@@ -1,10 +1,10 @@
 '.source.nsis':
   'NSIS_SkinCrafter_Plugin::destroy':
     'prefix': 'NSIS_SkinCrafter_Plugin::destroy'
-    'body': 'NSIS_SkinCrafter_Plugin::destroy'
+    'body': 'NSIS_SkinCrafter_Plugin::destroy$1'
   'NSIS_SkinCrafter_Plugin::skin':
     'prefix': 'NSIS_SkinCrafter_Plugin::skin'
-    'body': 'NSIS_SkinCrafter_Plugin::skin /NOUNLOAD'
+    'body': 'NSIS_SkinCrafter_Plugin::skin /NOUNLOAD$1'
   'NSIS_SkinCrafter_Plugin::skin [file]':
     'prefix': 'NSIS_SkinCrafter_Plugin::skin [file]'
-    'body': 'NSIS_SkinCrafter_Plugin::skin /NOUNLOAD "${1:file}.skf"'
+    'body': 'NSIS_SkinCrafter_Plugin::skin /NOUNLOAD "${1:file}.skf"$2'
