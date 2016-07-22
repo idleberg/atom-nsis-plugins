@@ -1,6 +1,6 @@
 {
   "name": "nsis-plugins",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Atom snippets for NSIS plug-ins",
   "license": "MIT OR GPL-2.0",
   "author": {
