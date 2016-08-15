@@ -1,4 +1,4 @@
-'.source.nsis':
-  'CRCCheck::GenCRC':
-    'prefix': 'CRCCheck::GenCRC'
-    'body': 'CRCCheck::GenCRC "${1:file}"$2'
+".source.nsis":
+  "CRCCheck::GenCRC":
+    body: "CRCCheck::GenCRC \"${1:file}\"$2"
+    prefix: "CRCCheck::GenCRC"

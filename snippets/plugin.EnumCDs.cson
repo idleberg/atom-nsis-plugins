@@ -1,7 +1,7 @@
-'.source.nsis':
-  'EnumCDs::next':
-    'prefix': 'EnumCDs::next'
-    'body': 'EnumCDs::next$1'
-  'EnumCDs::next /NOUNLOAD':
-    'prefix': 'EnumCDs::next /NOUNLOAD'
-    'body': 'EnumCDs::next /NOUNLOAD$1'
+".source.nsis":
+  "EnumCDs::next":
+    body: "EnumCDs::next$1"
+    prefix: "EnumCDs::next"
+  "EnumCDs::next /NOUNLOAD":
+    body: "EnumCDs::next /NOUNLOAD$1"
+    prefix: "EnumCDs::next /NOUNLOAD"

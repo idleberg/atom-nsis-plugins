@@ -1,4 +1,4 @@
-'.source.nsis':
-  'SFhelper::checkFile':
-    'prefix': 'SFhelper::checkFile'
-    'body': 'SFhelper::checkFile "${1:file}"$2'
+".source.nsis":
+  "SFhelper::checkFile":
+    body: "SFhelper::checkFile \"${1:file}\"$2"
+    prefix: "SFhelper::checkFile"

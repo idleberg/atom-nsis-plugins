@@ -1,7 +1,7 @@
-'.source.nsis':
-  'CLR::Call /NOUNLOAD':
-    'prefix': 'CLR::Call /NOUNLOAD'
-    'body': 'CLR::Call /NOUNLOAD "${1:file}.dll" "${2:class}" ${3:options}$4'
-  'CLR::Destroy':
-    'prefix': 'CLR::Destroy'
-    'body': 'CLR::Destroy$1'
+".source.nsis":
+  "CLR::Call /NOUNLOAD":
+    body: "CLR::Call /NOUNLOAD \"${1:file}.dll\" \"${2:class}\" ${3:options}$4"
+    prefix: "CLR::Call /NOUNLOAD"
+  "CLR::Destroy":
+    body: "CLR::Destroy$1"
+    prefix: "CLR::Destroy"

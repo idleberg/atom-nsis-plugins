@@ -1,16 +1,16 @@
-'.source.nsis':
-  'EBanner::play':
-    'prefix': 'EBanner::play'
-    'body': 'EBanner::play /NOUNLOAD "${1:image}"$2'
-  'EBanner::play /LOOP':
-    'prefix': 'EBanner::play /LOOP'
-    'body': 'EBanner::play /NOUNLOAD  /LOOP "${1:image}"$2'
-  'EBanner::show':
-    'prefix': 'EBanner::show'
-    'body': 'EBanner::show /NOUNLOAD "${1:image}"$2'
-  'EBanner::show [/options]':
-    'prefix': 'EBanner::show [/options]'
-    'body': 'EBanner::show /NOUNLOAD ${1:options} "${2:image}"$3'
-  'EBanner::stop':
-    'prefix': 'EBanner::stop'
-    'body': 'EBanner::stop$1'
+".source.nsis":
+  "EBanner::play":
+    body: "EBanner::play /NOUNLOAD \"${1:image}\"$2"
+    prefix: "EBanner::play"
+  "EBanner::play /LOOP":
+    body: "EBanner::play /NOUNLOAD  /LOOP \"${1:image}\"$2"
+    prefix: "EBanner::play /LOOP"
+  "EBanner::show":
+    body: "EBanner::show /NOUNLOAD \"${1:image}\"$2"
+    prefix: "EBanner::show"
+  "EBanner::show [/options]":
+    body: "EBanner::show /NOUNLOAD ${1:options} \"${2:image}\"$3"
+    prefix: "EBanner::show [/options]"
+  "EBanner::stop":
+    body: "EBanner::stop$1"
+    prefix: "EBanner::stop"

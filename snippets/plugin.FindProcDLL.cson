@@ -1,4 +1,4 @@
-'.source.nsis':
-  'FindProcDLL::FindProc':
-    'prefix': 'FindProcDLL::FindProc'
-    'body': 'FindProcDLL::FindProc"${1:file}.exe"$2'
+".source.nsis":
+  "FindProcDLL::FindProc":
+    body: "FindProcDLL::FindProc\"${1:file}.exe\"$2"
+    prefix: "FindProcDLL::FindProc"

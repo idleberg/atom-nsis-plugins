@@ -1,25 +1,25 @@
-'.source.nsis':
-  'nsResize::Add':
-    'prefix': 'nsResize::Add'
-    'body': 'nsResize::Add \$${1:hwnd} ${2:x} ${3:y} ${4:width} ${5:height}$6'
-  'nsResize::GetPos':
-    'prefix': 'nsResize::GetPos'
-    'body': 'nsResize::GetPos \$${1:hwnd}$2'
-  'nsResize::GetPosPx':
-    'prefix': 'nsResize::GetPosPx'
-    'body': 'nsResize::GetPosPx \$${1:hwnd}$2'
-  'nsResize::GetSize':
-    'prefix': 'nsResize::GetSize'
-    'body': 'nsResize::GetSize \$${1:hwnd}$2'
-  'nsResize::GetSizePx':
-    'prefix': 'nsResize::GetSizePx'
-    'body': 'nsResize::GetSizePx \$${1:hwnd}$2'
-  'nsResize::Set':
-    'prefix': 'nsResize::Set'
-    'body': 'nsResize::Set \$${1:hwnd} ${2:x} ${3:y} ${4:width} ${5:height}$6'
-  'nsResize::SetRTL':
-    'prefix': 'nsResize::SetRTL'
-    'body': 'nsResize::SetRTL \$(^RTL)$1'
-  'nsResize::Top':
-    'prefix': 'nsResize::Top'
-    'body': 'nsResize::Top \$${1:hwnd}$2'
+".source.nsis":
+  "nsResize::Add":
+    body: "nsResize::Add $${1:hwnd} ${2:x} ${3:y} ${4:width} ${5:height}$6"
+    prefix: "nsResize::Add"
+  "nsResize::GetPos":
+    body: "nsResize::GetPos $${1:hwnd}$2"
+    prefix: "nsResize::GetPos"
+  "nsResize::GetPosPx":
+    body: "nsResize::GetPosPx $${1:hwnd}$2"
+    prefix: "nsResize::GetPosPx"
+  "nsResize::GetSize":
+    body: "nsResize::GetSize $${1:hwnd}$2"
+    prefix: "nsResize::GetSize"
+  "nsResize::GetSizePx":
+    body: "nsResize::GetSizePx $${1:hwnd}$2"
+    prefix: "nsResize::GetSizePx"
+  "nsResize::Set":
+    body: "nsResize::Set $${1:hwnd} ${2:x} ${3:y} ${4:width} ${5:height}$6"
+    prefix: "nsResize::Set"
+  "nsResize::SetRTL":
+    body: "nsResize::SetRTL $(^RTL)$1"
+    prefix: "nsResize::SetRTL"
+  "nsResize::Top":
+    body: "nsResize::Top $${1:hwnd}$2"
+    prefix: "nsResize::Top"

@@ -1,7 +1,7 @@
-'.source.nsis':
-  'ScrollLicense::Set':
-    'prefix': 'ScrollLicense::Set'
-    'body': 'ScrollLicense::Set /NOUNLOAD$1'
-  'ScrollLicense::Unload':
-    'prefix': 'ScrollLicense::Unload'
-    'body': 'ScrollLicense::Unload$1'
+".source.nsis":
+  "ScrollLicense::Set":
+    body: "ScrollLicense::Set /NOUNLOAD$1"
+    prefix: "ScrollLicense::Set"
+  "ScrollLicense::Unload":
+    body: "ScrollLicense::Unload$1"
+    prefix: "ScrollLicense::Unload"

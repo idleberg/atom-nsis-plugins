@@ -1,31 +1,31 @@
-'.source.nsis':
-  'GetVersion::WindowsName':
-    'prefix': 'GetVersion::WindowsName'
-    'body': 'GetVersion::WindowsName$1'
-  'GetVersion::WindowsPlatformArchitecture':
-    'prefix': 'GetVersion::WindowsPlatformArchitecture'
-    'body': 'GetVersion::WindowsPlatformArchitecture$1'
-  'GetVersion::WindowsPlatformId':
-    'prefix': 'GetVersion::WindowsPlatformId'
-    'body': 'GetVersion::WindowsPlatformId$1'
-  'GetVersion::WindowsServerName':
-    'prefix': 'GetVersion::WindowsServerName'
-    'body': 'GetVersion::WindowsServerName$1'
-  'GetVersion::WindowsServicePack':
-    'prefix': 'GetVersion::WindowsServicePack'
-    'body': 'GetVersion::WindowsServicePack$1'
-  'GetVersion::WindowsServicePackBuild':
-    'prefix': 'GetVersion::WindowsServicePackBuild'
-    'body': 'GetVersion::WindowsServicePackBuild$1'
-  'GetVersion::WindowsServicePackMajor':
-    'prefix': 'GetVersion::WindowsServicePackMajor'
-    'body': 'GetVersion::WindowsServicePackMajor$1'
-  'GetVersion::WindowsServicePackMinor':
-    'prefix': 'GetVersion::WindowsServicePackMinor'
-    'body': 'GetVersion::WindowsServicePackMinor$1'
-  'GetVersion::WindowsType':
-    'prefix': 'GetVersion::WindowsType'
-    'body': 'GetVersion::WindowsType$1'
-  'GetVersion::WindowsVersion':
-    'prefix': 'GetVersion::WindowsVersion'
-    'body': 'GetVersion::WindowsVersion$1'
+".source.nsis":
+  "GetVersion::WindowsName":
+    body: "GetVersion::WindowsName$1"
+    prefix: "GetVersion::WindowsName"
+  "GetVersion::WindowsPlatformArchitecture":
+    body: "GetVersion::WindowsPlatformArchitecture$1"
+    prefix: "GetVersion::WindowsPlatformArchitecture"
+  "GetVersion::WindowsPlatformId":
+    body: "GetVersion::WindowsPlatformId$1"
+    prefix: "GetVersion::WindowsPlatformId"
+  "GetVersion::WindowsServerName":
+    body: "GetVersion::WindowsServerName$1"
+    prefix: "GetVersion::WindowsServerName"
+  "GetVersion::WindowsServicePack":
+    body: "GetVersion::WindowsServicePack$1"
+    prefix: "GetVersion::WindowsServicePack"
+  "GetVersion::WindowsServicePackBuild":
+    body: "GetVersion::WindowsServicePackBuild$1"
+    prefix: "GetVersion::WindowsServicePackBuild"
+  "GetVersion::WindowsServicePackMajor":
+    body: "GetVersion::WindowsServicePackMajor$1"
+    prefix: "GetVersion::WindowsServicePackMajor"
+  "GetVersion::WindowsServicePackMinor":
+    body: "GetVersion::WindowsServicePackMinor$1"
+    prefix: "GetVersion::WindowsServicePackMinor"
+  "GetVersion::WindowsType":
+    body: "GetVersion::WindowsType$1"
+    prefix: "GetVersion::WindowsType"
+  "GetVersion::WindowsVersion":
+    body: "GetVersion::WindowsVersion$1"
+    prefix: "GetVersion::WindowsVersion"

@@ -1,4 +1,4 @@
-'.source.nsis':
-  'CallAnsiPlugin::Call':
-    'prefix': 'CallAnsiPlugin::Call'
-    'body': 'CallAnsiPlugin::Call "${1:plugin_path}" "${2:function}" "${3:parameter_count}" ${4:parameters}$5'
+".source.nsis":
+  "CallAnsiPlugin::Call":
+    body: "CallAnsiPlugin::Call \"${1:plugin_path}\" \"${2:function}\" \"${3:parameter_count}\" ${4:parameters}$5"
+    prefix: "CallAnsiPlugin::Call"

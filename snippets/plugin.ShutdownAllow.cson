@@ -1,7 +1,7 @@
-'.source.nsis':
-  'ShutdownAllow::Allow':
-    'prefix': 'ShutdownAllow::Allow'
-    'body': 'ShutdownAllow::Allow /NOUNLOAD$1'
-  'ShutdownAllow::Unload':
-    'prefix': 'ShutdownAllow::Unload'
-    'body': 'ShutdownAllow::Unload$1'
+".source.nsis":
+  "ShutdownAllow::Allow":
+    body: "ShutdownAllow::Allow /NOUNLOAD$1"
+    prefix: "ShutdownAllow::Allow"
+  "ShutdownAllow::Unload":
+    body: "ShutdownAllow::Unload$1"
+    prefix: "ShutdownAllow::Unload"

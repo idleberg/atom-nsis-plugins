@@ -1,10 +1,10 @@
-'.source.nsis':
-  'nsisSlideshow::show':
-    'prefix': 'nsisSlideshow::show'
-    'body': 'nsisSlideshow::show /NOUNLOAD "${1:picture}"$2'
-  'nsisSlideshow::show [/options]':
-    'prefix': 'nsisSlideshow::show [/options]'
-    'body': 'nsisSlideshow::show /NOUNLOAD ${1:options} "${2:picture}"$3'
-  'nsisSlideshow::stop':
-    'prefix': 'nsisSlideshow::stop'
-    'body': 'nsisSlideshow::stop$1'
+".source.nsis":
+  "nsisSlideshow::show":
+    body: "nsisSlideshow::show /NOUNLOAD \"${1:picture}\"$2"
+    prefix: "nsisSlideshow::show"
+  "nsisSlideshow::show [/options]":
+    body: "nsisSlideshow::show /NOUNLOAD ${1:options} \"${2:picture}\"$3"
+    prefix: "nsisSlideshow::show [/options]"
+  "nsisSlideshow::stop":
+    body: "nsisSlideshow::stop$1"
+    prefix: "nsisSlideshow::stop"

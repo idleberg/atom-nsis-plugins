@@ -1,4 +1,4 @@
-'.source.nsis':
-  'nsRandom::GetRandom':
-    'prefix': 'nsRandom::GetRandom'
-    'body': 'nsRandom::GetRandom$1'
+".source.nsis":
+  "nsRandom::GetRandom":
+    body: "nsRandom::GetRandom$1"
+    prefix: "nsRandom::GetRandom"

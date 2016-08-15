@@ -1,8 +1,7 @@
-# Generated with Atomizr – https://atom.io/packages/atomizr
 ".source.nsis":
-	CharToASCII:
-		body: "${CharToASCII} $${1:result_var} \"${2:character}\"$3"
-		description: "Usage: ${CharToASCII} result_var character"
-		descriptionMoreURL: "http://nsis.sourceforge.net/CharToASCII"
-		leftLabelHTML: "<span class='support function'>CharToASCII.nsh</span>"
-		prefix: "CharToASCII"
+  CharToASCII:
+    body: "${CharToASCII} $${1:result_var} \"${2:character}\"$3"
+    description: "Usage: ${CharToASCII} result_var character"
+    descriptionMoreURL: "http://nsis.sourceforge.net/CharToASCII"
+    leftLabelHTML: "<span class='support function'>CharToASCII.nsh</span>"
+    prefix: "CharToASCII"

@@ -1,52 +1,52 @@
-'.source.nsis':
-  'NsisIIS::CreateAppPool':
-    'prefix': 'NsisIIS::CreateAppPool'
-    'body': 'NsisIIS::CreateAppPool "${1:app_pool}"$2'
-  'NsisIIS::CreateVDir':
-    'prefix': 'NsisIIS::CreateVDir'
-    'body': 'NsisIIS::CreateVDir "${1:vdir_name}" "${2:physical_path}"$3'
-  'NsisIIS::CreateWebSite':
-    'prefix': 'NsisIIS::CreateWebSite'
-    'body': 'NsisIIS::CreateWebSite "${1:name}" "${2:physical_path}" "${3:host}:${4:port}"$5'
-  'NsisIIS::DeleteAppPool':
-    'prefix': 'NsisIIS::DeleteAppPool'
-    'body': 'NsisIIS::DeleteAppPool "${1:app_pool}"$2'
-  'NsisIIS::DeleteVDir':
-    'prefix': 'NsisIIS::DeleteVDir'
-    'body': 'NsisIIS::DeleteVDir "${1:vdir_name}"$2'
-  'NsisIIS::DeleteWebSite':
-    'prefix': 'NsisIIS::DeleteWebSite'
-    'body': 'NsisIIS::DeleteWebSite "${1:index}"$2'
-  'NsisIIS::GetAppPool':
-    'prefix': 'NsisIIS::GetAppPool'
-    'body': 'NsisIIS::GetAppPool "${1:app_pool}"$2'
-  'NsisIIS::GetIIsInfo':
-    'prefix': 'NsisIIS::GetIIsInfo'
-    'body': 'NsisIIS::GetIIsInfo$1'
-  'NsisIIS::GetVDir':
-    'prefix': 'NsisIIS::GetVDir'
-    'body': 'NsisIIS::GetVDir "${1:vdir_name}"$2'
-  'NsisIIS::GetWebSite':
-    'prefix': 'NsisIIS::GetWebSite'
-    'body': 'NsisIIS::GetWebSite "${1:index}"$2'
-  'NsisIIS::ListAppPools':
-    'prefix': 'NsisIIS::ListAppPools'
-    'body': 'NsisIIS::ListAppPools$1'
-  'NsisIIS::ListVDirs':
-    'prefix': 'NsisIIS::ListVDirs'
-    'body': 'NsisIIS::ListVDirs$1'
-  'NsisIIS::ListWebSites':
-    'prefix': 'NsisIIS::ListWebSites'
-    'body': 'NsisIIS::ListWebSites$1'
-  'NsisIIS::Pause':
-    'prefix': 'NsisIIS::Pause'
-    'body': 'NsisIIS::Pause$1'
-  'NsisIIS::Resume':
-    'prefix': 'NsisIIS::Resume'
-    'body': 'NsisIIS::Resume$1'
-  'NsisIIS::Start':
-    'prefix': 'NsisIIS::Start'
-    'body': 'NsisIIS::Start$1'
-  'NsisIIS::Stop':
-    'prefix': 'NsisIIS::Stop'
-    'body': 'NsisIIS::Stop$1'
+".source.nsis":
+  "NsisIIS::CreateAppPool":
+    body: "NsisIIS::CreateAppPool \"${1:app_pool}\"$2"
+    prefix: "NsisIIS::CreateAppPool"
+  "NsisIIS::CreateVDir":
+    body: "NsisIIS::CreateVDir \"${1:vdir_name}\" \"${2:physical_path}\"$3"
+    prefix: "NsisIIS::CreateVDir"
+  "NsisIIS::CreateWebSite":
+    body: "NsisIIS::CreateWebSite \"${1:name}\" \"${2:physical_path}\" \"${3:host}:${4:port}\"$5"
+    prefix: "NsisIIS::CreateWebSite"
+  "NsisIIS::DeleteAppPool":
+    body: "NsisIIS::DeleteAppPool \"${1:app_pool}\"$2"
+    prefix: "NsisIIS::DeleteAppPool"
+  "NsisIIS::DeleteVDir":
+    body: "NsisIIS::DeleteVDir \"${1:vdir_name}\"$2"
+    prefix: "NsisIIS::DeleteVDir"
+  "NsisIIS::DeleteWebSite":
+    body: "NsisIIS::DeleteWebSite \"${1:index}\"$2"
+    prefix: "NsisIIS::DeleteWebSite"
+  "NsisIIS::GetAppPool":
+    body: "NsisIIS::GetAppPool \"${1:app_pool}\"$2"
+    prefix: "NsisIIS::GetAppPool"
+  "NsisIIS::GetIIsInfo":
+    body: "NsisIIS::GetIIsInfo$1"
+    prefix: "NsisIIS::GetIIsInfo"
+  "NsisIIS::GetVDir":
+    body: "NsisIIS::GetVDir \"${1:vdir_name}\"$2"
+    prefix: "NsisIIS::GetVDir"
+  "NsisIIS::GetWebSite":
+    body: "NsisIIS::GetWebSite \"${1:index}\"$2"
+    prefix: "NsisIIS::GetWebSite"
+  "NsisIIS::ListAppPools":
+    body: "NsisIIS::ListAppPools$1"
+    prefix: "NsisIIS::ListAppPools"
+  "NsisIIS::ListVDirs":
+    body: "NsisIIS::ListVDirs$1"
+    prefix: "NsisIIS::ListVDirs"
+  "NsisIIS::ListWebSites":
+    body: "NsisIIS::ListWebSites$1"
+    prefix: "NsisIIS::ListWebSites"
+  "NsisIIS::Pause":
+    body: "NsisIIS::Pause$1"
+    prefix: "NsisIIS::Pause"
+  "NsisIIS::Resume":
+    body: "NsisIIS::Resume$1"
+    prefix: "NsisIIS::Resume"
+  "NsisIIS::Start":
+    body: "NsisIIS::Start$1"
+    prefix: "NsisIIS::Start"
+  "NsisIIS::Stop":
+    body: "NsisIIS::Stop$1"
+    prefix: "NsisIIS::Stop"

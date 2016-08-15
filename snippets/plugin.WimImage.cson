@@ -1,10 +1,10 @@
-'.source.nsis':
-  'WimImage::AddDir':
-    'prefix': 'WimImage::AddDir'
-    'body': 'WimImage::AddDir ${1:options}$2'
-  'WimImage::AppendDir':
-    'prefix': 'WimImage::AppendDir'
-    'body': 'WimImage::AppendDir ${1:options}$2'
-  'WimImage::Extract':
-    'prefix': 'WimImage::Extract'
-    'body': 'WimImage::Extract ${1:options}$2'
+".source.nsis":
+  "WimImage::AddDir":
+    body: "WimImage::AddDir ${1:options}$2"
+    prefix: "WimImage::AddDir"
+  "WimImage::AppendDir":
+    body: "WimImage::AppendDir ${1:options}$2"
+    prefix: "WimImage::AppendDir"
+  "WimImage::Extract":
+    body: "WimImage::Extract ${1:options}$2"
+    prefix: "WimImage::Extract"

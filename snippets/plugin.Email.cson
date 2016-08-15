@@ -1,4 +1,4 @@
-'.source.nsis':
-  'Email::EmailValidation':
-    'prefix': 'Email::EmailValidation'
-    'body': 'Email::EmailValidation ${1:email}$2'
+".source.nsis":
+  "Email::EmailValidation":
+    body: "Email::EmailValidation ${1:email}$2"
+    prefix: "Email::EmailValidation"

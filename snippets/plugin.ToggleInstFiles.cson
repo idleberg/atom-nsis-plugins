@@ -1,7 +1,7 @@
-'.source.nsis':
-  'ToggleInstFiles::Set':
-    'prefix': 'ToggleInstFiles::Set'
-    'body': 'ToggleInstFiles::Set /NOUNLOAD$1'
-  'ToggleInstFiles::Unload':
-    'prefix': 'ToggleInstFiles::Unload'
-    'body': 'ToggleInstFiles::Unload$1'
+".source.nsis":
+  "ToggleInstFiles::Set":
+    body: "ToggleInstFiles::Set /NOUNLOAD$1"
+    prefix: "ToggleInstFiles::Set"
+  "ToggleInstFiles::Unload":
+    body: "ToggleInstFiles::Unload$1"
+    prefix: "ToggleInstFiles::Unload"

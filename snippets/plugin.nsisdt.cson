@@ -1,4 +1,4 @@
-'.source.nsis':
-  'nsisdt::currentdate':
-    'prefix': 'nsisdt::currentdate'
-    'body': 'nsisdt::currentdate$1'
+".source.nsis":
+  "nsisdt::currentdate":
+    body: "nsisdt::currentdate$1"
+    prefix: "nsisdt::currentdate"

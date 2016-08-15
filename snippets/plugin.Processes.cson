@@ -1,10 +1,10 @@
-'.source.nsis':
-  'Processes::FindDevice':
-    'prefix': 'Processes::FindDevice'
-    'body': 'Processes::FindDevice "${1:device_base_name}"$2'
-  'Processes::FindProcess':
-    'prefix': 'Processes::FindProcess'
-    'body': 'Processes::FindProcess "${1:process_name}"$2'
-  'Processes::KillProcess':
-    'prefix': 'Processes::KillProcess'
-    'body': 'Processes::KillProcess "${1:process_name}"$2'
+".source.nsis":
+  "Processes::FindDevice":
+    body: "Processes::FindDevice \"${1:device_base_name}\"$2"
+    prefix: "Processes::FindDevice"
+  "Processes::FindProcess":
+    body: "Processes::FindProcess \"${1:process_name}\"$2"
+    prefix: "Processes::FindProcess"
+  "Processes::KillProcess":
+    body: "Processes::KillProcess \"${1:process_name}\"$2"
+    prefix: "Processes::KillProcess"

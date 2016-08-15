@@ -1,25 +1,25 @@
-'.source.nsis':
-  'nsPython::eval':
-    'prefix': 'nsPython::eval'
-    'body': 'nsPython::eval "${1:expr}"$2'
-  'nsPython::evalFin':
-    'prefix': 'nsPython::evalFin'
-    'body': 'nsPython::evalFin "${1:expr}"$2'
-  'nsPython::exec':
-    'prefix': 'nsPython::exec'
-    'body': 'nsPython::exec "${1:statements}"$2'
-  'nsPython::execFile':
-    'prefix': 'nsPython::execFile'
-    'body': 'nsPython::execFile "${1:file}.py"$2'
-  'nsPython::execFileFin':
-    'prefix': 'nsPython::execFileFin'
-    'body': 'nsPython::execFileFin "${1:file}.py"$2'
-  'nsPython::execFin':
-    'prefix': 'nsPython::execFin'
-    'body': 'nsPython::execFin "${1:statements}"$2'
-  'nsPython::Finalize':
-    'prefix': 'nsPython::Finalize'
-    'body': 'nsPython::Finalize$1'
-  'nsPython::Init':
-    'prefix': 'nsPython::Init'
-    'body': 'nsPython::Init$1'
+".source.nsis":
+  "nsPython::Finalize":
+    body: "nsPython::Finalize$1"
+    prefix: "nsPython::Finalize"
+  "nsPython::Init":
+    body: "nsPython::Init$1"
+    prefix: "nsPython::Init"
+  "nsPython::eval":
+    body: "nsPython::eval \"${1:expr}\"$2"
+    prefix: "nsPython::eval"
+  "nsPython::evalFin":
+    body: "nsPython::evalFin \"${1:expr}\"$2"
+    prefix: "nsPython::evalFin"
+  "nsPython::exec":
+    body: "nsPython::exec \"${1:statements}\"$2"
+    prefix: "nsPython::exec"
+  "nsPython::execFile":
+    body: "nsPython::execFile \"${1:file}.py\"$2"
+    prefix: "nsPython::execFile"
+  "nsPython::execFileFin":
+    body: "nsPython::execFileFin \"${1:file}.py\"$2"
+    prefix: "nsPython::execFileFin"
+  "nsPython::execFin":
+    body: "nsPython::execFin \"${1:statements}\"$2"
+    prefix: "nsPython::execFin"

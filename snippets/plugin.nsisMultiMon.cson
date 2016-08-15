@@ -1,25 +1,25 @@
-'.source.nsis':
-  'nsisMultiMon::CenterInstallerOnMonitor':
-    'prefix': 'nsisMultiMon::CenterInstallerOnMonitor'
-    'body': 'nsisMultiMon::CenterInstallerOnMonitor ${1:id} ${2:work_area}$3'
-  'nsisMultiMon::GetActiveMonitorCount':
-    'prefix': 'nsisMultiMon::GetActiveMonitorCount'
-    'body': 'nsisMultiMon::GetActiveMonitorCount$1'
-  'nsisMultiMon::GetAllMonitorCount':
-    'prefix': 'nsisMultiMon::GetAllMonitorCount'
-    'body': 'nsisMultiMon::GetAllMonitorCount$1'
-  'nsisMultiMon::GetMonitorName':
-    'prefix': 'nsisMultiMon::GetMonitorName'
-    'body': 'nsisMultiMon::GetMonitorName ${1:id}$2'
-  'nsisMultiMon::GetMonitorRect':
-    'prefix': 'nsisMultiMon::GetMonitorRect'
-    'body': 'nsisMultiMon::GetMonitorRect ${1:id}$2'
-  'nsisMultiMon::GetVirtualDesktopRect':
-    'prefix': 'nsisMultiMon::GetVirtualDesktopRect'
-    'body': 'nsisMultiMon::GetVirtualDesktopRect$1'
-  'nsisMultiMon::GetWorkArea':
-    'prefix': 'nsisMultiMon::GetWorkArea'
-    'body': 'nsisMultiMon::GetWorkArea ${1:id}$2'
-  'nsisMultiMon::IsPointOnMonitor':
-    'prefix': 'nsisMultiMon::IsPointOnMonitor'
-    'body': 'nsisMultiMon::IsPointOnMonitor ${1:id} ${2:x} ${3:y}$4'
+".source.nsis":
+  "nsisMultiMon::CenterInstallerOnMonitor":
+    body: "nsisMultiMon::CenterInstallerOnMonitor ${1:id} ${2:work_area}$3"
+    prefix: "nsisMultiMon::CenterInstallerOnMonitor"
+  "nsisMultiMon::GetActiveMonitorCount":
+    body: "nsisMultiMon::GetActiveMonitorCount$1"
+    prefix: "nsisMultiMon::GetActiveMonitorCount"
+  "nsisMultiMon::GetAllMonitorCount":
+    body: "nsisMultiMon::GetAllMonitorCount$1"
+    prefix: "nsisMultiMon::GetAllMonitorCount"
+  "nsisMultiMon::GetMonitorName":
+    body: "nsisMultiMon::GetMonitorName ${1:id}$2"
+    prefix: "nsisMultiMon::GetMonitorName"
+  "nsisMultiMon::GetMonitorRect":
+    body: "nsisMultiMon::GetMonitorRect ${1:id}$2"
+    prefix: "nsisMultiMon::GetMonitorRect"
+  "nsisMultiMon::GetVirtualDesktopRect":
+    body: "nsisMultiMon::GetVirtualDesktopRect$1"
+    prefix: "nsisMultiMon::GetVirtualDesktopRect"
+  "nsisMultiMon::GetWorkArea":
+    body: "nsisMultiMon::GetWorkArea ${1:id}$2"
+    prefix: "nsisMultiMon::GetWorkArea"
+  "nsisMultiMon::IsPointOnMonitor":
+    body: "nsisMultiMon::IsPointOnMonitor ${1:id} ${2:x} ${3:y}$4"
+    prefix: "nsisMultiMon::IsPointOnMonitor"

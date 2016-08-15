@@ -1,25 +1,25 @@
-'.source.nsis':
-  'Inetc::get':
-    'prefix': 'Inetc::get'
-    'body': 'Inetc::get "${1:url}" "${2:target_file}"$3'
-  'Inetc::get [/options]':
-    'prefix': 'Inetc::get [/options]'
-    'body': 'Inetc::get ${1:options} "${2:url}" "${3:target_file}"$4'
-  'Inetc::head':
-    'prefix': 'Inetc::head'
-    'body': 'Inetc::head "${1:url}" "${2:target_file}"$3'
-  'Inetc::head [/options]':
-    'prefix': 'Inetc::head [/options]'
-    'body': 'Inetc::head ${1:options} "${2:url}" "${3:target_file}"$4'
-  'Inetc::post':
-    'prefix': 'Inetc::post'
-    'body': 'Inetc::post "${1:text}" "${2:url}" "${3:target_file}"$4'
-  'Inetc::post [/options]':
-    'prefix': 'Inetc::post [/options]'
-    'body': 'Inetc::post "${1:text}" ${2:options} "${3:url}" "${4:target_file}"$5'
-  'Inetc::put':
-    'prefix': 'Inetc::put'
-    'body': 'Inetc::put "${1:url}" "${2:target_file}"$3'
-  'Inetc::put [/options]':
-    'prefix': 'Inetc::put [/options]'
-    'body': 'Inetc::put ${1:options} "${2:url}" "${3:target_file}"$4'
+".source.nsis":
+  "Inetc::get":
+    body: "Inetc::get \"${1:url}\" \"${2:target_file}\"$3"
+    prefix: "Inetc::get"
+  "Inetc::get [/options]":
+    body: "Inetc::get ${1:options} \"${2:url}\" \"${3:target_file}\"$4"
+    prefix: "Inetc::get [/options]"
+  "Inetc::head":
+    body: "Inetc::head \"${1:url}\" \"${2:target_file}\"$3"
+    prefix: "Inetc::head"
+  "Inetc::head [/options]":
+    body: "Inetc::head ${1:options} \"${2:url}\" \"${3:target_file}\"$4"
+    prefix: "Inetc::head [/options]"
+  "Inetc::post":
+    body: "Inetc::post \"${1:text}\" \"${2:url}\" \"${3:target_file}\"$4"
+    prefix: "Inetc::post"
+  "Inetc::post [/options]":
+    body: "Inetc::post \"${1:text}\" ${2:options} \"${3:url}\" \"${4:target_file}\"$5"
+    prefix: "Inetc::post [/options]"
+  "Inetc::put":
+    body: "Inetc::put \"${1:url}\" \"${2:target_file}\"$3"
+    prefix: "Inetc::put"
+  "Inetc::put [/options]":
+    body: "Inetc::put ${1:options} \"${2:url}\" \"${3:target_file}\"$4"
+    prefix: "Inetc::put [/options]"

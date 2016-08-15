@@ -1,22 +1,22 @@
-'.source.nsis':
-  'nsXML::endDocument':
-    'prefix': 'nsXML::endDocument'
-    'body': 'nsXML::endDocument$1'
-  'nsXML::init':
-    'prefix': 'nsXML::init'
-    'body': 'nsXML::init$1'
-  'nsXML::initCOM':
-    'prefix': 'nsXML::initCOM'
-    'body': 'nsXML::initCOM$1'
-  'nsXML::insertElemVal':
-    'prefix': 'nsXML::insertElemVal'
-    'body': 'nsXML::insertElemVal "${1:node}" "${2:value}"$3'
-  'nsXML::startDocument':
-    'prefix': 'nsXML::startDocument'
-    'body': 'nsXML::startDocument$1'
-  'nsXML::uninitCOM':
-    'prefix': 'nsXML::uninitCOM'
-    'body': 'nsXML::uninitCOM$1'
-  'nsXML::write':
-    'prefix': 'nsXML::write'
-    'body': 'nsXML::write "${1:file}.xml"$2'
+".source.nsis":
+  "nsXML::endDocument":
+    body: "nsXML::endDocument$1"
+    prefix: "nsXML::endDocument"
+  "nsXML::init":
+    body: "nsXML::init$1"
+    prefix: "nsXML::init"
+  "nsXML::initCOM":
+    body: "nsXML::initCOM$1"
+    prefix: "nsXML::initCOM"
+  "nsXML::insertElemVal":
+    body: "nsXML::insertElemVal \"${1:node}\" \"${2:value}\"$3"
+    prefix: "nsXML::insertElemVal"
+  "nsXML::startDocument":
+    body: "nsXML::startDocument$1"
+    prefix: "nsXML::startDocument"
+  "nsXML::uninitCOM":
+    body: "nsXML::uninitCOM$1"
+    prefix: "nsXML::uninitCOM"
+  "nsXML::write":
+    body: "nsXML::write \"${1:file}.xml\"$2"
+    prefix: "nsXML::write"

@@ -1,100 +1,100 @@
-'.source.nsis':
-  'IpConfig::GetAllNetworkAdaptersIDs':
-    'prefix': 'IpConfig::GetAllNetworkAdaptersIDs'
-    'body': 'IpConfig::GetAllNetworkAdaptersIDs$1'
-  'IpConfig::GetAllNetworkAdaptersIDsCB':
-    'prefix': 'IpConfig::GetAllNetworkAdaptersIDsCB'
-    'body': 'IpConfig::GetAllNetworkAdaptersIDsCB "${1:callback}"$2'
-  'IpConfig::GetDNSSuffixSearchList':
-    'prefix': 'IpConfig::GetDNSSuffixSearchList'
-    'body': 'IpConfig::GetDNSSuffixSearchList$1'
-  'IpConfig::GetEnabledNetworkAdaptersIDs':
-    'prefix': 'IpConfig::GetEnabledNetworkAdaptersIDs'
-    'body': 'IpConfig::GetEnabledNetworkAdaptersIDs$1'
-  'IpConfig::GetEnabledNetworkAdaptersIDsCB':
-    'prefix': 'IpConfig::GetEnabledNetworkAdaptersIDsCB'
-    'body': 'IpConfig::GetEnabledNetworkAdaptersIDsCB "${1:callback}"$2'
-  'IpConfig::GetHostName':
-    'prefix': 'IpConfig::GetHostName'
-    'body': 'IpConfig::GetHostName$1'
-  'IpConfig::GetNetworkAdapterConnectionID':
-    'prefix': 'IpConfig::GetNetworkAdapterConnectionID'
-    'body': 'IpConfig::GetNetworkAdapterConnectionID "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix':
-    'prefix': 'IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix'
-    'body': 'IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterDefaultIPGateways':
-    'prefix': 'IpConfig::GetNetworkAdapterDefaultIPGateways'
-    'body': 'IpConfig::GetNetworkAdapterDefaultIPGateways "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterDefaultIPGatewaysCB':
-    'prefix': 'IpConfig::GetNetworkAdapterDefaultIPGatewaysCB'
-    'body': 'IpConfig::GetNetworkAdapterDefaultIPGatewaysCB "${1:network_adapter_id}" "${2:callback}"$3'
-  'IpConfig::GetNetworkAdapterDescription':
-    'prefix': 'IpConfig::GetNetworkAdapterDescription'
-    'body': 'IpConfig::GetNetworkAdapterDescription "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterDHCPLeaseExpires':
-    'prefix': 'IpConfig::GetNetworkAdapterDHCPLeaseExpires'
-    'body': 'IpConfig::GetNetworkAdapterDHCPLeaseExpires "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterDHCPLeaseObtained':
-    'prefix': 'IpConfig::GetNetworkAdapterDHCPLeaseObtained'
-    'body': 'IpConfig::GetNetworkAdapterDHCPLeaseObtained "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterDHCPServer':
-    'prefix': 'IpConfig::GetNetworkAdapterDHCPServer'
-    'body': 'IpConfig::GetNetworkAdapterDHCPServer "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterDNSServers':
-    'prefix': 'IpConfig::GetNetworkAdapterDNSServers'
-    'body': 'IpConfig::GetNetworkAdapterDNSServers "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterDNSServersCB':
-    'prefix': 'IpConfig::GetNetworkAdapterDNSServersCB'
-    'body': 'IpConfig::GetNetworkAdapterDNSServersCB "${1:network_adapter_id}" "${2:callback}"$3'
-  'IpConfig::GetNetworkAdapterIDFromDescription':
-    'prefix': 'IpConfig::GetNetworkAdapterIDFromDescription'
-    'body': 'IpConfig::GetNetworkAdapterIDFromDescription "${1:description}"$2'
-  'IpConfig::GetNetworkAdapterIDFromIPAddress':
-    'prefix': 'IpConfig::GetNetworkAdapterIDFromIPAddress'
-    'body': 'IpConfig::GetNetworkAdapterIDFromIPAddress "${1:ip_address}"$2'
-  'IpConfig::GetNetworkAdapterIDFromMACAddress':
-    'prefix': 'IpConfig::GetNetworkAdapterIDFromMACAddress'
-    'body': 'IpConfig::GetNetworkAdapterIDFromMACAddress "${1:mac_address}"$2'
-  'IpConfig::GetNetworkAdapterIPAddresses':
-    'prefix': 'IpConfig::GetNetworkAdapterIPAddresses'
-    'body': 'IpConfig::GetNetworkAdapterIPAddresses "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterIPAddressesCB':
-    'prefix': 'IpConfig::GetNetworkAdapterIPAddressesCB'
-    'body': 'IpConfig::GetNetworkAdapterIPAddressesCB "${1:network_adapter_id}" "${2:callback}"$3'
-  'IpConfig::GetNetworkAdapterIPSubNets':
-    'prefix': 'IpConfig::GetNetworkAdapterIPSubNets'
-    'body': 'IpConfig::GetNetworkAdapterIPSubNets "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterIPSubNetsCB':
-    'prefix': 'IpConfig::GetNetworkAdapterIPSubNetsCB'
-    'body': 'IpConfig::GetNetworkAdapterIPSubNetsCB "${1:network_adapter_id}" "${2:callback}"$3'
-  'IpConfig::GetNetworkAdapterMACAddress':
-    'prefix': 'IpConfig::GetNetworkAdapterMACAddress'
-    'body': 'IpConfig::GetNetworkAdapterMACAddress "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterPrimaryWINSServer':
-    'prefix': 'IpConfig::GetNetworkAdapterPrimaryWINSServer'
-    'body': 'IpConfig::GetNetworkAdapterPrimaryWINSServer "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterSecondaryWINSServer':
-    'prefix': 'IpConfig::GetNetworkAdapterSecondaryWINSServer'
-    'body': 'IpConfig::GetNetworkAdapterSecondaryWINSServer "${1:network_adapter_id}"$2'
-  'IpConfig::GetNetworkAdapterType':
-    'prefix': 'IpConfig::GetNetworkAdapterType'
-    'body': 'IpConfig::GetNetworkAdapterType "${1:network_adapter_id}"$2'
-  'IpConfig::GetNodeType':
-    'prefix': 'IpConfig::GetNodeType'
-    'body': 'IpConfig::GetPrimaryDNSSuffix$1'
-  'IpConfig::GetPrimaryDNSSuffix':
-    'prefix': 'IpConfig::GetPrimaryDNSSuffix'
-    'body': 'IpConfig::GetPrimaryDNSSuffix$1'
-  'IpConfig::IsIPRoutingEnabled':
-    'prefix': 'IpConfig::IsIPRoutingEnabled'
-    'body': 'IpConfig::IsIPRoutingEnabled$1'
-  'IpConfig::IsNetworkAdapterAutoSense':
-    'prefix': 'IpConfig::IsNetworkAdapterAutoSense'
-    'body': 'IpConfig::IsNetworkAdapterAutoSense "${1:network_adapter_id}"$2'
-  'IpConfig::IsNetworkAdapterDHCPEnabled':
-    'prefix': 'IpConfig::IsNetworkAdapterDHCPEnabled'
-    'body': 'IpConfig::IsNetworkAdapterDHCPEnabled "${1:network_adapter_id}"$2'
-  'IpConfig::IsWINSProxyEnabled':
-    'prefix': 'IpConfig::IsWINSProxyEnabled'
-    'body': 'IpConfig::IsWINSProxyEnabled$1'
+".source.nsis":
+  "IpConfig::GetAllNetworkAdaptersIDs":
+    body: "IpConfig::GetAllNetworkAdaptersIDs$1"
+    prefix: "IpConfig::GetAllNetworkAdaptersIDs"
+  "IpConfig::GetAllNetworkAdaptersIDsCB":
+    body: "IpConfig::GetAllNetworkAdaptersIDsCB \"${1:callback}\"$2"
+    prefix: "IpConfig::GetAllNetworkAdaptersIDsCB"
+  "IpConfig::GetDNSSuffixSearchList":
+    body: "IpConfig::GetDNSSuffixSearchList$1"
+    prefix: "IpConfig::GetDNSSuffixSearchList"
+  "IpConfig::GetEnabledNetworkAdaptersIDs":
+    body: "IpConfig::GetEnabledNetworkAdaptersIDs$1"
+    prefix: "IpConfig::GetEnabledNetworkAdaptersIDs"
+  "IpConfig::GetEnabledNetworkAdaptersIDsCB":
+    body: "IpConfig::GetEnabledNetworkAdaptersIDsCB \"${1:callback}\"$2"
+    prefix: "IpConfig::GetEnabledNetworkAdaptersIDsCB"
+  "IpConfig::GetHostName":
+    body: "IpConfig::GetHostName$1"
+    prefix: "IpConfig::GetHostName"
+  "IpConfig::GetNetworkAdapterConnectionID":
+    body: "IpConfig::GetNetworkAdapterConnectionID \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterConnectionID"
+  "IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix":
+    body: "IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterConnectionSpecificDNSSuffix"
+  "IpConfig::GetNetworkAdapterDHCPLeaseExpires":
+    body: "IpConfig::GetNetworkAdapterDHCPLeaseExpires \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterDHCPLeaseExpires"
+  "IpConfig::GetNetworkAdapterDHCPLeaseObtained":
+    body: "IpConfig::GetNetworkAdapterDHCPLeaseObtained \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterDHCPLeaseObtained"
+  "IpConfig::GetNetworkAdapterDHCPServer":
+    body: "IpConfig::GetNetworkAdapterDHCPServer \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterDHCPServer"
+  "IpConfig::GetNetworkAdapterDNSServers":
+    body: "IpConfig::GetNetworkAdapterDNSServers \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterDNSServers"
+  "IpConfig::GetNetworkAdapterDNSServersCB":
+    body: "IpConfig::GetNetworkAdapterDNSServersCB \"${1:network_adapter_id}\" \"${2:callback}\"$3"
+    prefix: "IpConfig::GetNetworkAdapterDNSServersCB"
+  "IpConfig::GetNetworkAdapterDefaultIPGateways":
+    body: "IpConfig::GetNetworkAdapterDefaultIPGateways \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterDefaultIPGateways"
+  "IpConfig::GetNetworkAdapterDefaultIPGatewaysCB":
+    body: "IpConfig::GetNetworkAdapterDefaultIPGatewaysCB \"${1:network_adapter_id}\" \"${2:callback}\"$3"
+    prefix: "IpConfig::GetNetworkAdapterDefaultIPGatewaysCB"
+  "IpConfig::GetNetworkAdapterDescription":
+    body: "IpConfig::GetNetworkAdapterDescription \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterDescription"
+  "IpConfig::GetNetworkAdapterIDFromDescription":
+    body: "IpConfig::GetNetworkAdapterIDFromDescription \"${1:description}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterIDFromDescription"
+  "IpConfig::GetNetworkAdapterIDFromIPAddress":
+    body: "IpConfig::GetNetworkAdapterIDFromIPAddress \"${1:ip_address}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterIDFromIPAddress"
+  "IpConfig::GetNetworkAdapterIDFromMACAddress":
+    body: "IpConfig::GetNetworkAdapterIDFromMACAddress \"${1:mac_address}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterIDFromMACAddress"
+  "IpConfig::GetNetworkAdapterIPAddresses":
+    body: "IpConfig::GetNetworkAdapterIPAddresses \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterIPAddresses"
+  "IpConfig::GetNetworkAdapterIPAddressesCB":
+    body: "IpConfig::GetNetworkAdapterIPAddressesCB \"${1:network_adapter_id}\" \"${2:callback}\"$3"
+    prefix: "IpConfig::GetNetworkAdapterIPAddressesCB"
+  "IpConfig::GetNetworkAdapterIPSubNets":
+    body: "IpConfig::GetNetworkAdapterIPSubNets \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterIPSubNets"
+  "IpConfig::GetNetworkAdapterIPSubNetsCB":
+    body: "IpConfig::GetNetworkAdapterIPSubNetsCB \"${1:network_adapter_id}\" \"${2:callback}\"$3"
+    prefix: "IpConfig::GetNetworkAdapterIPSubNetsCB"
+  "IpConfig::GetNetworkAdapterMACAddress":
+    body: "IpConfig::GetNetworkAdapterMACAddress \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterMACAddress"
+  "IpConfig::GetNetworkAdapterPrimaryWINSServer":
+    body: "IpConfig::GetNetworkAdapterPrimaryWINSServer \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterPrimaryWINSServer"
+  "IpConfig::GetNetworkAdapterSecondaryWINSServer":
+    body: "IpConfig::GetNetworkAdapterSecondaryWINSServer \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterSecondaryWINSServer"
+  "IpConfig::GetNetworkAdapterType":
+    body: "IpConfig::GetNetworkAdapterType \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::GetNetworkAdapterType"
+  "IpConfig::GetNodeType":
+    body: "IpConfig::GetPrimaryDNSSuffix$1"
+    prefix: "IpConfig::GetNodeType"
+  "IpConfig::GetPrimaryDNSSuffix":
+    body: "IpConfig::GetPrimaryDNSSuffix$1"
+    prefix: "IpConfig::GetPrimaryDNSSuffix"
+  "IpConfig::IsIPRoutingEnabled":
+    body: "IpConfig::IsIPRoutingEnabled$1"
+    prefix: "IpConfig::IsIPRoutingEnabled"
+  "IpConfig::IsNetworkAdapterAutoSense":
+    body: "IpConfig::IsNetworkAdapterAutoSense \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::IsNetworkAdapterAutoSense"
+  "IpConfig::IsNetworkAdapterDHCPEnabled":
+    body: "IpConfig::IsNetworkAdapterDHCPEnabled \"${1:network_adapter_id}\"$2"
+    prefix: "IpConfig::IsNetworkAdapterDHCPEnabled"
+  "IpConfig::IsWINSProxyEnabled":
+    body: "IpConfig::IsWINSProxyEnabled$1"
+    prefix: "IpConfig::IsWINSProxyEnabled"

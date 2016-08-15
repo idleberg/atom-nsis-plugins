@@ -1,4 +1,4 @@
-'.source.nsis':
-  'UnicodePathTest::UnicodePathTest':
-    'prefix': 'UnicodePathTest::UnicodePathTest'
-    'body': 'UnicodePathTest::UnicodePathTest "${1:path}"$2'
+".source.nsis":
+  "UnicodePathTest::UnicodePathTest":
+    body: "UnicodePathTest::UnicodePathTest \"${1:path}\"$2"
+    prefix: "UnicodePathTest::UnicodePathTest"

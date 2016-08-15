@@ -1,4 +1,4 @@
-'.source.nsis':
-  'FreeArc::ExtractFreeArcArchive':
-    'prefix': 'FreeArc::ExtractFreeArcArchive'
-    'body': 'FreeArc::ExtractFreeArcArchive /NOUNLOAD "${1:file}.arc" ${2:0|1} "${3:Extracting %s...}"$4'
+".source.nsis":
+  "FreeArc::ExtractFreeArcArchive":
+    body: "FreeArc::ExtractFreeArcArchive /NOUNLOAD \"${1:file}.arc\" ${2:0|1} \"${3:Extracting %s...}\"$4"
+    prefix: "FreeArc::ExtractFreeArcArchive"

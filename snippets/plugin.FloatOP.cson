@@ -1,19 +1,19 @@
-'.source.nsis':
-  'FloatOp::Autor':
-    'prefix': 'FloatOp::Autor'
-    'body': 'FloatOp::Autor \${1:result_var}$2'
-  'FloatOp::D divide':
-    'prefix': 'FloatOp::D divide'
-    'body': 'FloatOp::D "${1:value1}" "${2:value2}" \$${3:result_var}$4'
-  'FloatOp::M multiply':
-    'prefix': 'FloatOp::M multiply'
-    'body': 'FloatOp::M "${1:value1}" "${2:value2}" \$${3:result_var}$4'
-  'FloatOp::R subtract':
-    'prefix': 'FloatOp::R subtract'
-    'body': 'FloatOp::R "${1:value1}" "${2:value2}" \$${3:result_var}$4'
-  'FloatOp::S add':
-    'prefix': 'FloatOp::S add'
-    'body': 'FloatOp::S "${1:value1}" "${2:value2}" \$${3:result_var}$4'
-  'FloatOp::Ver':
-    'prefix': 'FloatOp::Ver'
-    'body': 'FloatOp::Ver \$${1:result_var}$2'
+".source.nsis":
+  "FloatOp::Autor":
+    body: "FloatOp::Autor ${1:result_var}$2"
+    prefix: "FloatOp::Autor"
+  "FloatOp::D divide":
+    body: "FloatOp::D \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4"
+    prefix: "FloatOp::D divide"
+  "FloatOp::M multiply":
+    body: "FloatOp::M \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4"
+    prefix: "FloatOp::M multiply"
+  "FloatOp::R subtract":
+    body: "FloatOp::R \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4"
+    prefix: "FloatOp::R subtract"
+  "FloatOp::S add":
+    body: "FloatOp::S \"${1:value1}\" \"${2:value2}\" $${3:result_var}$4"
+    prefix: "FloatOp::S add"
+  "FloatOp::Ver":
+    body: "FloatOp::Ver $${1:result_var}$2"
+    prefix: "FloatOp::Ver"

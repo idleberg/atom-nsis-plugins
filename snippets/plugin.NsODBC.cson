@@ -1,22 +1,22 @@
-'.source.nsis':
-  'NsODBC::AddDSN':
-    'prefix': 'NsODBC::AddDSN'
-    'body': 'NsODBC::AddDSN "${1:driver}" "${2:parameters}"$3'
-  'NsODBC::AddSysDSN':
-    'prefix': 'NsODBC::AddSysDSN'
-    'body': 'NsODBC::AddSysDSN "${1:driver}" "${2:parameters}"$3'
-  'NsODBC::ConfDSN':
-    'prefix': 'NsODBC::ConfDSN'
-    'body': 'NsODBC::ConfDSN "${1:driver}" "${2:parameters}"$3'
-  'NsODBC::ConfSysDSN':
-    'prefix': 'NsODBC::ConfSysDSN'
-    'body': 'NsODBC::ConfSysDSN "${1:driver}" "${2:parameters}"$3'
-  'NsODBC::RemoveDefDSN':
-    'prefix': 'NsODBC::RemoveDefDSN'
-    'body': 'NsODBC::RemoveDefDSN "${1:driver}" "${2:parameters}"$3'
-  'NsODBC::RemoveDSN':
-    'prefix': 'NsODBC::RemoveDSN'
-    'body': 'NsODBC::RemoveDSN "${1:driver}" "${2:parameters}"$3'
-  'NsODBC::RemoveSysDSN':
-    'prefix': 'NsODBC::RemoveSysDSN'
-    'body': 'NsODBC::RemoveSysDSN "${1:driver}" "${2:parameters}"$3'
+".source.nsis":
+  "NsODBC::AddDSN":
+    body: "NsODBC::AddDSN \"${1:driver}\" \"${2:parameters}\"$3"
+    prefix: "NsODBC::AddDSN"
+  "NsODBC::AddSysDSN":
+    body: "NsODBC::AddSysDSN \"${1:driver}\" \"${2:parameters}\"$3"
+    prefix: "NsODBC::AddSysDSN"
+  "NsODBC::ConfDSN":
+    body: "NsODBC::ConfDSN \"${1:driver}\" \"${2:parameters}\"$3"
+    prefix: "NsODBC::ConfDSN"
+  "NsODBC::ConfSysDSN":
+    body: "NsODBC::ConfSysDSN \"${1:driver}\" \"${2:parameters}\"$3"
+    prefix: "NsODBC::ConfSysDSN"
+  "NsODBC::RemoveDSN":
+    body: "NsODBC::RemoveDSN \"${1:driver}\" \"${2:parameters}\"$3"
+    prefix: "NsODBC::RemoveDSN"
+  "NsODBC::RemoveDefDSN":
+    body: "NsODBC::RemoveDefDSN \"${1:driver}\" \"${2:parameters}\"$3"
+    prefix: "NsODBC::RemoveDefDSN"
+  "NsODBC::RemoveSysDSN":
+    body: "NsODBC::RemoveSysDSN \"${1:driver}\" \"${2:parameters}\"$3"
+    prefix: "NsODBC::RemoveSysDSN"
