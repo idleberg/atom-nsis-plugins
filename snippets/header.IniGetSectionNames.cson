@@ -1,7 +1,13 @@
-'.source.nsis':
-  '${IniGetSectionNames}':
-    'prefix': 'IniGetSectionNames'
-    'body': '\${IniGetSectionNames} "${1:file}.ini" ${2:function}$3'
-  'IniGetSectionNames_StopEnum':
-    'prefix': 'IniGetSectionNames_StopEnum'
-    'body': '\${IniGetSectionNames_StopEnum}$1'
+".source.nsis":
+  IniGetSectionNames:
+    body: "${IniGetSectionNames} \"${1:file}.ini\" ${2:function}$3"
+    description: "Usage: ${CharToASCII} file function"
+    descriptionMoreURL: "http://nsis.sourceforge.net/IniGetSectionNames"
+    leftLabelHTML: "<span class='support function'>IniGetSectionNames.nsh</span>"
+    prefix: "IniGetSectionNames"
+  IniGetSectionNames_StopEnum:
+    body: "${IniGetSectionNames_StopEnum}$1"
+    description: "Usage: ${IniGetSectionNames}"
+    descriptionMoreURL: "http://nsis.sourceforge.net/IniGetSectionNames"
+    leftLabelHTML: "<span class='support function'>IniGetSectionNames.nsh</span>"
+    prefix: "IniGetSectionNames_StopEnum"
