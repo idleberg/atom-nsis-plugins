@@ -1,13 +1,13 @@
 ".source.nsis":
   "Blowfish::decrypt":
     body: "Blowfish::decrypt \"${1:text_to_decrypt}\" \"${2:password_key}\"$3"
-    description: "Blowfish::decrypt \"${1:text_to_decrypt}\" \"${2:password_key}\"$3"
-    descriptionMoreURL: "http://nsis.sourceforge.net/Blowfish-plug-in"
+    description: "Usage: Blowfish::decrypt text_to_decrypt password_key}"
+    descriptionMoreURL: "http://nsis.sourceforge.net/Blowfish%2B%2B_plug-in"
     leftLabelHTML: "<span class='support class'>Blowfish.dll</span>"
     prefix: "Blowfish::decrypt"
   "Blowfish::encrypt":
     body: "Blowfish::encrypt \"${1:text_to_encrypt}\" \"${2:password_key}\"$3"
-    description: "Blowfish::encrypt \"${1:text_to_encrypt}\" \"${2:password_key}\"$3"
-    descriptionMoreURL: "http://nsis.sourceforge.net/Blowfish-plug-in"
+    description: "Usage: Blowfish::encrypt text_to_encrypt password_key"
+    descriptionMoreURL: "http://nsis.sourceforge.net/Blowfish%2B%2B_plug-in"
     leftLabelHTML: "<span class='support class'>Blowfish.dll</span>"
     prefix: "Blowfish::encrypt"
