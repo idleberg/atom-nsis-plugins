@@ -44,7 +44,7 @@ Atom completions for NSIS plug-ins
 * [DlgHost](http://nsis.sourceforge.net/DlgHost_plug-in)
 * [DotNetChecker](https://github.com/ProjectHuman/NsisDotNetChecker)
 * [DumpLog](http://nsis.sourceforge.net/DumpLog_plug-in)
-* [Dumpstate](http://nsis.sourceforge.net/DumpState_plug-in)
+* [DumpState](http://nsis.sourceforge.net/DumpState_plug-in)
 * [EBanner](http://nsis.sourceforge.net/EBanner_plug-in)
 * [Email](http://nsis.sourceforge.net/Email_validation_plug-in)
 * [EmbeddedLists](http://nsis.sourceforge.net/EmbeddedLists_plug-in)
