@@ -5,7 +5,7 @@
 [![apm](https://img.shields.io/apm/dm/nsis-plugins.svg?style=flat-square)](https://atom.io/packages/nsis-plugins)
 [![Travis](https://img.shields.io/travis/idleberg/atom-nsis-plugins.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-nsis-plugins)
 [![David](https://img.shields.io/david/dev/idleberg/atom-nsis-plugins.svg?style=flat-square)](https://david-dm.org/idleberg/atom-nsis-plugins?type=dev)
-[![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/Atom)
+[![Gitter](https://img.shields.io/badge/chat-Gitter-ed1965.svg?style=flat-square)](https://gitter.im/NSIS-Dev/Atom)
 
 Atom completions for NSIS plug-ins
 
