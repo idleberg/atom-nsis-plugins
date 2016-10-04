@@ -1,7 +1,7 @@
 ".source.nsis":
   "DumpState::debug":
     body: "DumpState::debug$1"
-    description: "Usage: DumpState::debug$1"
+    description: "Usage: DumpState::debug"
     descriptionMoreURL: "http://nsis.sourceforge.net/DumpState_plug-in"
     leftLabelHTML: "<span class=\'support class\'>DumpState.dll</span>"
     prefix: "DumpState::debug"
