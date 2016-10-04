@@ -1,7 +1,13 @@
 ".source.nsis":
   "EnumCDs::next":
     body: "EnumCDs::next$1"
+    description: "Usage: EnumCDs::next"
+    descriptionMoreURL: "http://nsis.sourceforge.net/EnumCDs_plug-in"
+    leftLabelHTML: "<span class=\'support class\'>EnumCDs.dll</span>"
     prefix: "EnumCDs::next"
   "EnumCDs::next /NOUNLOAD":
     body: "EnumCDs::next /NOUNLOAD$1"
+    description: "Usage: EnumCDs::next /NOUNLOAD"
+    descriptionMoreURL: "http://nsis.sourceforge.net/EnumCDs_plug-in"
+    leftLabelHTML: "<span class=\'support class\'>EnumCDs.dll</span>"
     prefix: "EnumCDs::next /NOUNLOAD"
