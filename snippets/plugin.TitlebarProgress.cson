@@ -1,4 +1,7 @@
 ".source.nsis":
   "titprog::Start":
     body: "titprog::Start$1"
+    description: "Usage: titprog::Start"
+    descriptionMoreURL: "http://nsis.sourceforge.net/TitlebarProgress_plug-in"
+    leftLabelHTML: "<span class=\'support class\'>titprog.dll</span>"
     prefix: "titprog::Start"
