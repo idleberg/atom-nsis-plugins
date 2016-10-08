@@ -1,19 +1,19 @@
 ".source.nsis":
   "WinShell::SetLnkAUMI":
     body: "WinShell::SetLnkAUMI \"${1:shortcut}.lnk\" \"${2:id}\"$3"
-    description: "WinShell::SetLnkAUMI shortcut id"
+    description: "Usage: WinShell::SetLnkAUMI shortcut id"
     descriptionMoreURL: "http://nsis.sourceforge.net/WinShell_plug-in"
     leftLabelHTML: "<span class=\'support class\'>WinShell.dll</span>"
     prefix: "WinShell::SetLnkAUMI"
   "WinShell::UninstAppUserModelId":
     body: "WinShell::UninstAppUserModelId \"${1:id}\"$3"
-    description: "WinShell::UninstAppUserModelId id"
+    description: "Usage: WinShell::UninstAppUserModelId id"
     descriptionMoreURL: "http://nsis.sourceforge.net/WinShell_plug-in"
     leftLabelHTML: "<span class=\'support class\'>WinShell.dll</span>"
     prefix: "WinShell::UninstAppUserModelId"
   "WinShell::UninstShortcut":
     body: "WinShell::UninstShortcut \"${1:shortcut}.lnk\"$2"
-    description: "WinShell::UninstShortcut shortcut"
+    description: "Usage: WinShell::UninstShortcut shortcut"
     descriptionMoreURL: "http://nsis.sourceforge.net/WinShell_plug-in"
     leftLabelHTML: "<span class=\'support class\'>WinShell.dll</span>"
     prefix: "WinShell::UninstShortcut"
