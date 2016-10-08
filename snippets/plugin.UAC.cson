@@ -58,10 +58,10 @@
     description: "Usage: C_IsAdmin"
     descriptionMoreURL: "http://nsis.sourceforge.net/UAC_plug-in"
     leftLabelHTML: "<span class='support class'>UAC.dll</span>"
-    prefix: "$(UAC_IsAdmin}"
+    prefix: "UAC_IsAdmin"
   "$(UAC_IsInnerInstance}":
     body: "${UAC_IsInnerInstance}$1"
     description: "Usage: C_IsInnerInstance"
     descriptionMoreURL: "http://nsis.sourceforge.net/UAC_plug-in"
     leftLabelHTML: "<span class='support class'>UAC.dll</span>"
-    prefix: "$(UAC_IsInnerInstance}"
+    prefix: "UAC_IsInnerInstance"
