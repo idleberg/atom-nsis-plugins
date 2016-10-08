@@ -3,7 +3,7 @@ const coffeelint = require('gulp-coffeelint');
 const debug = require('gulp-debug');
 const gulp = require('gulp');
 const jshint = require('gulp-jshint');
-const jsonLint = require('gulp-jsonlint');
+const jsonlint = require('gulp-jsonlint');
 const lesshint = require('gulp-lesshint');
 const stylish = require('coffeelint-stylish');
 
@@ -63,7 +63,7 @@ gulp.task('lint:js', function() {
 gulp.task('lint:json', function() {
    gulp.src(jsonFiles)
         .pipe(debug({title: 'jsonlint:'}))
-        .pipe(jsonLint())
-        .pipe(jsonLint.failAfterError())
-        .pipe(jsonLint.reporter());
+        .pipe(jsonlint())
+        .pipe(jsonlint.failAfterError())
+        .pipe(jsonlint.reporter());
 });
