@@ -3,5 +3,5 @@
     body: "!insertmacro CheckNetFramework \"${1:version}\"$2"
     description: "Usage: !insertmacro CheckNetFramework version"
     descriptionMoreURL: "https://github.com/ReVolly/NsisDotNetChecker"
-    leftLabelHTML: "<span class=\'support class\'>DotNetChecker.dll</span>"
+    leftLabelHTML: "<span class='support class'>DotNetChecker.dll</span>"
     prefix: "CheckNetFramework"

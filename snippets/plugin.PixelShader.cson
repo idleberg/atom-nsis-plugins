@@ -3,5 +3,5 @@
     body: "PixelShader::GetPixelShaderVersion$1"
     description: "Usage: PixelShader::GetPixelShaderVersion"
     descriptionMoreURL: "http://nsis.sourceforge.net/PixelShaderCheck"
-    leftLabelHTML: "<span class=\'support class\'>PixelShader.dll</span>"
+    leftLabelHTML: "<span class='support class'>PixelShader.dll</span>"
     prefix: "PixelShader::GetPixelShaderVersion"

@@ -3,5 +3,5 @@
     body: "nsisos::osversion$1"
     description: "Usage: nsisos::osversion"
     descriptionMoreURL: "http://nsis.sourceforge.net/NSIS-OS_plug-in"
-    leftLabelHTML: "<span class=\'support class\'>nsisos.dll</span>"
+    leftLabelHTML: "<span class='support class'>nsisos.dll</span>"
     prefix: "nsisos::osversion"

@@ -3,5 +3,5 @@
     body: "nsisdt::currentdate$1"
     description: "Usage: nsisdt::currentdate"
     descriptionMoreURL: "http://nsis.sourceforge.net/NSIS-Date_plug-in"
-    leftLabelHTML: "<span class=\'support class\'>nsisdt.dll</span>"
+    leftLabelHTML: "<span class='support class'>nsisdt.dll</span>"
     prefix: "nsisdt::currentdate"
