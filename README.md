@@ -198,6 +198,12 @@ Make sure you already got [language-nsis](https://atom.io/packages/atom-language
 1. Change directory `cd ~/.atom/packages/`
 2. Clone repository `git clone https://github.com/idleberg/atom-nsis-plugins nsis-plugins`
 
+## Related
+
+- [atom-language-nsis](https://atom.io/packages/language-nsis) - NSIS package for Atom
+- [node-makensis](https://www.npmjs.com/package/makensis) - Node wrapper for `makensis`
+- [vscode-nsis](https://marketplace.visualstudio.com/items?itemName=idleberg.nsis) - NSIS package for Visual Studio Code
+
 ## License
 
 This work is dual-licensed under [The MIT License](https://opensource.org/licenses/MIT) and the [GNU General Public License, version 2.0](https://opensource.org/licenses/GPL-2.0)
