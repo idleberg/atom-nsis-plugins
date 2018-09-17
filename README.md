@@ -211,4 +211,4 @@ This work is dual-licensed under [The MIT License](https://opensource.org/licens
 
 ## Donate
 
-You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/atom-nsis-plugins) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
+You are welcome to support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/atom-nsis-plugins) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
