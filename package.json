@@ -29,7 +29,8 @@
     "lint-staged": "^11.1.2"
   },
   "scripts": {
-    "lint": "eslint --fix ./snippets/*.cson"
+    "lint": "eslint --fix ./snippets/*.cson",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.(c|j)son": "eslint --cache --fix"
