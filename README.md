@@ -1,10 +1,10 @@
 # NSIS plug-ins for Atom
 
-[![apm](https://img.shields.io/apm/l/nsis-plugins.svg?style=flat-square)](https://atom.io/packages/nsis-plugins)
-[![apm](https://img.shields.io/apm/v/nsis-plugins.svg?style=flat-square)](https://atom.io/packages/nsis-plugins)
-[![apm](https://img.shields.io/apm/dm/nsis-plugins.svg?style=flat-square)](https://atom.io/packages/nsis-plugins)
-[![Travis](https://img.shields.io/travis/idleberg/atom-nsis-plugins.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-nsis-plugins)
-[![David](https://img.shields.io/david/dev/idleberg/atom-nsis-plugins.svg?style=flat-square)](https://david-dm.org/idleberg/atom-nsis-plugins?type=dev)
+[![apm](https://flat.badgen.net/apm/license/nsis-plugins)](https://atom.io/packages/nsis-plugins)
+[![apm](https://flat.badgen.net/apm/v/nsis-plugins)](https://atom.io/packages/nsis-plugins)
+[![apm](https://flat.badgen.net/apm/dl/nsis-plugins)](https://atom.io/packages/nsis-plugins)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-nsis-plugins)](https://circleci.com/gh/idleberg/atom-nsis-plugins)
+[![David](https://flat.badgen.net/david/dev/idleberg/atom-nsis-plugins)](https://david-dm.org/idleberg/atom-nsis-plugins?type=dev)
 
 Atom completions for NSIS plug-ins
 
