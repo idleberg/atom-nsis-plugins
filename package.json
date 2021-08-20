@@ -29,7 +29,7 @@
     "lint-staged": "^11.1.2"
   },
   "scripts": {
-    "test": "gulp lint"
+    "lint": "eslint --cache --fix"
   },
   "lint-staged": {
     "*.(c|j)son": "eslint --cache --fix"
