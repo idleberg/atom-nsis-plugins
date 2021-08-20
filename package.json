@@ -29,7 +29,7 @@
     "lint-staged": "^11.1.2"
   },
   "scripts": {
-    "lint": "eslint --fix ./snippets"
+    "lint": "eslint --fix ./snippets/*.cson ./snippets/*.json"
   },
   "lint-staged": {
     "*.(c|j)son": "eslint --cache --fix"
