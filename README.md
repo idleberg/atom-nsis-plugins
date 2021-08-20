@@ -1,4 +1,4 @@
-# NSIS plug-ins for Atom
+# atom-nsis-plugins
 
 [![apm](https://flat.badgen.net/apm/license/nsis-plugins)](https://atom.io/packages/nsis-plugins)
 [![apm](https://flat.badgen.net/apm/v/nsis-plugins)](https://atom.io/packages/nsis-plugins)
